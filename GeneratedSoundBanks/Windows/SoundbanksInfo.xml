@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1774091844" Name="Play_2" ObjectPath="\Events\Default Work Unit\Play_2"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="142661878" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

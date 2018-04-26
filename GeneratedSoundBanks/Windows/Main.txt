@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1774091844	Play_2			\Default Work Unit\Play_2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	142661878	2	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\2		3601588
+
