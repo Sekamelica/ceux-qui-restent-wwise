@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="2" ID="{9AF67B11-C0FD-47AE-B8B8-EE1D4C8A275F}" ShortID="1024230104">
+				<ActorMixer Name="Voices" ID="{B78FF9D3-7694-4C6C-9B9A-A0DF867B4CD8}" ShortID="881772360">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -13,15 +13,419 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="2" ID="{83BD61B9-D78C-40D5-818E-76750457FA41}" ShortID="142661878">
-							<Language>SFX</Language>
-							<AudioFile>2.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="2" ID="{9AF67B11-C0FD-47AE-B8B8-EE1D4C8A275F}" ShortID="1024230104">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2" ID="{83BD61B9-D78C-40D5-818E-76750457FA41}" ShortID="142661878">
+									<Language>SFX</Language>
+									<AudioFile>2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2" ID="{83BD61B9-D78C-40D5-818E-76750457FA41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3" ID="{D127FD91-65F9-423A-AED8-8D381DC1F99B}" ShortID="539365883">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3" ID="{F44AB2CD-96C5-47B2-A656-1AF28E22B420}" ShortID="189942298">
+									<Language>SFX</Language>
+									<AudioFile>3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3" ID="{F44AB2CD-96C5-47B2-A656-1AF28E22B420}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="4" ID="{D4FCA19F-BCBA-48C5-8345-90FDAE7B5A75}" ShortID="254469724">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4" ID="{648937D1-46F0-40A3-8A72-108A6411E6AA}" ShortID="8014943">
+									<Language>SFX</Language>
+									<AudioFile>4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4" ID="{648937D1-46F0-40A3-8A72-108A6411E6AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="5" ID="{2116DCA5-8DA2-496E-809D-1CA23C332BB3}" ShortID="666453826">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="5" ID="{3BF9E206-6BC4-4343-8F1D-A8C17A21025B}" ShortID="853097169">
+									<Language>SFX</Language>
+									<AudioFile>5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="5" ID="{3BF9E206-6BC4-4343-8F1D-A8C17A21025B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="6" ID="{FA54CD28-1264-437A-B522-CCDD689F9465}" ShortID="1067248088">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="6" ID="{467B43CD-CD6A-47CD-9B73-5E8EEA04639F}" ShortID="978182365">
+									<Language>SFX</Language>
+									<AudioFile>6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="6" ID="{467B43CD-CD6A-47CD-9B73-5E8EEA04639F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="7" ID="{C528BC8C-9A3F-4125-8E33-A73502D8C4E4}" ShortID="267147409">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="7" ID="{226953BF-78FE-469E-9A80-A973128E266C}" ShortID="710403226">
+									<Language>SFX</Language>
+									<AudioFile>7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="7" ID="{226953BF-78FE-469E-9A80-A973128E266C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="8" ID="{2723367E-9EF4-4AAE-81C6-1465216D3081}" ShortID="543407423">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="8" ID="{695819F0-B10C-440A-A1E9-21D1ED2B4003}" ShortID="290365101">
+									<Language>SFX</Language>
+									<AudioFile>8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="8" ID="{695819F0-B10C-440A-A1E9-21D1ED2B4003}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="9" ID="{E048E882-8A54-42CA-A036-6B3F1F746581}" ShortID="261444091">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="9" ID="{ADB29120-F550-4150-84FA-5A9A480EDCDD}" ShortID="661258626">
+									<Language>SFX</Language>
+									<AudioFile>9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="9" ID="{ADB29120-F550-4150-84FA-5A9A480EDCDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="10" ID="{7E34B3DA-0324-434B-BDC4-F630D5868702}" ShortID="81471845">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="10" ID="{7F9707DC-75D1-4C2B-83DF-826AC6F642AB}" ShortID="864231614">
+									<Language>SFX</Language>
+									<AudioFile>10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="10" ID="{7F9707DC-75D1-4C2B-83DF-826AC6F642AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="11" ID="{98724F7A-2996-42BB-BF84-B572B685E201}" ShortID="61626730">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="11" ID="{016AF5B7-D4A3-4413-B43D-F19D20581BA5}" ShortID="440503925">
+									<Language>SFX</Language>
+									<AudioFile>11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="11" ID="{016AF5B7-D4A3-4413-B43D-F19D20581BA5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="12" ID="{3BE6C63A-1E08-48FA-8D58-AF9EAC596334}" ShortID="186922878">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="12" ID="{CD59C3DE-0330-40F5-99AB-619E6791A280}" ShortID="586199248">
+									<Language>SFX</Language>
+									<AudioFile>12.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="12" ID="{CD59C3DE-0330-40F5-99AB-619E6791A280}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="13" ID="{B65304A3-745F-401E-985F-4581B195D700}" ShortID="243468192">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="13" ID="{988BCDF2-99E0-423C-850D-9F8EA259ACE7}" ShortID="983978460">
+									<Language>SFX</Language>
+									<AudioFile>13.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="13" ID="{988BCDF2-99E0-423C-850D-9F8EA259ACE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="14" ID="{D377FC3B-5BB7-4229-8E5E-2A9C5FA2EE96}" ShortID="198563231">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="14" ID="{DF4A93FC-8563-4CDF-B808-08514594688E}" ShortID="80240888">
+									<Language>SFX</Language>
+									<AudioFile>14.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="14" ID="{DF4A93FC-8563-4CDF-B808-08514594688E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="15" ID="{9791C429-77F7-4431-B4F5-655EEFD91C87}" ShortID="214349849">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="15" ID="{51D9505E-27C4-4123-81D5-B2215DD907E7}" ShortID="111964837">
+									<Language>SFX</Language>
+									<AudioFile>15.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="15" ID="{51D9505E-27C4-4123-81D5-B2215DD907E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="16" ID="{12728D9F-5853-407D-81CE-909E9A04173E}" ShortID="829764318">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="16" ID="{793CD689-9630-415F-B96C-A7541EBCE62A}" ShortID="103694380">
+									<Language>SFX</Language>
+									<AudioFile>16.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="16" ID="{793CD689-9630-415F-B96C-A7541EBCE62A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="17" ID="{F024E676-DADC-400E-9534-E9F9907F031D}" ShortID="95815926">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="17" ID="{3E487A46-5D64-4970-AC4E-B785357B012D}" ShortID="775860420">
+									<Language>SFX</Language>
+									<AudioFile>17.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="17" ID="{3E487A46-5D64-4970-AC4E-B785357B012D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="18" ID="{0250793A-0142-41CB-BD1F-D7338BE2B488}" ShortID="636661595">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="18" ID="{0A60997A-4570-4E02-9EBA-963B271BFB5D}" ShortID="462806154">
+									<Language>SFX</Language>
+									<AudioFile>18.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="18" ID="{0A60997A-4570-4E02-9EBA-963B271BFB5D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="19" ID="{A374FF66-A50B-45B6-BAE8-45A25600693A}" ShortID="182694125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="19" ID="{AF86CB0D-BCCB-4601-B254-3D37D574EDDE}" ShortID="739081831">
+									<Language>SFX</Language>
+									<AudioFile>19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="19" ID="{AF86CB0D-BCCB-4601-B254-3D37D574EDDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="2" ID="{83BD61B9-D78C-40D5-818E-76750457FA41}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
+				<ActorMixer Name="Ui" ID="{FEDC7687-D69E-4271-972C-0D7AD771B21F}" ShortID="1068732852">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ui_lien_valide" ID="{75EA71B6-78A9-4552-AFBE-E43D9EE027D7}" ShortID="94892291">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_lien_validé_1" ID="{BE3E31CB-F5EF-480A-A502-AAA0AF5DBB43}" ShortID="912095300">
+									<Language>SFX</Language>
+									<AudioFile>Ui_lien_validé_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_lien_validé_1" ID="{BE3E31CB-F5EF-480A-A502-AAA0AF5DBB43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ui_clic" ID="{9AA66193-BCF1-4E60-85EC-34FB64DBA5C1}" ShortID="722934968">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_clic" ID="{64E68BAF-00F2-40F9-86B2-5712F7BE2F56}" ShortID="415529584">
+									<Language>SFX</Language>
+									<AudioFile>Ui_clic.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_clic" ID="{64E68BAF-00F2-40F9-86B2-5712F7BE2F56}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ui_lien_annule" ID="{E7B7D8E5-8BA9-42D8-BB60-C560351A655D}" ShortID="978426242">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui_lien_annulé" ID="{C5A846AE-BBA9-4969-AA5A-B00FC12D18EB}" ShortID="653311618">
+									<Language>SFX</Language>
+									<AudioFile>Ui_lien_annulé.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui_lien_annulé" ID="{C5A846AE-BBA9-4969-AA5A-B00FC12D18EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
