@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1254117840" DateHigh="30661986"/>
+	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1914830684" DateHigh="30661990"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="820403034" DateHigh="30661982"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="820583039" DateHigh="30661982"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Attenuations\Default Work Unit.wwu" DateLow="56346949" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Audio Devices\Default Work Unit.wwu" DateLow="56302046" DateHigh="30661983"/>
-	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\CeuxQuiRestent - WWiseProject.Robin.pinto.wsettings" DateLow="1297939834" DateHigh="30661986"/>
+	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\CeuxQuiRestent - WWiseProject.Robin.pinto.wsettings" DateLow="2016826045" DateHigh="30661990"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\CeuxQuiRestent - WWiseProject.wproj" DateLow="1348011703" DateHigh="30661986"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Control Surface Sessions\Default Work Unit.wwu" DateLow="56637231" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Conversion Settings\Default Work Unit.wwu" DateLow="56197277" DateHigh="30661983"/>
@@ -22,7 +22,7 @@
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1119126832" DateHigh="30661982"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1119126832" DateHigh="30661982"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Effects\Factory McDSP Effects.wwu" DateLow="972967784" DateHigh="30661982"/>
-	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Events\Default Work Unit.wwu" DateLow="1254007757" DateHigh="30661986"/>
+	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Events\Default Work Unit.wwu" DateLow="1914685688" DateHigh="30661990"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Game Parameters\Default Work Unit.wwu" DateLow="56146979" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="820363038" DateHigh="30661982"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="56246968" DateHigh="30661983"/>
@@ -32,7 +32,7 @@
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Presets\Default Work Unit.wwu" DateLow="55817273" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Queries\Default Work Unit.wwu" DateLow="55862261" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Queries\Factory Queries.wwu" DateLow="820283011" DateHigh="30661982"/>
-	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\SoundBanks\Default Work Unit.wwu" DateLow="1785990545" DateHigh="30661986"/>
+	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\SoundBanks\Default Work Unit.wwu" DateLow="1914755686" DateHigh="30661990"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="55722267" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\States\Default Work Unit.wwu" DateLow="55902221" DateHigh="30661983"/>
 	<ValidationCacheItem File="C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\Switches\Default Work Unit.wwu" DateLow="56051971" DateHigh="30661983"/>

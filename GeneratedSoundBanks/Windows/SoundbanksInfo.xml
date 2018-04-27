@@ -40,8 +40,15 @@
 				<Event Id="1774091854" Name="Play_8" ObjectPath="\Events\Default Work Unit\Play_8"/>
 				<Event Id="1774091855" Name="Play_9" ObjectPath="\Events\Default Work Unit\Play_9"/>
 				<Event Id="3897570994" Name="Play_Ui_clic" ObjectPath="\Events\Default Work Unit\Play_Ui_clic"/>
+				<Event Id="2526710407" Name="Play_Ui_Energie_down" ObjectPath="\Events\Default Work Unit\Play_Ui_Energie_down"/>
+				<Event Id="2527871859" Name="Play_UI_jauge_up" ObjectPath="\Events\Default Work Unit\Play_UI_jauge_up"/>
 				<Event Id="4288039593" Name="Play_Ui_lien_annule" ObjectPath="\Events\Default Work Unit\Play_Ui_lien_annule"/>
+				<Event Id="254787269" Name="Play_UI_lien_croise" ObjectPath="\Events\Default Work Unit\Play_UI_lien_croise"/>
+				<Event Id="2918486003" Name="Play_UI_lien_maintenu" ObjectPath="\Events\Default Work Unit\Play_UI_lien_maintenu"/>
 				<Event Id="771963053" Name="Play_Ui_lien_valide" ObjectPath="\Events\Default Work Unit\Play_Ui_lien_valide"/>
+				<Event Id="4256590505" Name="Play_Ui_new_souvenir" ObjectPath="\Events\Default Work Unit\Play_Ui_new_souvenir"/>
+				<Event Id="498677938" Name="Play_Ui_Souvenir_compl_t_" ObjectPath="\Events\Default Work Unit\Play_Ui_Souvenir_compl_t_"/>
+				<Event Id="3943014341" Name="Stop_UI_lien_maintenu" ObjectPath="\Events\Default Work Unit\Stop_UI_lien_maintenu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="8014943" Language="SFX">
@@ -56,6 +63,10 @@
 					<ShortName>16.wav</ShortName>
 					<Path>SFX\16_1C9C67B2.wem</Path>
 				</File>
+				<File Id="105769475" Language="SFX">
+					<ShortName>UI_lien_maintenu.wav</ShortName>
+					<Path>SFX\UI_lien_maintenu_1C9C67B2.wem</Path>
+				</File>
 				<File Id="111964837" Language="SFX">
 					<ShortName>15.wav</ShortName>
 					<Path>SFX\15_1C9C67B2.wem</Path>
@@ -67,6 +78,10 @@
 				<File Id="189942298" Language="SFX">
 					<ShortName>3.wav</ShortName>
 					<Path>SFX\3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="239610979" Language="SFX">
+					<ShortName>Ui_Souvenir_complété.wav</ShortName>
+					<Path>SFX\Ui_Souvenir_complété_1C9C67B2.wem</Path>
 				</File>
 				<File Id="290365101" Language="SFX">
 					<ShortName>8.wav</ShortName>
@@ -84,6 +99,10 @@
 					<ShortName>18.wav</ShortName>
 					<Path>SFX\18_1C9C67B2.wem</Path>
 				</File>
+				<File Id="532878929" Language="SFX">
+					<ShortName>UI_jauge_up.wav</ShortName>
+					<Path>SFX\UI_jauge_up_1C9C67B2.wem</Path>
+				</File>
 				<File Id="586199248" Language="SFX">
 					<ShortName>12.wav</ShortName>
 					<Path>SFX\12_1C9C67B2.wem</Path>
@@ -96,9 +115,17 @@
 					<ShortName>9.wav</ShortName>
 					<Path>SFX\9_1C9C67B2.wem</Path>
 				</File>
+				<File Id="662354992" Language="SFX">
+					<ShortName>Ui_Energie_down.wav</ShortName>
+					<Path>SFX\Ui_Energie_down_1C9C67B2.wem</Path>
+				</File>
 				<File Id="710403226" Language="SFX">
 					<ShortName>7.wav</ShortName>
 					<Path>SFX\7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="720824781" Language="SFX">
+					<ShortName>UI_lien_croise.wav</ShortName>
+					<Path>SFX\UI_lien_croise_1C9C67B2.wem</Path>
 				</File>
 				<File Id="739081831" Language="SFX">
 					<ShortName>19.wav</ShortName>
@@ -119,6 +146,10 @@
 				<File Id="912095300" Language="SFX">
 					<ShortName>Ui_lien_validé_1.wav</ShortName>
 					<Path>SFX\Ui_lien_validé_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="912456756" Language="SFX">
+					<ShortName>Ui_new_souvenir.wav</ShortName>
+					<Path>SFX\Ui_new_souvenir_1C9C67B2.wem</Path>
 				</File>
 				<File Id="978182365" Language="SFX">
 					<ShortName>6.wav</ShortName>

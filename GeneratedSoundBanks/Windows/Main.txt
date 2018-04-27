@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	254787269	Play_UI_lien_croise			\Default Work Unit\Play_UI_lien_croise	
+	498677938	Play_Ui_Souvenir_compl_t_			\Default Work Unit\Play_Ui_Souvenir_compl_t_	
 	771963053	Play_Ui_lien_valide			\Default Work Unit\Play_Ui_lien_valide	
 	1774091840	Play_6			\Default Work Unit\Play_6	
 	1774091841	Play_7			\Default Work Unit\Play_7	
@@ -8,6 +10,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1774091845	Play_3			\Default Work Unit\Play_3	
 	1774091854	Play_8			\Default Work Unit\Play_8	
 	1774091855	Play_9			\Default Work Unit\Play_9	
+	2526710407	Play_Ui_Energie_down			\Default Work Unit\Play_Ui_Energie_down	
+	2527871859	Play_UI_jauge_up			\Default Work Unit\Play_UI_jauge_up	
+	2918486003	Play_UI_lien_maintenu			\Default Work Unit\Play_UI_lien_maintenu	
 	3185625584	Play_15			\Default Work Unit\Play_15	
 	3185625585	Play_14			\Default Work Unit\Play_14	
 	3185625586	Play_17			\Default Work Unit\Play_17	
@@ -19,28 +24,36 @@ Event	ID	Name			Wwise Object Path	Notes
 	3185625596	Play_19			\Default Work Unit\Play_19	
 	3185625597	Play_18			\Default Work Unit\Play_18	
 	3897570994	Play_Ui_clic			\Default Work Unit\Play_Ui_clic	
+	3943014341	Stop_UI_lien_maintenu			\Default Work Unit\Stop_UI_lien_maintenu	
+	4256590505	Play_Ui_new_souvenir			\Default Work Unit\Play_Ui_new_souvenir	
 	4288039593	Play_Ui_lien_annule			\Default Work Unit\Play_Ui_lien_annule	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8014943	4	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\4		1651476
 	80240888	14	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\14		1123804
 	103694380	16	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\16_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\16		2504404
+	105769475	UI_lien_maintenu	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\UI_lien_maintenu_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\UI_lien_maintenu		5292064
 	111964837	15	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\15_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\15		1731880
 	142661878	2	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\2		3601588
 	189942298	3	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\3		1570556
+	239610979	Ui_Souvenir_complété	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_Souvenir_complété_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_Souvenir_complété		705664
 	290365101	8	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\8		2206652
 	415529584	Ui_clic	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_clic_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_clic		352864
 	440503925	11	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\11		1174092
 	462806154	18	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\18_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\18		1095184
+	532878929	UI_jauge_up	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\UI_jauge_up_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\UI_jauge_up		2116864
 	586199248	12	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\12		802096
 	653311618	Ui_lien_annule	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_lien_annulé_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_lien_annule		882064
 	661258626	9	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\9		747520
+	662354992	Ui_Energie_down	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_Energie_down_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_Energie_down		396964
 	710403226	7	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\7		1173844
+	720824781	UI_lien_croise	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\UI_lien_croise_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\UI_lien_croise		264664
 	739081831	19	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\19_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\19		1519520
 	775860420	17	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\17_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\17		1027268
 	853097169	5	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\5		1704684
 	864231614	10	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\10		766068
 	912095300	Ui_lien_valide	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_lien_validé_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_lien_valide		1058464
+	912456756	Ui_new_souvenir	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\Ui_new_souvenir_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ui\Ui_new_souvenir		1587664
 	978182365	6	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\6		1732284
 	983978460	13	C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\SFX\13_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\13		836880
 
