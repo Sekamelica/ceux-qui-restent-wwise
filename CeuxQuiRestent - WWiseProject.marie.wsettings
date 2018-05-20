@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="80">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{9A24139B-DA9F-4BCB-9F7E-22D005D2D031}">
+			<PropertyList>
+				<Property Name="Event Action List\{19466963-C229-4797-88DA-524D4A451A91}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2132D05F-5AD2-4F67-8178-0B2352F28C14}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{410053B4-7E8B-4E4B-9731-BE792C828868}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{42E417F8-4D9A-433D-8B88-D21310505374}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4DC3CDFB-097C-41E9-AC4F-86555E0D708C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5948F1EE-A4C7-423E-B942-424B2B7818DE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5998CE7F-8BEE-43E0-87A6-5AB8B1DE3905}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{95F1BDF4-6F27-4106-A3FC-D896315206BE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9AC64D39-06CF-4F9E-AA63-01A559600304}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A25E874D-0C78-4870-86AA-4B94EA7991AE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C2B5E0B8-6834-4D6E-81BF-8F2BB1551FE3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C982FAA4-666A-4D59-8D3D-197A620300A9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D3D9A233-C4C3-40F4-9B8F-503F508B03E7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E0DACF31-6AFB-43C1-BB62-349326384C37}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E4956D35-B5AA-4284-BBF5-84E98CAC0ABD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E956CA94-8E87-4E35-A8EA-C61646EB865D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EC7B5F72-A5D2-4C40-B9D4-1294BEEC9D4F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows">Copy Streamed Files</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>

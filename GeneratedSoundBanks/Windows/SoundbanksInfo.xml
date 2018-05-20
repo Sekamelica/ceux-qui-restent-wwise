@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\CeuxQuiRestent-Wwsise\</ProjectRoot>
+		<SourceFilesRoot>D:\CeuxQuiRestent-Wwsise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\CeuxQuiRestent-Wwsise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\robin.pinto\Documents\Ceux Qui Restent - WWise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\CeuxQuiRestent-Wwsise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,143 +21,107 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3185625589" Name="Play_10" ObjectPath="\Events\Default Work Unit\Play_10"/>
-				<Event Id="3185625588" Name="Play_11" ObjectPath="\Events\Default Work Unit\Play_11"/>
-				<Event Id="3185625591" Name="Play_12" ObjectPath="\Events\Default Work Unit\Play_12"/>
-				<Event Id="3185625590" Name="Play_13" ObjectPath="\Events\Default Work Unit\Play_13"/>
-				<Event Id="3185625585" Name="Play_14" ObjectPath="\Events\Default Work Unit\Play_14"/>
-				<Event Id="3185625584" Name="Play_15" ObjectPath="\Events\Default Work Unit\Play_15"/>
-				<Event Id="3185625587" Name="Play_16" ObjectPath="\Events\Default Work Unit\Play_16"/>
-				<Event Id="3185625586" Name="Play_17" ObjectPath="\Events\Default Work Unit\Play_17"/>
-				<Event Id="3185625597" Name="Play_18" ObjectPath="\Events\Default Work Unit\Play_18"/>
-				<Event Id="3185625596" Name="Play_19" ObjectPath="\Events\Default Work Unit\Play_19"/>
-				<Event Id="1774091844" Name="Play_2" ObjectPath="\Events\Default Work Unit\Play_2"/>
-				<Event Id="1774091845" Name="Play_3" ObjectPath="\Events\Default Work Unit\Play_3"/>
-				<Event Id="1774091842" Name="Play_4" ObjectPath="\Events\Default Work Unit\Play_4"/>
-				<Event Id="1774091843" Name="Play_5" ObjectPath="\Events\Default Work Unit\Play_5"/>
-				<Event Id="1774091840" Name="Play_6" ObjectPath="\Events\Default Work Unit\Play_6"/>
-				<Event Id="1774091841" Name="Play_7" ObjectPath="\Events\Default Work Unit\Play_7"/>
-				<Event Id="1774091854" Name="Play_8" ObjectPath="\Events\Default Work Unit\Play_8"/>
-				<Event Id="1774091855" Name="Play_9" ObjectPath="\Events\Default Work Unit\Play_9"/>
-				<Event Id="3897570994" Name="Play_Ui_clic" ObjectPath="\Events\Default Work Unit\Play_Ui_clic"/>
-				<Event Id="2526710407" Name="Play_Ui_Energie_down" ObjectPath="\Events\Default Work Unit\Play_Ui_Energie_down"/>
-				<Event Id="2527871859" Name="Play_UI_jauge_up" ObjectPath="\Events\Default Work Unit\Play_UI_jauge_up"/>
-				<Event Id="4288039593" Name="Play_Ui_lien_annule" ObjectPath="\Events\Default Work Unit\Play_Ui_lien_annule"/>
-				<Event Id="254787269" Name="Play_UI_lien_croise" ObjectPath="\Events\Default Work Unit\Play_UI_lien_croise"/>
-				<Event Id="2918486003" Name="Play_UI_lien_maintenu" ObjectPath="\Events\Default Work Unit\Play_UI_lien_maintenu"/>
-				<Event Id="771963053" Name="Play_Ui_lien_valide" ObjectPath="\Events\Default Work Unit\Play_Ui_lien_valide"/>
-				<Event Id="4256590505" Name="Play_Ui_new_souvenir" ObjectPath="\Events\Default Work Unit\Play_Ui_new_souvenir"/>
-				<Event Id="498677938" Name="Play_Ui_Souvenir_compl_t_" ObjectPath="\Events\Default Work Unit\Play_Ui_Souvenir_compl_t_"/>
-				<Event Id="3943014341" Name="Stop_UI_lien_maintenu" ObjectPath="\Events\Default Work Unit\Stop_UI_lien_maintenu" MaxAttenuation="0.000000"/>
+				<Event Id="3534651088" Name="H_DetectedFragment" ObjectPath="\Events\Default Work Unit\Voices_off\H_DetectedFragment"/>
+				<Event Id="1450671466" Name="H_ExploreRoom" ObjectPath="\Events\Default Work Unit\Voices_off\H_ExploreRoom"/>
+				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
+				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
+				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
+				<Event Id="3897570994" Name="Play_Ui_clic" ObjectPath="\Events\Default Work Unit\UI\Play_Ui_clic"/>
+				<Event Id="4288039593" Name="Play_Ui_lien_annule" ObjectPath="\Events\Default Work Unit\UI\Play_Ui_lien_annule"/>
+				<Event Id="771963053" Name="Play_Ui_lien_valide" ObjectPath="\Events\Default Work Unit\UI\Play_Ui_lien_valide"/>
+				<Event Id="2016698951" Name="T_ActivLink" ObjectPath="\Events\Default Work Unit\Voices_off\T_ActivLink"/>
+				<Event Id="1158054437" Name="T_CommonAspect" ObjectPath="\Events\Default Work Unit\Voices_off\T_CommonAspect"/>
+				<Event Id="1438124155" Name="T_EnergyGauge" ObjectPath="\Events\Default Work Unit\Voices_off\T_EnergyGauge"/>
+				<Event Id="1530286288" Name="T_FirstFragment" ObjectPath="\Events\Default Work Unit\Voices_off\T_FirstFragment"/>
+				<Event Id="525151809" Name="T_FragmentLinked" ObjectPath="\Events\Default Work Unit\Voices_off\T_FragmentLinked"/>
+				<Event Id="296874062" Name="T_FragmentLinkedContinue" ObjectPath="\Events\Default Work Unit\Voices_off\T_FragmentLinkedContinue"/>
+				<Event Id="1326074304" Name="T_LinkTwoFragment" ObjectPath="\Events\Default Work Unit\Voices_off\T_LinkTwoFragment"/>
+				<Event Id="3038282616" Name="T_MemorialFlow" ObjectPath="\Events\Default Work Unit\Voices_off\T_MemorialFlow"/>
+				<Event Id="781812845" Name="T_ScanToMove" ObjectPath="\Events\Default Work Unit\Voices_off\T_ScanToMove"/>
+				<Event Id="3389379746" Name="T_SecondFragment" ObjectPath="\Events\Default Work Unit\Voices_off\T_SecondFragment"/>
+				<Event Id="145059539" Name="T_TemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\T_TemporalSegment"/>
+				<Event Id="1834850122" Name="T_Welcome" ObjectPath="\Events\Default Work Unit\Voices_off\T_Welcome"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="8014943" Language="SFX">
+				<File Id="27549576" Language="SFX">
+					<ShortName>8.wav</ShortName>
+					<Path>SFX\8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="75082783" Language="SFX">
 					<ShortName>4.wav</ShortName>
 					<Path>SFX\4_1C9C67B2.wem</Path>
 				</File>
-				<File Id="80240888" Language="SFX">
-					<ShortName>14.wav</ShortName>
-					<Path>SFX\14_1C9C67B2.wem</Path>
+				<File Id="205144782" Language="SFX">
+					<ShortName>13.wav</ShortName>
+					<Path>SFX\13_1C9C67B2.wem</Path>
 				</File>
-				<File Id="103694380" Language="SFX">
+				<File Id="242932921" Language="SFX">
 					<ShortName>16.wav</ShortName>
 					<Path>SFX\16_1C9C67B2.wem</Path>
 				</File>
-				<File Id="105769475" Language="SFX">
-					<ShortName>UI_lien_maintenu.wav</ShortName>
-					<Path>SFX\UI_lien_maintenu_1C9C67B2.wem</Path>
-				</File>
-				<File Id="111964837" Language="SFX">
+				<File Id="289776262" Language="SFX">
 					<ShortName>15.wav</ShortName>
 					<Path>SFX\15_1C9C67B2.wem</Path>
 				</File>
-				<File Id="142661878" Language="SFX">
-					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_1C9C67B2.wem</Path>
+				<File Id="344658013" Language="SFX">
+					<ShortName>12.wav</ShortName>
+					<Path>SFX\12_1C9C67B2.wem</Path>
 				</File>
-				<File Id="189942298" Language="SFX">
-					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_1C9C67B2.wem</Path>
-				</File>
-				<File Id="239610979" Language="SFX">
-					<ShortName>Ui_Souvenir_complété.wav</ShortName>
-					<Path>SFX\Ui_Souvenir_complété_1C9C67B2.wem</Path>
-				</File>
-				<File Id="290365101" Language="SFX">
-					<ShortName>8.wav</ShortName>
-					<Path>SFX\8_1C9C67B2.wem</Path>
+				<File Id="366269584" Language="SFX">
+					<ShortName>17.wav</ShortName>
+					<Path>SFX\17_1C9C67B2.wem</Path>
 				</File>
 				<File Id="415529584" Language="SFX">
 					<ShortName>Ui_clic.wav</ShortName>
 					<Path>SFX\Ui_clic_1C9C67B2.wem</Path>
 				</File>
-				<File Id="440503925" Language="SFX">
+				<File Id="477326027" Language="SFX">
+					<ShortName>10.wav</ShortName>
+					<Path>SFX\10_0C87904D.wem</Path>
+				</File>
+				<File Id="499495790" Language="SFX">
+					<ShortName>14.wav</ShortName>
+					<Path>SFX\14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="556873789" Language="SFX">
 					<ShortName>11.wav</ShortName>
 					<Path>SFX\11_1C9C67B2.wem</Path>
-				</File>
-				<File Id="462806154" Language="SFX">
-					<ShortName>18.wav</ShortName>
-					<Path>SFX\18_1C9C67B2.wem</Path>
-				</File>
-				<File Id="532878929" Language="SFX">
-					<ShortName>UI_jauge_up.wav</ShortName>
-					<Path>SFX\UI_jauge_up_1C9C67B2.wem</Path>
-				</File>
-				<File Id="586199248" Language="SFX">
-					<ShortName>12.wav</ShortName>
-					<Path>SFX\12_1C9C67B2.wem</Path>
 				</File>
 				<File Id="653311618" Language="SFX">
 					<ShortName>Ui_lien_annulé.wav</ShortName>
 					<Path>SFX\Ui_lien_annulé_1C9C67B2.wem</Path>
 				</File>
-				<File Id="661258626" Language="SFX">
+				<File Id="692815848" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX\2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="744136607" Language="SFX">
 					<ShortName>9.wav</ShortName>
 					<Path>SFX\9_1C9C67B2.wem</Path>
 				</File>
-				<File Id="662354992" Language="SFX">
-					<ShortName>Ui_Energie_down.wav</ShortName>
-					<Path>SFX\Ui_Energie_down_1C9C67B2.wem</Path>
+				<File Id="796042685" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX\3_1C9C67B2.wem</Path>
 				</File>
-				<File Id="710403226" Language="SFX">
-					<ShortName>7.wav</ShortName>
-					<Path>SFX\7_1C9C67B2.wem</Path>
-				</File>
-				<File Id="720824781" Language="SFX">
-					<ShortName>UI_lien_croise.wav</ShortName>
-					<Path>SFX\UI_lien_croise_1C9C67B2.wem</Path>
-				</File>
-				<File Id="739081831" Language="SFX">
-					<ShortName>19.wav</ShortName>
-					<Path>SFX\19_1C9C67B2.wem</Path>
-				</File>
-				<File Id="775860420" Language="SFX">
-					<ShortName>17.wav</ShortName>
-					<Path>SFX\17_1C9C67B2.wem</Path>
-				</File>
-				<File Id="853097169" Language="SFX">
-					<ShortName>5.wav</ShortName>
-					<Path>SFX\5_1C9C67B2.wem</Path>
-				</File>
-				<File Id="864231614" Language="SFX">
-					<ShortName>10.wav</ShortName>
-					<Path>SFX\10_1C9C67B2.wem</Path>
+				<File Id="826465953" Language="SFX">
+					<ShortName>6.wav</ShortName>
+					<Path>SFX\6_EE12610A.wem</Path>
 				</File>
 				<File Id="912095300" Language="SFX">
 					<ShortName>Ui_lien_validé_1.wav</ShortName>
 					<Path>SFX\Ui_lien_validé_1_1C9C67B2.wem</Path>
 				</File>
-				<File Id="912456756" Language="SFX">
-					<ShortName>Ui_new_souvenir.wav</ShortName>
-					<Path>SFX\Ui_new_souvenir_1C9C67B2.wem</Path>
+				<File Id="953926837" Language="SFX">
+					<ShortName>5.wav</ShortName>
+					<Path>SFX\5_1C9C67B2.wem</Path>
 				</File>
-				<File Id="978182365" Language="SFX">
-					<ShortName>6.wav</ShortName>
-					<Path>SFX\6_1C9C67B2.wem</Path>
+				<File Id="982194692" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX\1_BC61D25C.wem</Path>
 				</File>
-				<File Id="983978460" Language="SFX">
-					<ShortName>13.wav</ShortName>
-					<Path>SFX\13_1C9C67B2.wem</Path>
+				<File Id="1042471997" Language="SFX">
+					<ShortName>7.wav</ShortName>
+					<Path>SFX\7_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
