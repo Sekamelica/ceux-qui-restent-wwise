@@ -358,7 +358,7 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<ActorMixer Name="Ui" ID="{FEDC7687-D69E-4271-972C-0D7AD771B21F}" ShortID="1068732852">
+				<ActorMixer Name="UI" ID="{FEDC7687-D69E-4271-972C-0D7AD771B21F}" ShortID="1068732852">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
