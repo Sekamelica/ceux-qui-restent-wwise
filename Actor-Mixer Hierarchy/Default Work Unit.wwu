@@ -368,7 +368,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Ui_lien_valide" ID="{75EA71B6-78A9-4552-AFBE-E43D9EE027D7}" ShortID="94892291">
+						<Sound Name="UI_CanceledLink" ID="{4EFE5046-A4AD-44CB-A07B-1C8438EA0446}" ShortID="512024620">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -378,16 +378,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ui_lien_validé_1" ID="{BE3E31CB-F5EF-480A-A502-AAA0AF5DBB43}" ShortID="912095300">
+								<AudioFileSource Name="UI_CanceledLink" ID="{CE7A213F-BE9B-4EEE-88BE-D9FEC5A98DC0}" ShortID="355358120">
 									<Language>SFX</Language>
-									<AudioFile>Ui_lien_validé_1.wav</AudioFile>
+									<AudioFile>UI_CanceledLink.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ui_lien_validé_1" ID="{BE3E31CB-F5EF-480A-A502-AAA0AF5DBB43}" Platform="Linked"/>
+								<ActiveSource Name="UI_CanceledLink" ID="{CE7A213F-BE9B-4EEE-88BE-D9FEC5A98DC0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Ui_clic" ID="{9AA66193-BCF1-4E60-85EC-34FB64DBA5C1}" ShortID="722934968">
+						<Sound Name="UI_Clic" ID="{37E1D1CD-FB92-4215-B75F-DB362820BB6A}" ShortID="934627894">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -397,16 +397,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ui_clic" ID="{64E68BAF-00F2-40F9-86B2-5712F7BE2F56}" ShortID="415529584">
+								<AudioFileSource Name="UI_Clic" ID="{202FA7F3-D2C9-4BD5-A334-867FD2A7F39D}" ShortID="137442131">
 									<Language>SFX</Language>
-									<AudioFile>Ui_clic.wav</AudioFile>
+									<AudioFile>UI_Clic.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ui_clic" ID="{64E68BAF-00F2-40F9-86B2-5712F7BE2F56}" Platform="Linked"/>
+								<ActiveSource Name="UI_Clic" ID="{202FA7F3-D2C9-4BD5-A334-867FD2A7F39D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Ui_lien_annule" ID="{E7B7D8E5-8BA9-42D8-BB60-C560351A655D}" ShortID="978426242">
+						<Sound Name="UI_CompletedMemory" ID="{6558D133-3208-4FDF-9506-C208E3B6F4DE}" ShortID="337029933">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -416,16 +416,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ui_lien_annulé" ID="{C5A846AE-BBA9-4969-AA5A-B00FC12D18EB}" ShortID="653311618">
+								<AudioFileSource Name="UI_CompletedMemory" ID="{39F62733-27CF-4945-A838-72E1A8F1A023}" ShortID="145172251">
 									<Language>SFX</Language>
-									<AudioFile>Ui_lien_annulé.wav</AudioFile>
+									<AudioFile>UI_CompletedMemory.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ui_lien_annulé" ID="{C5A846AE-BBA9-4969-AA5A-B00FC12D18EB}" Platform="Linked"/>
+								<ActiveSource Name="UI_CompletedMemory" ID="{39F62733-27CF-4945-A838-72E1A8F1A023}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Ui_Energie_down" ID="{D868B4D7-8FB0-4C5C-893F-BAEF880FED14}" ShortID="624806475">
+						<Sound Name="UI_CrossedLink" ID="{8B00B2D3-D617-4523-9626-4A44A19183B7}" ShortID="398580464">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -435,16 +435,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ui_Energie_down" ID="{8CA1C573-0667-4F3D-A780-F85610E9922A}" ShortID="662354992">
+								<AudioFileSource Name="UI_CrossedLink" ID="{2BCACC18-7ED5-4B3E-9AF4-2E5F81CE92F7}" ShortID="502551599">
 									<Language>SFX</Language>
-									<AudioFile>Ui_Energie_down.wav</AudioFile>
+									<AudioFile>UI_CrossedLink.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ui_Energie_down" ID="{8CA1C573-0667-4F3D-A780-F85610E9922A}" Platform="Linked"/>
+								<ActiveSource Name="UI_CrossedLink" ID="{2BCACC18-7ED5-4B3E-9AF4-2E5F81CE92F7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UI_jauge_up" ID="{BAE7A9CF-C901-43EC-872F-AB14616608CB}" ShortID="844052561">
+						<Sound Name="UI_EnergyGaugeIncrease" ID="{C7E37989-E9DF-4B31-BC3A-32491FF058A6}" ShortID="763948575">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -454,16 +454,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI_jauge_up" ID="{A3C4B630-063E-48E3-B413-1BDEC0265850}" ShortID="532878929">
+								<AudioFileSource Name="UI_EnergyGaugeIncrease" ID="{DDB41AF5-C027-4441-A4E8-6C56428E88E6}" ShortID="722810930">
 									<Language>SFX</Language>
-									<AudioFile>UI_jauge_up.wav</AudioFile>
+									<AudioFile>UI_EnergyGaugeIncrease.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_jauge_up" ID="{A3C4B630-063E-48E3-B413-1BDEC0265850}" Platform="Linked"/>
+								<ActiveSource Name="UI_EnergyGaugeIncrease" ID="{DDB41AF5-C027-4441-A4E8-6C56428E88E6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UI_lien_croise" ID="{5F1002FA-CEC2-445B-89B4-CDCFB1636289}" ShortID="334320049">
+						<Sound Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" ShortID="376490156">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -473,16 +473,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI_lien_croise" ID="{CDB50FA0-297A-4672-9D1B-6D9708830D3A}" ShortID="720824781">
+								<AudioFileSource Name="UI_LinkHold" ID="{B899DF6E-9062-408D-8696-F3C3A4C69C37}" ShortID="122534204">
 									<Language>SFX</Language>
-									<AudioFile>UI_lien_croise.wav</AudioFile>
+									<AudioFile>UI_LinkHold.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_lien_croise" ID="{CDB50FA0-297A-4672-9D1B-6D9708830D3A}" Platform="Linked"/>
+								<ActiveSource Name="UI_LinkHold" ID="{B899DF6E-9062-408D-8696-F3C3A4C69C37}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UI_lien_maintenu" ID="{B2CDB79B-A97E-462A-928A-49E03202A8C9}" ShortID="280123266">
+						<Sound Name="UI_NewMemoryAppear" ID="{08B02CA3-DE44-43BA-AECF-88B670487BB8}" ShortID="473137520">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -492,16 +492,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UI_lien_maintenu" ID="{2B49E0FD-4F23-4DBD-BFE4-138414C1EC76}" ShortID="105769475">
+								<AudioFileSource Name="UI_NewMemoryAppear" ID="{71E493E8-3FDC-40A6-9ABE-B201F314380B}" ShortID="862153232">
 									<Language>SFX</Language>
-									<AudioFile>UI_lien_maintenu.wav</AudioFile>
+									<AudioFile>UI_NewMemoryAppear.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_lien_maintenu" ID="{2B49E0FD-4F23-4DBD-BFE4-138414C1EC76}" Platform="Linked"/>
+								<ActiveSource Name="UI_NewMemoryAppear" ID="{71E493E8-3FDC-40A6-9ABE-B201F314380B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Ui_new_souvenir" ID="{8304F7B9-92E7-4BD6-ACB8-947B197B0F21}" ShortID="1020744063">
+						<Sound Name="UI_ValidatedLink" ID="{B4699772-6FB4-4918-9309-24E21F4A7AF6}" ShortID="564313817">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -511,32 +511,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ui_new_souvenir" ID="{EDC0157D-99E7-4115-955C-D7BE34C49F2B}" ShortID="912456756">
+								<AudioFileSource Name="UI_ValidatedLink" ID="{98B143D5-45FC-44BE-A885-A738AB30756A}" ShortID="546718534">
 									<Language>SFX</Language>
-									<AudioFile>Ui_new_souvenir.wav</AudioFile>
+									<AudioFile>UI_ValidatedLink.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ui_new_souvenir" ID="{EDC0157D-99E7-4115-955C-D7BE34C49F2B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ui_Souvenir_complété" ID="{42D5A05A-706C-437C-8544-CF434117F059}" ShortID="555250835">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Ui_Souvenir_complété" ID="{E19A57BF-F65E-49A7-AA79-45B29AE02662}" ShortID="239610979">
-									<Language>SFX</Language>
-									<AudioFile>Ui_Souvenir_complété.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ui_Souvenir_complété" ID="{E19A57BF-F65E-49A7-AA79-45B29AE02662}" Platform="Linked"/>
+								<ActiveSource Name="UI_ValidatedLink" ID="{98B143D5-45FC-44BE-A885-A738AB30756A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

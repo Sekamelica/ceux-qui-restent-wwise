@@ -247,146 +247,19 @@
 				</Folder>
 				<Folder Name="UI" ID="{C6445BC8-63AB-4CDB-88A1-4A71B861341F}" ShortID="459901555">
 					<ChildrenList>
-						<Event Name="Play_UI_lien_maintenu" ID="{38563CF1-A9CC-46AA-8C0C-4B459249FD7F}">
-							<ChildrenList>
-								<Action Name="" ID="{F0BC4AF3-4E27-43F3-A8E0-B20F43EC9A43}" ShortID="345562330">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_lien_maintenu" ID="{B2CDB79B-A97E-462A-928A-49E03202A8C9}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_lien_valide" ID="{DB587273-78A9-4AD5-A4E0-54CA812C2C85}">
-							<ChildrenList>
-								<Action Name="" ID="{37FEBF15-7635-4ABF-9C24-D4AED880D160}" ShortID="553467183">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_lien_valide" ID="{75EA71B6-78A9-4552-AFBE-E43D9EE027D7}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_new_souvenir" ID="{8E14B04B-9A2A-4ECD-A5E3-1752D57742E9}">
-							<ChildrenList>
-								<Action Name="" ID="{794319D3-825E-4414-A129-39395D34A254}" ShortID="364677002">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_new_souvenir" ID="{8304F7B9-92E7-4BD6-ACB8-947B197B0F21}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_Souvenir_compl_t_" ID="{960B26B2-523C-4EF3-85E1-9FB76E8C4A6A}">
-							<ChildrenList>
-								<Action Name="" ID="{6DA8CB5A-EFCC-42D6-966F-A9301948ED07}" ShortID="345669060">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_Souvenir_complété" ID="{42D5A05A-706C-437C-8544-CF434117F059}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_Energie_down" ID="{0F27319F-FA9E-4591-BEDF-F1A4128A9E08}">
-							<ChildrenList>
-								<Action Name="" ID="{52CD1871-449F-4C8F-BEDC-B44060929F4B}" ShortID="205992286">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_Energie_down" ID="{D868B4D7-8FB0-4C5C-893F-BAEF880FED14}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_UI_lien_maintenu" ID="{E1C65678-47DF-4701-81DE-127D8F662CF2}">
-							<ChildrenList>
-								<Action Name="" ID="{9DF51067-A537-46C7-976B-E18230795CCF}" ShortID="173430055">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_lien_maintenu" ID="{B2CDB79B-A97E-462A-928A-49E03202A8C9}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_lien_annule" ID="{5335DFA6-8AB6-4B80-8988-ACC6F8AEE5B3}">
-							<ChildrenList>
-								<Action Name="" ID="{F139F3AB-E395-4659-856A-7DF90E3A99A5}" ShortID="110602202">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_lien_annule" ID="{E7B7D8E5-8BA9-42D8-BB60-C560351A655D}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_UI_jauge_up" ID="{343088F6-386C-4083-AF48-AF08439FE92A}">
-							<ChildrenList>
-								<Action Name="" ID="{CBEA632C-CE82-4611-991F-52A947156479}" ShortID="313086678">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_jauge_up" ID="{BAE7A9CF-C901-43EC-872F-AB14616608CB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_UI_lien_croise" ID="{1745EB7C-EAB2-449E-BC72-73E468CC0AF5}">
-							<ChildrenList>
-								<Action Name="" ID="{942784A4-A3A2-4623-B8F7-CD3FBEF573E8}" ShortID="240529811">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_lien_croise" ID="{5F1002FA-CEC2-445B-89B4-CDCFB1636289}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ui_clic" ID="{D2CD8EB2-BA85-4F56-8F7B-8F0C8E222009}">
-							<ChildrenList>
-								<Action Name="" ID="{58F2C5C6-FB7F-4558-B376-342A64920D41}" ShortID="716403303">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ui_clic" ID="{9AA66193-BCF1-4E60-85EC-34FB64DBA5C1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Event Name="UI_Clic" ID="{9390CC21-495A-40F4-A854-59EDABC82D0F}"/>
+						<Event Name="UI_LinkHold" ID="{D4EBDBA6-B627-43DA-943C-88B2859B3324}"/>
+						<Event Name="UI_CanceledLink" ID="{E25CF0E7-5151-4738-94E9-7BC39BC3FE81}"/>
+						<Event Name="UI_ValidatedLink" ID="{600D6BAB-8611-4EE9-A490-537C2EA47190}"/>
+						<Event Name="UI_EnergyGaugeIncrease" ID="{BFA447B4-0D30-49BF-B58D-2ACBBF37FE8C}"/>
+						<Event Name="UI_NotEnoughEnergy" ID="{E6096487-95D9-4E40-A806-CA558A4E36D7}"/>
+						<Event Name="UI_CrossedLink" ID="{857DBBC6-B38A-4EBD-9377-0C534DB5E241}"/>
+						<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}"/>
+						<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}"/>
+						<Event Name="UI_CompletedMemory" ID="{11D9D706-8405-4FCA-AED0-57739B92119E}"/>
+						<Event Name="UI_NewMemoryAppear" ID="{42A508DC-C869-4FB1-ADF2-4CB23F6B4CBA}"/>
+						<Event Name="UI_RoomScanning" ID="{4A6854D4-AD23-4360-9E0C-E20D449892D5}"/>
+						<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
