@@ -247,19 +247,150 @@
 				</Folder>
 				<Folder Name="UI" ID="{C6445BC8-63AB-4CDB-88A1-4A71B861341F}" ShortID="459901555">
 					<ChildrenList>
-						<Event Name="UI_Clic" ID="{9390CC21-495A-40F4-A854-59EDABC82D0F}"/>
-						<Event Name="UI_LinkHold" ID="{D4EBDBA6-B627-43DA-943C-88B2859B3324}"/>
-						<Event Name="UI_CanceledLink" ID="{E25CF0E7-5151-4738-94E9-7BC39BC3FE81}"/>
-						<Event Name="UI_ValidatedLink" ID="{600D6BAB-8611-4EE9-A490-537C2EA47190}"/>
-						<Event Name="UI_EnergyGaugeIncrease" ID="{BFA447B4-0D30-49BF-B58D-2ACBBF37FE8C}"/>
+						<Event Name="UI_Clic" ID="{9390CC21-495A-40F4-A854-59EDABC82D0F}">
+							<ChildrenList>
+								<Action Name="" ID="{92AAF615-3990-4B0D-82BE-07E3D63853D3}" ShortID="93885264">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Clic" ID="{37E1D1CD-FB92-4215-B75F-DB362820BB6A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_LinkHold" ID="{D4EBDBA6-B627-43DA-943C-88B2859B3324}">
+							<ChildrenList>
+								<Action Name="" ID="{E0534350-ED0F-4CE4-B2D0-C43547C512D3}" ShortID="508514067">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_CanceledLink" ID="{E25CF0E7-5151-4738-94E9-7BC39BC3FE81}">
+							<ChildrenList>
+								<Action Name="" ID="{97C699C6-064E-441A-A28D-C95BA6625ED1}" ShortID="148308834">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_CanceledLink" ID="{4EFE5046-A4AD-44CB-A07B-1C8438EA0446}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ValidatedLink" ID="{600D6BAB-8611-4EE9-A490-537C2EA47190}">
+							<ChildrenList>
+								<Action Name="" ID="{B03D82F6-ABCE-4994-BF3E-6F36A6CEBE73}" ShortID="24726125">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ValidatedLink" ID="{B4699772-6FB4-4918-9309-24E21F4A7AF6}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_EnergyGaugeIncrease" ID="{BFA447B4-0D30-49BF-B58D-2ACBBF37FE8C}">
+							<ChildrenList>
+								<Action Name="" ID="{85DE719C-93D9-405B-A8DE-0C21752D004E}" ShortID="396528800">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_EnergyGaugeIncrease2" ID="{1DEA8B1C-48A7-4CF0-8066-CD23D909C2FB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="UI_NotEnoughEnergy" ID="{E6096487-95D9-4E40-A806-CA558A4E36D7}"/>
-						<Event Name="UI_CrossedLink" ID="{857DBBC6-B38A-4EBD-9377-0C534DB5E241}"/>
+						<Event Name="UI_CrossedLink" ID="{857DBBC6-B38A-4EBD-9377-0C534DB5E241}">
+							<ChildrenList>
+								<Action Name="" ID="{E013805E-983D-4703-8032-D8ED10B9F065}" ShortID="1059887114">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_CrossedLink" ID="{8B00B2D3-D617-4523-9626-4A44A19183B7}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}"/>
 						<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}"/>
-						<Event Name="UI_CompletedMemory" ID="{11D9D706-8405-4FCA-AED0-57739B92119E}"/>
-						<Event Name="UI_NewMemoryAppear" ID="{42A508DC-C869-4FB1-ADF2-4CB23F6B4CBA}"/>
+						<Event Name="UI_CompletedMemory" ID="{11D9D706-8405-4FCA-AED0-57739B92119E}">
+							<ChildrenList>
+								<Action Name="" ID="{7BCF4AAC-5F61-4225-83D6-20E44D18316F}" ShortID="546084792">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_CompletedMemory" ID="{6558D133-3208-4FDF-9506-C208E3B6F4DE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_NewMemoryAppear" ID="{42A508DC-C869-4FB1-ADF2-4CB23F6B4CBA}">
+							<ChildrenList>
+								<Action Name="" ID="{29C7676F-AA3D-49CE-AE67-0ED36FF690ED}" ShortID="730865293">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_NewMemoryAppear" ID="{08B02CA3-DE44-43BA-AECF-88B670487BB8}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="UI_RoomScanning" ID="{4A6854D4-AD23-4360-9E0C-E20D449892D5}"/>
-						<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}"/>
+						<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}">
+							<ChildrenList>
+								<Action Name="" ID="{64F955E7-AF21-47AD-A3E0-98F09BE5C8CB}" ShortID="900069725">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_LaunchedGame" ID="{88B16DAB-72AE-47D5-A847-41328C8F8E99}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_UI_LinkHold" ID="{3F39C133-4864-487D-AB4B-A39FED78F6F4}">
+							<ChildrenList>
+								<Action Name="" ID="{9479B409-5805-424D-B2B6-BE764EEF6B35}" ShortID="198751906">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

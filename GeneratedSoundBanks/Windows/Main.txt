@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	8245926	Stop_UI_LinkHold			\Default Work Unit\UI\Stop_UI_LinkHold	
 	20648997	UI_MenuValidate			\Default Work Unit\UI\UI_MenuValidate	
 	107704913	UI_CrossedLink			\Default Work Unit\UI\UI_CrossedLink	
 	145059539	T_TemporalSegment			\Default Work Unit\Voices_off\T_TemporalSegment	
@@ -32,28 +33,29 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	27549576	FragmentLinkedContinue	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinkedContinue		2473636
-	75082783	DetectedFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\DetectedFragment		1484208
+	75082783	DetectedFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\4_5DF96315.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\DetectedFragment		1241204
 	122534204	UI_LinkHold	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LinkHold_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LinkHold		5292064
 	137442131	UI_Clic	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_Clic_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clic		352864
 	145172251	UI_CompletedMemory	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CompletedMemory_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CompletedMemory		705664
-	205144782	CommonAspect	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\13_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\CommonAspect		1731564
-	242932921	TwoLinkCrossed	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\16_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TwoLinkCrossed		1484208
-	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		1484208
+	167899328	UI_LaunchedGame	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LaunchedGame_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LaunchedGame		1764064
+	205144782	CommonAspect	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\13_43638E96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\CommonAspect		1396392
+	242932921	TwoLinkCrossed	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\16_803D850C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TwoLinkCrossed		1309336
+	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_08719083.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		1308200
 	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		1731564
 	355358120	UI_CanceledLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CanceledLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CanceledLink		882064
-	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		1978920
+	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_AB6757F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		1800264
 	477326027	ExploreRoom	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\10_911AF3B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ExploreRoom		839416
 	499495790	EnergyGauge	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\EnergyGauge		3710420
 	502551599	UI_CrossedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CrossedLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CrossedLink		264664
 	546718534	UI_ValidatedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_ValidatedLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_ValidatedLink		1058464
-	556873789	TargetAndClick	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TargetAndClick		1484208
+	556873789	TargetAndClick	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\11_5777A11A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TargetAndClick		1233256
 	692815848	Welcome	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Welcome		3957776
-	722810930	UI_EnergyGaugeIncrease	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease		2116864
-	744136607	MemorialFlow	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialFlow		989492
+	744136607	MemorialFlow	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\9_53D43E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialFlow		707880
 	796042685	FirstFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FirstFragment		1484208
 	826465953	SecondFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\6_97AD90B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\SecondFragment		1491396
 	862153232	UI_NewMemoryAppear	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_NewMemoryAppear_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_NewMemoryAppear		1587664
-	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		2226280
+	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_F227AD7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		1829412
 	982194692	ScanToMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\1_B75D7231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ScanToMove		1606848
-	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		1236852
+	1034502380	UI_EnergyGaugeIncrease2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease2		882064
+	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_80E89642.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		1051380
 
