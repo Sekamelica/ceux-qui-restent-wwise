@@ -26,6 +26,8 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
+				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\L1_S1_Faileube"/>
+				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\L1_S1bis_Hiltrude"/>
 				<Event Id="8245926" Name="Stop_UI_LinkHold" ObjectPath="\Events\Default Work Unit\UI\Stop_UI_LinkHold" MaxAttenuation="0.000000"/>
 				<Event Id="2016698951" Name="T_ActivLink" ObjectPath="\Events\Default Work Unit\Voices_off\T_ActivLink"/>
 				<Event Id="1158054437" Name="T_CommonAspect" ObjectPath="\Events\Default Work Unit\Voices_off\T_CommonAspect"/>
@@ -98,9 +100,17 @@
 					<ShortName>UI_CanceledLink.wav</ShortName>
 					<Path>SFX\UI_CanceledLink_1C9C67B2.wem</Path>
 				</File>
+				<File Id="360463851" Language="SFX">
+					<ShortName>Faileube2.wav</ShortName>
+					<Path>SFX\Faileube2_F17FB28C.wem</Path>
+				</File>
 				<File Id="366269584" Language="SFX">
 					<ShortName>17.wav</ShortName>
 					<Path>SFX\17_AB6757F9.wem</Path>
+				</File>
+				<File Id="392575075" Language="SFX">
+					<ShortName>Faileube1.wav</ShortName>
+					<Path>SFX\Faileube1_F17FB28C.wem</Path>
 				</File>
 				<File Id="477326027" Language="SFX">
 					<ShortName>10.wav</ShortName>
@@ -146,9 +156,17 @@
 					<ShortName>5.wav</ShortName>
 					<Path>SFX\5_F227AD7F.wem</Path>
 				</File>
+				<File Id="970387243" Language="SFX">
+					<ShortName>Hiltrude1.wav</ShortName>
+					<Path>SFX\Hiltrude1_F17FB28C.wem</Path>
+				</File>
 				<File Id="982194692" Language="SFX">
 					<ShortName>1.wav</ShortName>
 					<Path>SFX\1_B75D7231.wem</Path>
+				</File>
+				<File Id="989906786" Language="SFX">
+					<ShortName>Hiltrude2.wav</ShortName>
+					<Path>SFX\Hiltrude2_F17FB28C.wem</Path>
 				</File>
 				<File Id="1034502380" Language="SFX">
 					<ShortName>UI_EnergyGaugeIncrease2.wav</ShortName>

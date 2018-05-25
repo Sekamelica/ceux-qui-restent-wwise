@@ -622,14 +622,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Faileube1" ID="{A41BE251-9FEC-4CEC-B849-97AB37B5303C}" ShortID="208694729">
+								<Sound Name="Faileube1" ID="{492C21FE-7348-4990-BD52-AAAACF654FC9}" ShortID="930879102">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -640,28 +635,18 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Faileube1" ID="{FEFF5F8C-A574-4535-A207-037DB928B8A1}" ShortID="910660217">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.474841070322544"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.29712682624695"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.150559363760806"/>
-											</PropertyList>
+										<AudioFileSource Name="Faileube1" ID="{C2711819-6D66-446C-9DBF-9475E0C5FBE3}" ShortID="392575075">
 											<Language>SFX</Language>
 											<AudioFile>Faileube1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Faileube1" ID="{FEFF5F8C-A574-4535-A207-037DB928B8A1}" Platform="Linked"/>
+										<ActiveSource Name="Faileube1" ID="{C2711819-6D66-446C-9DBF-9475E0C5FBE3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Faileube2" ID="{48C0A7AE-65AC-452A-89DA-B21AE62F4EA2}" ShortID="12187741">
+								<Sound Name="Faileube2" ID="{6EF0FFCC-1CD7-4CF4-B59A-68E39D7E2C47}" ShortID="895062018">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -672,18 +657,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Faileube2" ID="{B902FFB3-70A2-4D86-909B-51A847D7D969}" ShortID="109376749">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.424897959183673"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.449478832855456"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.56184854106932"/>
-											</PropertyList>
+										<AudioFileSource Name="Faileube2" ID="{1B152123-8F2E-40FD-AEFD-F6DA594391F9}" ShortID="360463851">
 											<Language>SFX</Language>
 											<AudioFile>Faileube2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Faileube2" ID="{B902FFB3-70A2-4D86-909B-51A847D7D969}" Platform="Linked"/>
+										<ActiveSource Name="Faileube2" ID="{1B152123-8F2E-40FD-AEFD-F6DA594391F9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -747,18 +727,18 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="Faileube1" ID="{A41BE251-9FEC-4CEC-B849-97AB37B5303C}"/>
+											<ItemRef Name="Faileube1" ID="{492C21FE-7348-4990-BD52-AAAACF654FC9}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>56.0792773556231</RightEdgePos>
+												<RightEdgePos>56.6871800911854</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
-											<ItemRef Name="Faileube2" ID="{48C0A7AE-65AC-452A-89DA-B21AE62F4EA2}"/>
+											<ItemRef Name="Faileube2" ID="{6EF0FFCC-1CD7-4CF4-B59A-68E39D7E2C47}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>39.3923472644377</LeftEdgePos>
+												<LeftEdgePos>45.4713746200608</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -778,14 +758,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Hiltrude1" ID="{5F6C630D-0657-46A6-AC06-0A09567E2CBB}" ShortID="700856203">
+								<Sound Name="Hiltrude1" ID="{58955862-B443-4BB5-937A-DC17365BAE76}" ShortID="545403781">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -796,29 +771,18 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Hiltrude1" ID="{CF4402BF-E4B1-4056-BD31-7B4CE5F19913}" ShortID="43384676">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.453868568180256"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.67597446324719"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.704944797386356"/>
-												<Property Name="TrimEnd" Type="Real64" Value="16.4841201251851"/>
-											</PropertyList>
+										<AudioFileSource Name="Hiltrude1" ID="{6CD0BC90-0A6B-43B2-BBE9-64D04A17FEDF}" ShortID="970387243">
 											<Language>SFX</Language>
 											<AudioFile>Hiltrude1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Hiltrude1" ID="{CF4402BF-E4B1-4056-BD31-7B4CE5F19913}" Platform="Linked"/>
+										<ActiveSource Name="Hiltrude1" ID="{6CD0BC90-0A6B-43B2-BBE9-64D04A17FEDF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Hiltrude2" ID="{D457F0A9-5961-48FC-9366-E777088F6E73}" ShortID="1016942648">
+								<Sound Name="Hiltrude2" ID="{26A3665D-CAAA-44F0-9857-9846CEB33907}" ShortID="719880038">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -829,19 +793,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Hiltrude2" ID="{601A67C3-2756-451B-B070-3D4BEE9E3267}" ShortID="1058636788">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.505663686962388"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.747960870298533"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.563604317760162"/>
-												<Property Name="TrimEnd" Type="Real64" Value="7.48487603305785"/>
-											</PropertyList>
+										<AudioFileSource Name="Hiltrude2" ID="{3F6D06AF-D05B-4C4B-B0B4-642FDDB74413}" ShortID="989906786">
 											<Language>SFX</Language>
 											<AudioFile>Hiltrude2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Hiltrude2" ID="{601A67C3-2756-451B-B070-3D4BEE9E3267}" Platform="Linked"/>
+										<ActiveSource Name="Hiltrude2" ID="{3F6D06AF-D05B-4C4B-B0B4-642FDDB74413}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -890,18 +848,18 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="Hiltrude1" ID="{5F6C630D-0657-46A6-AC06-0A09567E2CBB}"/>
+											<ItemRef Name="Hiltrude1" ID="{58955862-B443-4BB5-937A-DC17365BAE76}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>57.5990341945289</RightEdgePos>
+												<RightEdgePos>63.0701588145897</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
-											<ItemRef Name="Hiltrude2" ID="{D457F0A9-5961-48FC-9366-E777088F6E73}"/>
+											<ItemRef Name="Hiltrude2" ID="{26A3665D-CAAA-44F0-9857-9846CEB33907}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>38.1765417933131</LeftEdgePos>
+												<LeftEdgePos>49.726693768997</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>

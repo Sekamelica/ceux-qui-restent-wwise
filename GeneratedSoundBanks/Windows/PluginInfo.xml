@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="CeuxQuiRestent - WWiseProject" Platform="Windows" BasePlatform="Windows">
-	<Plugins/>
+	<Plugins>
+		<Plugin Name="Wwise Recorder" ID="8650755" DLL="AkRecorder"/>
+	</Plugins>
 </PluginInfo>

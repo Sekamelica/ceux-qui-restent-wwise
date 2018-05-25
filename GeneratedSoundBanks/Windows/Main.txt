@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	783952308	H_OptimizeMove			\Default Work Unit\Voices_off\H_OptimizeMove	
 	811615621	UI_NotEnoughEnergy			\Default Work Unit\UI\UI_NotEnoughEnergy	
 	823617801	UI_MenuReturn			\Default Work Unit\UI\UI_MenuReturn	
+	1109362563	L1_S1_Faileube			\Default Work Unit\Souvenirs\L1_S1_Faileube	
 	1158054437	T_CommonAspect			\Default Work Unit\Voices_off\T_CommonAspect	
 	1170520947	UI_CanceledLink			\Default Work Unit\UI\UI_CanceledLink	
 	1192864647	UI_EnergyGaugeIncrease			\Default Work Unit\UI\UI_EnergyGaugeIncrease	
@@ -28,8 +29,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3389379746	T_SecondFragment			\Default Work Unit\Voices_off\T_SecondFragment	
 	3534651088	H_DetectedFragment			\Default Work Unit\Voices_off\H_DetectedFragment	
 	3570630340	UI_CompletedMemory			\Default Work Unit\UI\UI_CompletedMemory	
+	3672070969	L1_S1bis_Hiltrude			\Default Work Unit\Souvenirs\L1_S1bis_Hiltrude	
 	4076284683	UI_Clic			\Default Work Unit\UI\UI_Clic	
 	4278458338	UI_NewMemoryAppear			\Default Work Unit\UI\UI_NewMemoryAppear	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1584861493	S1			\Default Work Unit\S1	
+	1584861494	s2			\Default Work Unit\s2	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	27549576	FragmentLinkedContinue	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinkedContinue		2473636
@@ -43,7 +49,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_08719083.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		1308200
 	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		1731564
 	355358120	UI_CanceledLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CanceledLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CanceledLink		882064
+	360463851	Faileube2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1_Faileube\Faileube2		1124344
 	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_AB6757F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		1800264
+	392575075	Faileube1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1_Faileube\Faileube1		2670232
 	477326027	ExploreRoom	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\10_911AF3B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ExploreRoom		839416
 	499495790	EnergyGauge	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\EnergyGauge		3710420
 	502551599	UI_CrossedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CrossedLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CrossedLink		264664
@@ -55,7 +63,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	826465953	SecondFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\6_97AD90B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\SecondFragment		1491396
 	862153232	UI_NewMemoryAppear	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_NewMemoryAppear_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_NewMemoryAppear		1587664
 	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_F227AD7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		1829412
+	970387243	Hiltrude1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1bis_Hiltrude\Hiltrude1		2670232
 	982194692	ScanToMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\1_B75D7231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ScanToMove		1606848
+	989906786	Hiltrude2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1bis_Hiltrude\Hiltrude2		1124344
 	1034502380	UI_EnergyGaugeIncrease2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease2		882064
 	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_80E89642.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		1051380
 
