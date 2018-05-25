@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{E57409CC-EDE9-4A54-ACDA-217FBCB90E81}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" WorkUnitID="{AFD1D269-B450-4929-B7BF-01E0D7A78761}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Voices_off" ID="{300738FD-7E51-473E-ADC1-CD8EDFE0BE18}" WorkUnitID="{AFD1D269-B450-4929-B7BF-01E0D7A78761}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI" ID="{C6445BC8-63AB-4CDB-88A1-4A71B861341F}" WorkUnitID="{AFD1D269-B450-4929-B7BF-01E0D7A78761}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

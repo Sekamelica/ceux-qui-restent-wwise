@@ -393,6 +393,38 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" ShortID="64487822">
+					<ChildrenList>
+						<Event Name="L1_S1bis_Hiltrude" ID="{B87A8568-A732-45B5-9BD1-68A2C44795B1}">
+							<ChildrenList>
+								<Action Name="" ID="{1E735378-66F1-43DA-98D6-72F803D23C18}" ShortID="315548601">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L1_S1_Faileube" ID="{A0222CC5-E5DD-43EA-A404-9801B70BA6F1}">
+							<ChildrenList>
+								<Action Name="" ID="{5E60A231-ABC3-4A3C-8A0C-F44CA929B37C}" ShortID="1032642767">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

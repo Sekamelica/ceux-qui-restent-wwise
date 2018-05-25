@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1119552564" DateHigh="30667429"/>
+	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="885446926" DateHigh="30667691"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2934232299" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2934272406" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Attenuations\Default Work Unit.wwu" DateLow="2934287510" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Audio Devices\Default Work Unit.wwu" DateLow="2934297481" DateHigh="30666605"/>
-	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\CeuxQuiRestent - WWiseProject.marie.wsettings" DateLow="1173412440" DateHigh="30667429"/>
+	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\CeuxQuiRestent - WWiseProject.marie.wsettings" DateLow="2800958896" DateHigh="30667691"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\CeuxQuiRestent - WWiseProject.wproj" DateLow="2856256627" DateHigh="30667465"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Control Surface Sessions\Default Work Unit.wwu" DateLow="2936379354" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Conversion Settings\Default Work Unit.wwu" DateLow="2936721942" DateHigh="30666605"/>
@@ -22,8 +22,8 @@
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2936882667" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2936886524" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Effects\Factory McDSP Effects.wwu" DateLow="2936846387" DateHigh="30666605"/>
-	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Events\Default Work Unit.wwu" DateLow="2373519613" DateHigh="30667405"/>
-	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Game Parameters\Default Work Unit.wwu" DateLow="2936906611" DateHigh="30666605"/>
+	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Events\Default Work Unit.wwu" DateLow="2748559898" DateHigh="30667691"/>
+	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Game Parameters\Default Work Unit.wwu" DateLow="1600373292" DateHigh="30667687"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2936916766" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2941514663" DateHigh="30666605"/>
 	<ValidationCacheItem File="D:\CeuxQuiRestent-Wwsise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2941539721" DateHigh="30666605"/>
