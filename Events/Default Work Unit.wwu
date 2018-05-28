@@ -5,20 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Voices_off" ID="{300738FD-7E51-473E-ADC1-CD8EDFE0BE18}" ShortID="759773348">
 					<ChildrenList>
-						<Event Name="T_ScanToMove" ID="{C982FAA4-666A-4D59-8D3D-197A620300A9}">
-							<ChildrenList>
-								<Action Name="" ID="{E1F7078C-6358-4566-83FB-39C224BF1C71}" ShortID="152324677">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ScanToMove" ID="{A2A58229-4734-43F2-B391-9A6107706412}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="T_Welcome" ID="{A25E874D-0C78-4870-86AA-4B94EA7991AE}">
 							<ChildrenList>
 								<Action Name="" ID="{41C32C9D-FDB9-4267-BFFD-908D4FBBC115}" ShortID="279838837">
@@ -243,6 +229,76 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MT_MemorialEventCompleted" ID="{D94BE211-A7C8-4929-A811-2BBA1733E7B5}">
+							<ChildrenList>
+								<Action Name="" ID="{D8862C6A-7AD1-4865-9A0D-2DFAD55A2CF4}" ShortID="317134060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MemorialEventCompleted" ID="{A849B647-EBDA-4C56-97B2-C02F07EF242E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MT_PortalTimeTravelwav" ID="{DB0D5535-6175-412E-9B38-BBE2A38326E5}">
+							<ChildrenList>
+								<Action Name="" ID="{16644D2E-76B1-4B6D-94C9-497281755C75}" ShortID="1012448108">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PortalTimeTravelwav" ID="{3B3B41B0-296F-4F0C-8808-1CDA1C99DD44}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MT_NextTemporalSegment" ID="{8BB6D5C2-9903-4F2A-9927-42E69B6FE551}">
+							<ChildrenList>
+								<Action Name="" ID="{4079E338-45F7-403A-BBEB-E69BD27802FF}" ShortID="955887404">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NextTemporalSegment" ID="{8D504BAB-C8AA-4A5F-8836-B93AC5D6E61A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MT_AllLinkToUnlock" ID="{E4D7B0B6-E238-41DD-A2B3-2626182FC9B9}">
+							<ChildrenList>
+								<Action Name="" ID="{B1C030AD-5086-442F-A519-9C0A3EDF7F61}" ShortID="177571785">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AllLinkToUnlock" ID="{28917FEB-BD0A-44B7-BA44-285DBD8EEF44}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="T_ScanToMove" ID="{01B8AF86-3B0D-42DB-B8CE-6C92D9815820}">
+							<ChildrenList>
+								<Action Name="" ID="{E63148DB-197F-4E09-B185-68B309694B4D}" ShortID="304481212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScanToMove" ID="{A4549972-76B2-4597-A451-5F5F24EF3A18}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{C6445BC8-63AB-4CDB-88A1-4A71B861341F}" ShortID="459901555">
@@ -395,34 +451,172 @@
 				</Folder>
 				<Folder Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" ShortID="64487822">
 					<ChildrenList>
-						<Event Name="L1_S1bis_Hiltrude" ID="{B87A8568-A732-45B5-9BD1-68A2C44795B1}">
+						<Folder Name="Layer_1" ID="{F659A770-EA5C-45E6-95D2-487E20F49F1A}" ShortID="749117969">
 							<ChildrenList>
-								<Action Name="" ID="{1E735378-66F1-43DA-98D6-72F803D23C18}" ShortID="315548601">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="L1_S1_Faileube" ID="{A0222CC5-E5DD-43EA-A404-9801B70BA6F1}">
+									<ChildrenList>
+										<Action Name="" ID="{5E60A231-ABC3-4A3C-8A0C-F44CA929B37C}" ShortID="1032642767">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L1_S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L1_S1bis_Hiltrude" ID="{B87A8568-A732-45B5-9BD1-68A2C44795B1}">
+									<ChildrenList>
+										<Action Name="" ID="{1E735378-66F1-43DA-98D6-72F803D23C18}" ShortID="315548601">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L1_S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L1_S3_Kimberley" ID="{18AE6DBB-7CC0-4914-9639-F864B33885A9}">
+									<ChildrenList>
+										<Action Name="" ID="{998F2234-073F-4100-9809-400D35D5E074}" ShortID="496611166">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L1_S3_Kimberley" ID="{2E47B395-DE31-46F1-99DD-46A1323F5F95}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L1_S3bis_Jessica" ID="{1F07C9E1-B1A9-410A-9A50-0EB46F07855E}">
+									<ChildrenList>
+										<Action Name="" ID="{458F4630-D60E-474A-9A9D-FE35F2CE3F01}" ShortID="1053670979">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L1_S3bis_Jessica" ID="{20F82768-1E92-44D1-8EE2-A26D6D447AE0}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="L1_S1_Faileube" ID="{A0222CC5-E5DD-43EA-A404-9801B70BA6F1}">
+						</Folder>
+						<Folder Name="Layer_2" ID="{30DFC41D-6CAD-4E13-82AF-DDA8C4D13D56}" ShortID="248615852">
 							<ChildrenList>
-								<Action Name="" ID="{5E60A231-ABC3-4A3C-8A0C-F44CA929B37C}" ShortID="1032642767">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="L2_S5_Kimberley" ID="{9F7BBC88-1643-4447-8F3A-E0BD312C3C5C}">
+									<ChildrenList>
+										<Action Name="" ID="{10F9D2E1-FCE4-4688-80EF-2364F032A548}" ShortID="722252672">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S5_Kimberley" ID="{3BFA903A-791A-49CC-B2F7-0D4FA1635E31}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L2_S5bis_Jessica" ID="{FDA3A509-5B0D-4E22-B7C8-E51B360458D6}">
+									<ChildrenList>
+										<Action Name="" ID="{679349E7-20CA-4DF2-9583-604A6741E888}" ShortID="191402583">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S5bis_Jessica" ID="{CC1FC9D4-9489-4A5C-BF58-3A7AFDEF390E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L2_S1_Bulied" ID="{20983C2C-934E-4045-856C-2B4884C381D6}">
+									<ChildrenList>
+										<Action Name="" ID="{5EBE279B-4953-4ABE-97E9-5FFC87C2A0A1}" ShortID="897788838">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S1_Bulied" ID="{BBCFE4DA-88D0-4E8E-B5AE-9A614F541478}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L2_S1bis_Prof" ID="{4CB77B0F-6424-49AA-B758-7C23369D4D11}">
+									<ChildrenList>
+										<Action Name="" ID="{EC5BFB8B-731B-429C-830F-122A59C844B3}" ShortID="1004077591">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S1bis_Prof" ID="{DC84BC8F-5D89-470C-B1C2-7C93BE40ED67}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L2_S4bis_Faileube" ID="{D0D5BBCD-76E5-44B2-B1C4-1083C73127F8}">
+									<ChildrenList>
+										<Action Name="" ID="{FF7F8348-96EA-465B-892B-26447BBBEA09}" ShortID="680871413">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S4bis_Faileube" ID="{2FDB00FB-751D-413C-A6CA-7D3877BC6A34}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="L2_S2_Hiltrude" ID="{BDD44327-44E3-4BD8-9B56-53473DFE2370}">
+									<ChildrenList>
+										<Action Name="" ID="{8131B84A-3981-49BA-B703-ADA1421126FF}" ShortID="272406760">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L2_S2_Hiltrude" ID="{FA016089-682C-498A-9F1F-E86D68C3AC51}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
+						</Folder>
+						<Folder Name="Layer_3" ID="{EAAD99A0-4526-4432-8B64-BC400C563FFC}" ShortID="852496919">
+							<ChildrenList>
+								<Event Name="L3_S_Kimberley" ID="{CA323480-6BC5-4A61-ADD6-616C047CF5BB}">
+									<ChildrenList>
+										<Action Name="" ID="{F52F82BF-1A4A-4A36-BCA0-703F5A16058A}" ShortID="1069584495">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="L3_S_Kimberley" ID="{855DEB1D-B678-494F-A69B-7F5DEBE0DEFC}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

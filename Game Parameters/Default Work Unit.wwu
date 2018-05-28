@@ -3,12 +3,21 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}">
+				<GameParameter Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="s2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+				<GameParameter Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+				<GameParameter Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
+				<GameParameter Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
+				<GameParameter Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
+				<GameParameter Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}"/>
+				<GameParameter Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
+				<GameParameter Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}"/>
+				<GameParameter Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
+				<GameParameter Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
+				<GameParameter Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

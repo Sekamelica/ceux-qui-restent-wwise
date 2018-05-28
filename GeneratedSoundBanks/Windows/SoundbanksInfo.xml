@@ -26,8 +26,21 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
-				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\L1_S1_Faileube"/>
-				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\L1_S1bis_Hiltrude"/>
+				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube"/>
+				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude"/>
+				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley"/>
+				<Event Id="1703812330" Name="L1_S3bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica"/>
+				<Event Id="3580943744" Name="L2_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied"/>
+				<Event Id="2118163114" Name="L2_S1bis_Prof" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof"/>
+				<Event Id="2978427643" Name="L2_S2_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude"/>
+				<Event Id="2275206775" Name="L2_S4bis_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube"/>
+				<Event Id="1296166473" Name="L2_S5_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley"/>
+				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica"/>
+				<Event Id="161012643" Name="L3_S_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley"/>
+				<Event Id="2267869345" Name="MT_AllLinkToUnlock" ObjectPath="\Events\Default Work Unit\Voices_off\MT_AllLinkToUnlock"/>
+				<Event Id="2559020516" Name="MT_MemorialEventCompleted" ObjectPath="\Events\Default Work Unit\Voices_off\MT_MemorialEventCompleted"/>
+				<Event Id="841373355" Name="MT_NextTemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\MT_NextTemporalSegment"/>
+				<Event Id="2450596334" Name="MT_PortalTimeTravelwav" ObjectPath="\Events\Default Work Unit\Voices_off\MT_PortalTimeTravelwav"/>
 				<Event Id="8245926" Name="Stop_UI_LinkHold" ObjectPath="\Events\Default Work Unit\UI\Stop_UI_LinkHold" MaxAttenuation="0.000000"/>
 				<Event Id="2016698951" Name="T_ActivLink" ObjectPath="\Events\Default Work Unit\Voices_off\T_ActivLink"/>
 				<Event Id="1158054437" Name="T_CommonAspect" ObjectPath="\Events\Default Work Unit\Voices_off\T_CommonAspect"/>
@@ -56,125 +69,213 @@
 				<Event Id="1853066436" Name="UI_ValidatedLink" ObjectPath="\Events\Default Work Unit\UI\UI_ValidatedLink"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="11012546" Language="SFX">
+					<ShortName>Kimberley1_2.wav</ShortName>
+					<Path>SFX\Kimberley1_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="27549576" Language="SFX">
 					<ShortName>8.wav</ShortName>
-					<Path>SFX\8_1C9C67B2.wem</Path>
+					<Path>SFX\8_67E2B650.wem</Path>
+				</File>
+				<File Id="45780680" Language="SFX">
+					<ShortName>Kimberley02.wav</ShortName>
+					<Path>SFX\Kimberley02_E5C86A8A.wem</Path>
 				</File>
 				<File Id="75082783" Language="SFX">
 					<ShortName>4.wav</ShortName>
-					<Path>SFX\4_5DF96315.wem</Path>
+					<Path>SFX\4_89E6557F.wem</Path>
+				</File>
+				<File Id="93432607" Language="SFX">
+					<ShortName>Kimberley1_1.wav</ShortName>
+					<Path>SFX\Kimberley1_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="122534204" Language="SFX">
 					<ShortName>UI_LinkHold.wav</ShortName>
-					<Path>SFX\UI_LinkHold_1C9C67B2.wem</Path>
+					<Path>SFX\UI_LinkHold_F7D0E330.wem</Path>
 				</File>
 				<File Id="137442131" Language="SFX">
 					<ShortName>UI_Clic.wav</ShortName>
-					<Path>SFX\UI_Clic_1C9C67B2.wem</Path>
+					<Path>SFX\UI_Clic_F7D0E330.wem</Path>
 				</File>
 				<File Id="145172251" Language="SFX">
 					<ShortName>UI_CompletedMemory.wav</ShortName>
-					<Path>SFX\UI_CompletedMemory_1C9C67B2.wem</Path>
+					<Path>SFX\UI_CompletedMemory_F7D0E330.wem</Path>
 				</File>
 				<File Id="167899328" Language="SFX">
 					<ShortName>UI_LaunchedGame.wav</ShortName>
-					<Path>SFX\UI_LaunchedGame_1C9C67B2.wem</Path>
+					<Path>SFX\UI_LaunchedGame_F7D0E330.wem</Path>
 				</File>
 				<File Id="205144782" Language="SFX">
 					<ShortName>13.wav</ShortName>
-					<Path>SFX\13_43638E96.wem</Path>
+					<Path>SFX\13_D0C59264.wem</Path>
+				</File>
+				<File Id="232342401" Language="SFX">
+					<ShortName>Faileube01.wav</ShortName>
+					<Path>SFX\Faileube01_E5C86A8A.wem</Path>
 				</File>
 				<File Id="242932921" Language="SFX">
 					<ShortName>16.wav</ShortName>
-					<Path>SFX\16_803D850C.wem</Path>
+					<Path>SFX\16_DA6B3CBE.wem</Path>
 				</File>
 				<File Id="289776262" Language="SFX">
 					<ShortName>15.wav</ShortName>
-					<Path>SFX\15_08719083.wem</Path>
+					<Path>SFX\15_EAC7E251.wem</Path>
+				</File>
+				<File Id="301323027" Language="SFX">
+					<ShortName>Kimberley01.wav</ShortName>
+					<Path>SFX\Kimberley01_E5C86A8A.wem</Path>
+				</File>
+				<File Id="316555328" Language="SFX">
+					<ShortName>MT_MemorialEventCompleted.wav</ShortName>
+					<Path>SFX\MT_MemorialEventCompleted_67E2B650.wem</Path>
+				</File>
+				<File Id="338302265" Language="SFX">
+					<ShortName>Jessica02.wav</ShortName>
+					<Path>SFX\Jessica02_E5C86A8A.wem</Path>
 				</File>
 				<File Id="344658013" Language="SFX">
 					<ShortName>12.wav</ShortName>
-					<Path>SFX\12_1C9C67B2.wem</Path>
+					<Path>SFX\12_67E2B650.wem</Path>
 				</File>
 				<File Id="355358120" Language="SFX">
 					<ShortName>UI_CanceledLink.wav</ShortName>
-					<Path>SFX\UI_CanceledLink_1C9C67B2.wem</Path>
+					<Path>SFX\UI_CanceledLink_F7D0E330.wem</Path>
 				</File>
 				<File Id="360463851" Language="SFX">
 					<ShortName>Faileube2.wav</ShortName>
-					<Path>SFX\Faileube2_F17FB28C.wem</Path>
+					<Path>SFX\Faileube2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="365653220" Language="SFX">
+					<ShortName>MT_NextTemporalSegment.wav</ShortName>
+					<Path>SFX\MT_NextTemporalSegment_67E2B650.wem</Path>
 				</File>
 				<File Id="366269584" Language="SFX">
 					<ShortName>17.wav</ShortName>
-					<Path>SFX\17_AB6757F9.wem</Path>
+					<Path>SFX\17_5E35B73B.wem</Path>
 				</File>
 				<File Id="392575075" Language="SFX">
 					<ShortName>Faileube1.wav</ShortName>
-					<Path>SFX\Faileube1_F17FB28C.wem</Path>
+					<Path>SFX\Faileube1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="393332622" Language="SFX">
+					<ShortName>Kimberley1.wav</ShortName>
+					<Path>SFX\Kimberley1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="404746055" Language="SFX">
+					<ShortName>Jessica01.wav</ShortName>
+					<Path>SFX\Jessica01_E5C86A8A.wem</Path>
+				</File>
+				<File Id="438983640" Language="SFX">
+					<ShortName>T_ScanToMove.wav</ShortName>
+					<Path>SFX\T_ScanToMove_67E2B650.wem</Path>
 				</File>
 				<File Id="477326027" Language="SFX">
 					<ShortName>10.wav</ShortName>
-					<Path>SFX\10_911AF3B1.wem</Path>
+					<Path>SFX\10_87531767.wem</Path>
 				</File>
 				<File Id="499495790" Language="SFX">
 					<ShortName>14.wav</ShortName>
-					<Path>SFX\14_1C9C67B2.wem</Path>
+					<Path>SFX\14_67E2B650.wem</Path>
 				</File>
 				<File Id="502551599" Language="SFX">
 					<ShortName>UI_CrossedLink.wav</ShortName>
-					<Path>SFX\UI_CrossedLink_1C9C67B2.wem</Path>
+					<Path>SFX\UI_CrossedLink_F7D0E330.wem</Path>
+				</File>
+				<File Id="525826744" Language="SFX">
+					<ShortName>Hiltrude02.wav</ShortName>
+					<Path>SFX\Hiltrude02_E5C86A8A.wem</Path>
 				</File>
 				<File Id="546718534" Language="SFX">
 					<ShortName>UI_ValidatedLink.wav</ShortName>
-					<Path>SFX\UI_ValidatedLink_1C9C67B2.wem</Path>
+					<Path>SFX\UI_ValidatedLink_F7D0E330.wem</Path>
 				</File>
 				<File Id="556873789" Language="SFX">
 					<ShortName>11.wav</ShortName>
-					<Path>SFX\11_5777A11A.wem</Path>
+					<Path>SFX\11_BF070F80.wem</Path>
+				</File>
+				<File Id="584400812" Language="SFX">
+					<ShortName>Bulied2.wav</ShortName>
+					<Path>SFX\Bulied2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="587864672" Language="SFX">
+					<ShortName>Bulied1.wav</ShortName>
+					<Path>SFX\Bulied1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="641076956" Language="SFX">
+					<ShortName>Kimberley2.wav</ShortName>
+					<Path>SFX\Kimberley2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="671099887" Language="SFX">
+					<ShortName>Faileube02.wav</ShortName>
+					<Path>SFX\Faileube02_E5C86A8A.wem</Path>
 				</File>
 				<File Id="692815848" Language="SFX">
 					<ShortName>2.wav</ShortName>
-					<Path>SFX\2_1C9C67B2.wem</Path>
+					<Path>SFX\2_67E2B650.wem</Path>
+				</File>
+				<File Id="700737039" Language="SFX">
+					<ShortName>Jessica2.wav</ShortName>
+					<Path>SFX\Jessica2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="703201140" Language="SFX">
+					<ShortName>Prof1.wav</ShortName>
+					<Path>SFX\Prof1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="744136607" Language="SFX">
 					<ShortName>9.wav</ShortName>
-					<Path>SFX\9_53D43E5A.wem</Path>
+					<Path>SFX\9_99F97994.wem</Path>
 				</File>
 				<File Id="796042685" Language="SFX">
 					<ShortName>3.wav</ShortName>
-					<Path>SFX\3_1C9C67B2.wem</Path>
+					<Path>SFX\3_67E2B650.wem</Path>
+				</File>
+				<File Id="813673417" Language="SFX">
+					<ShortName>Hiltrude01.wav</ShortName>
+					<Path>SFX\Hiltrude01_E5C86A8A.wem</Path>
 				</File>
 				<File Id="826465953" Language="SFX">
 					<ShortName>6.wav</ShortName>
-					<Path>SFX\6_97AD90B6.wem</Path>
+					<Path>SFX\6_5EFE8F5C.wem</Path>
 				</File>
 				<File Id="862153232" Language="SFX">
 					<ShortName>UI_NewMemoryAppear.wav</ShortName>
-					<Path>SFX\UI_NewMemoryAppear_1C9C67B2.wem</Path>
+					<Path>SFX\UI_NewMemoryAppear_F7D0E330.wem</Path>
+				</File>
+				<File Id="951015451" Language="SFX">
+					<ShortName>Jessica1.wav</ShortName>
+					<Path>SFX\Jessica1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="953926837" Language="SFX">
 					<ShortName>5.wav</ShortName>
-					<Path>SFX\5_F227AD7F.wem</Path>
+					<Path>SFX\5_B25D6D25.wem</Path>
 				</File>
 				<File Id="970387243" Language="SFX">
 					<ShortName>Hiltrude1.wav</ShortName>
-					<Path>SFX\Hiltrude1_F17FB28C.wem</Path>
+					<Path>SFX\Hiltrude1_E5C86A8A.wem</Path>
 				</File>
-				<File Id="982194692" Language="SFX">
-					<ShortName>1.wav</ShortName>
-					<Path>SFX\1_B75D7231.wem</Path>
+				<File Id="986374349" Language="SFX">
+					<ShortName>MT_PortalTimeTravelwav.wav</ShortName>
+					<Path>SFX\MT_PortalTimeTravelwav_67E2B650.wem</Path>
 				</File>
 				<File Id="989906786" Language="SFX">
 					<ShortName>Hiltrude2.wav</ShortName>
-					<Path>SFX\Hiltrude2_F17FB28C.wem</Path>
+					<Path>SFX\Hiltrude2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="1003056049" Language="SFX">
+					<ShortName>Prof2.wav</ShortName>
+					<Path>SFX\Prof2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="1021121329" Language="SFX">
+					<ShortName>TM_AllLinkToUnlock.wav</ShortName>
+					<Path>SFX\TM_AllLinkToUnlock_67E2B650.wem</Path>
 				</File>
 				<File Id="1034502380" Language="SFX">
 					<ShortName>UI_EnergyGaugeIncrease2.wav</ShortName>
-					<Path>SFX\UI_EnergyGaugeIncrease2_1C9C67B2.wem</Path>
+					<Path>SFX\UI_EnergyGaugeIncrease2_F7D0E330.wem</Path>
 				</File>
 				<File Id="1042471997" Language="SFX">
 					<ShortName>7.wav</ShortName>
-					<Path>SFX\7_80E89642.wem</Path>
+					<Path>SFX\7_AFF0868C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

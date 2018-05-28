@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{031A6AE6-5F0D-4375-AFB6-0F9CD28B1FAF}" SchemaVersion="80">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{031A6AE6-5F0D-4375-AFB6-0F9CD28B1FAF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{031A6AE6-5F0D-4375-AFB6-0F9CD28B1FAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{196E9262-E3A6-4FEB-8AED-0684B99747CB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="L1_S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Clic" ID="{37E1D1CD-FB92-4215-B75F-DB362820BB6A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MemorialFlow" ID="{A6B9DF43-86E3-48B1-B5EF-50B9045A2440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
+							<Value>65.6534954407295</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
+							<Value>50.854103343465</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
+							<Value>30.3677811550152</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
+							<Value>67.1215805471125</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
+							<Value>84.3065896656535</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}"/>
+							<Value>18.4711246200608</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+							<Value>34</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}"/>
+							<Value>26.4437689969605</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
+							<Value>81.1185410334347</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
+							<Value>71.5835866261398</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
+							<Value>19.7568389057751</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

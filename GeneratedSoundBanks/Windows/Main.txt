@@ -3,69 +3,113 @@ Event	ID	Name			Wwise Object Path	Notes
 	20648997	UI_MenuValidate			\Default Work Unit\UI\UI_MenuValidate	
 	107704913	UI_CrossedLink			\Default Work Unit\UI\UI_CrossedLink	
 	145059539	T_TemporalSegment			\Default Work Unit\Voices_off\T_TemporalSegment	
+	161012643	L3_S_Kimberley			\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley	
 	296874062	T_FragmentLinkedContinue			\Default Work Unit\Voices_off\T_FragmentLinkedContinue	
 	525151809	T_FragmentLinked			\Default Work Unit\Voices_off\T_FragmentLinked	
 	781812845	T_ScanToMove			\Default Work Unit\Voices_off\T_ScanToMove	
 	783952308	H_OptimizeMove			\Default Work Unit\Voices_off\H_OptimizeMove	
 	811615621	UI_NotEnoughEnergy			\Default Work Unit\UI\UI_NotEnoughEnergy	
 	823617801	UI_MenuReturn			\Default Work Unit\UI\UI_MenuReturn	
-	1109362563	L1_S1_Faileube			\Default Work Unit\Souvenirs\L1_S1_Faileube	
+	841373355	MT_NextTemporalSegment			\Default Work Unit\Voices_off\MT_NextTemporalSegment	
+	1109362563	L1_S1_Faileube			\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube	
+	1147430746	L1_S3_Kimberley			\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley	
 	1158054437	T_CommonAspect			\Default Work Unit\Voices_off\T_CommonAspect	
 	1170520947	UI_CanceledLink			\Default Work Unit\UI\UI_CanceledLink	
 	1192864647	UI_EnergyGaugeIncrease			\Default Work Unit\UI\UI_EnergyGaugeIncrease	
 	1195339271	H_TwoLinkCrossed			\Default Work Unit\Voices_off\H_TwoLinkCrossed	
+	1296166473	L2_S5_Kimberley			\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley	
 	1326074304	T_LinkTwoFragment			\Default Work Unit\Voices_off\T_LinkTwoFragment	
 	1438124155	T_EnergyGauge			\Default Work Unit\Voices_off\T_EnergyGauge	
 	1450671466	H_ExploreRoom			\Default Work Unit\Voices_off\H_ExploreRoom	
 	1530286288	T_FirstFragment			\Default Work Unit\Voices_off\T_FirstFragment	
+	1703812330	L1_S3bis_Jessica			\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica	
 	1834850122	T_Welcome			\Default Work Unit\Voices_off\T_Welcome	
 	1853066436	UI_ValidatedLink			\Default Work Unit\UI\UI_ValidatedLink	
 	2016698951	T_ActivLink			\Default Work Unit\Voices_off\T_ActivLink	
+	2118163114	L2_S1bis_Prof			\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof	
 	2138475376	H_TargetAndClick			\Default Work Unit\Voices_off\H_TargetAndClick	
+	2267869345	MT_AllLinkToUnlock			\Default Work Unit\Voices_off\MT_AllLinkToUnlock	
+	2275206775	L2_S4bis_Faileube			\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube	
+	2450596334	MT_PortalTimeTravelwav			\Default Work Unit\Voices_off\MT_PortalTimeTravelwav	
+	2559020516	MT_MemorialEventCompleted			\Default Work Unit\Voices_off\MT_MemorialEventCompleted	
 	2567115677	UI_LinkHold			\Default Work Unit\UI\UI_LinkHold	
 	2697614442	UI_RoomScanning			\Default Work Unit\UI\UI_RoomScanning	
+	2978427643	L2_S2_Hiltrude			\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude	
 	3038282616	T_MemorialFlow			\Default Work Unit\Voices_off\T_MemorialFlow	
 	3276648742	UI_LaunchedGame			\Default Work Unit\UI\UI_LaunchedGame	
 	3389379746	T_SecondFragment			\Default Work Unit\Voices_off\T_SecondFragment	
 	3534651088	H_DetectedFragment			\Default Work Unit\Voices_off\H_DetectedFragment	
 	3570630340	UI_CompletedMemory			\Default Work Unit\UI\UI_CompletedMemory	
-	3672070969	L1_S1bis_Hiltrude			\Default Work Unit\Souvenirs\L1_S1bis_Hiltrude	
+	3580943744	L2_S1_Bulied			\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied	
+	3672070969	L1_S1bis_Hiltrude			\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude	
+	4026608243	L2_S5bis_Jessica			\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica	
 	4076284683	UI_Clic			\Default Work Unit\UI\UI_Clic	
 	4278458338	UI_NewMemoryAppear			\Default Work Unit\UI\UI_NewMemoryAppear	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1584861493	S1			\Default Work Unit\S1	
-	1584861494	s2			\Default Work Unit\s2	
+	263949284	L2_S1bis			\Default Work Unit\L2_S1bis	
+	2025056480	L1_S2			\Default Work Unit\L1_S2	
+	2025056481	L1_S3			\Default Work Unit\L1_S3	
+	2025056483	L1_S1			\Default Work Unit\L1_S1	
+	2668818448	L2_4bis			\Default Work Unit\L2_4bis	
+	3122177568	L2_S5bis			\Default Work Unit\L2_S5bis	
+	3153823533	L1_S3bis			\Default Work Unit\L1_S3bis	
+	3327018617	L2_S2			\Default Work Unit\L2_S2	
+	3327018618	L2_S1			\Default Work Unit\L2_S1	
+	3327018622	L2_S5			\Default Work Unit\L2_S5	
+	4173453232	L3_S			\Default Work Unit\L3_S	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	27549576	FragmentLinkedContinue	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinkedContinue		2473636
-	75082783	DetectedFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\4_5DF96315.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\DetectedFragment		1241204
-	122534204	UI_LinkHold	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LinkHold_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LinkHold		5292064
-	137442131	UI_Clic	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_Clic_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clic		352864
-	145172251	UI_CompletedMemory	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CompletedMemory_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CompletedMemory		705664
-	167899328	UI_LaunchedGame	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LaunchedGame_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LaunchedGame		1764064
-	205144782	CommonAspect	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\13_43638E96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\CommonAspect		1396392
-	242932921	TwoLinkCrossed	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\16_803D850C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TwoLinkCrossed		1309336
-	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_08719083.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		1308200
-	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		1731564
-	355358120	UI_CanceledLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CanceledLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CanceledLink		882064
-	360463851	Faileube2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1_Faileube\Faileube2		1124344
-	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_AB6757F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		1800264
-	392575075	Faileube1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1_Faileube\Faileube1		2670232
-	477326027	ExploreRoom	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\10_911AF3B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ExploreRoom		839416
-	499495790	EnergyGauge	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\EnergyGauge		3710420
-	502551599	UI_CrossedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CrossedLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CrossedLink		264664
-	546718534	UI_ValidatedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_ValidatedLink_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_ValidatedLink		1058464
-	556873789	TargetAndClick	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\11_5777A11A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TargetAndClick		1233256
-	692815848	Welcome	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Welcome		3957776
-	744136607	MemorialFlow	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\9_53D43E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialFlow		707880
-	796042685	FirstFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FirstFragment		1484208
-	826465953	SecondFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\6_97AD90B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\SecondFragment		1491396
-	862153232	UI_NewMemoryAppear	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_NewMemoryAppear_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_NewMemoryAppear		1587664
-	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_F227AD7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		1829412
-	970387243	Hiltrude1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1bis_Hiltrude\Hiltrude1		2670232
-	982194692	ScanToMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\1_B75D7231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ScanToMove		1606848
-	989906786	Hiltrude2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\S1bis_Hiltrude\Hiltrude2		1124344
-	1034502380	UI_EnergyGaugeIncrease2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease2		882064
-	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_80E89642.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		1051380
+	11012546	Kimberley1_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley1_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley\Kimberley1_2		199517
+	27549576	FragmentLinkedContinue	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\8_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinkedContinue		214773
+	45780680	Kimberley02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley\Kimberley02		186484
+	75082783	DetectedFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\4_89E6557F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\DetectedFragment		112673
+	93432607	Kimberley1_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley1_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley\Kimberley1_1		389404
+	122534204	UI_LinkHold	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LinkHold_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LinkHold		390217
+	137442131	UI_Clic	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_Clic_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clic		29770
+	145172251	UI_CompletedMemory	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CompletedMemory_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CompletedMemory		53029
+	167899328	UI_LaunchedGame	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LaunchedGame_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LaunchedGame		116385
+	205144782	CommonAspect	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\13_D0C59264.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\CommonAspect		122290
+	232342401	Faileube01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube\Faileube01		252867
+	242932921	TwoLinkCrossed	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\16_DA6B3CBE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TwoLinkCrossed		114319
+	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_EAC7E251.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		109429
+	301323027	Kimberley01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley\Kimberley01		365979
+	316555328	MemorialEventCompleted	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_MemorialEventCompleted_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialEventCompleted		116713
+	338302265	Jessica02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica\Jessica02		162823
+	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		152890
+	355358120	UI_CanceledLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CanceledLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CanceledLink		66414
+	360463851	Faileube2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube\Faileube2		118003
+	365653220	NextTemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_NextTemporalSegment_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\NextTemporalSegment		145068
+	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_5E35B73B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		163867
+	392575075	Faileube1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube\Faileube1		270708
+	393332622	Kimberley1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley\Kimberley1		376003
+	404746055	Jessica01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica\Jessica01		362179
+	438983640	ScanToMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\T_ScanToMove_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ScanToMove		143817
+	477326027	ExploreRoom	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\10_87531767.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ExploreRoom		72125
+	499495790	EnergyGauge	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\14_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\EnergyGauge		323284
+	502551599	UI_CrossedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CrossedLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CrossedLink		20944
+	525826744	Hiltrude02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude\Hiltrude02		120733
+	546718534	UI_ValidatedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_ValidatedLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_ValidatedLink		80903
+	556873789	TargetAndClick	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\11_BF070F80.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TargetAndClick		108672
+	584400812	Bulied2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Bulied2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied\Bulied2		239948
+	587864672	Bulied1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Bulied1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied\Bulied1		443021
+	641076956	Kimberley2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley\Kimberley2		202286
+	671099887	Faileube02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube\Faileube02		108757
+	692815848	Welcome	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\2_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Welcome		342767
+	700737039	Jessica2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica\Jessica2		167753
+	703201140	Prof1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Prof1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof\Prof1		486206
+	744136607	MemorialFlow	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\9_99F97994.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialFlow		61373
+	796042685	FirstFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\3_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FirstFragment		123147
+	813673417	Hiltrude01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude\Hiltrude01		256486
+	826465953	SecondFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\6_5EFE8F5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\SecondFragment		125461
+	862153232	UI_NewMemoryAppear	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_NewMemoryAppear_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_NewMemoryAppear		135568
+	951015451	Jessica1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica\Jessica1		369083
+	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_B25D6D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		160787
+	970387243	Hiltrude1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude1		263625
+	986374349	PortalTimeTravelwav	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_PortalTimeTravelwav_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\PortalTimeTravelwav		123723
+	989906786	Hiltrude2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude2		125447
+	1003056049	Prof2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Prof2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof\Prof2		244666
+	1021121329	AllLinkToUnlock	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\TM_AllLinkToUnlock_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\AllLinkToUnlock		151297
+	1034502380	UI_EnergyGaugeIncrease2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease2_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease2		76119
+	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_AFF0868C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		89569
 

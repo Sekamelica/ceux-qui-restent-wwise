@@ -20,6 +20,19 @@ namespace AK
         static const AkUniqueID H_TWOLINKCROSSED = 1195339271U;
         static const AkUniqueID L1_S1_FAILEUBE = 1109362563U;
         static const AkUniqueID L1_S1BIS_HILTRUDE = 3672070969U;
+        static const AkUniqueID L1_S3_KIMBERLEY = 1147430746U;
+        static const AkUniqueID L1_S3BIS_JESSICA = 1703812330U;
+        static const AkUniqueID L2_S1_BULIED = 3580943744U;
+        static const AkUniqueID L2_S1BIS_PROF = 2118163114U;
+        static const AkUniqueID L2_S2_HILTRUDE = 2978427643U;
+        static const AkUniqueID L2_S4BIS_FAILEUBE = 2275206775U;
+        static const AkUniqueID L2_S5_KIMBERLEY = 1296166473U;
+        static const AkUniqueID L2_S5BIS_JESSICA = 4026608243U;
+        static const AkUniqueID L3_S_KIMBERLEY = 161012643U;
+        static const AkUniqueID MT_ALLLINKTOUNLOCK = 2267869345U;
+        static const AkUniqueID MT_MEMORIALEVENTCOMPLETED = 2559020516U;
+        static const AkUniqueID MT_NEXTTEMPORALSEGMENT = 841373355U;
+        static const AkUniqueID MT_PORTALTIMETRAVELWAV = 2450596334U;
         static const AkUniqueID STOP_UI_LINKHOLD = 8245926U;
         static const AkUniqueID T_ACTIVLINK = 2016698951U;
         static const AkUniqueID T_COMMONASPECT = 1158054437U;
@@ -50,8 +63,17 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID S1 = 1584861493U;
-        static const AkUniqueID S2 = 1584861494U;
+        static const AkUniqueID L1_S1 = 2025056483U;
+        static const AkUniqueID L1_S2 = 2025056480U;
+        static const AkUniqueID L1_S3 = 2025056481U;
+        static const AkUniqueID L1_S3BIS = 3153823533U;
+        static const AkUniqueID L2_4BIS = 2668818448U;
+        static const AkUniqueID L2_S1 = 3327018618U;
+        static const AkUniqueID L2_S1BIS = 263949284U;
+        static const AkUniqueID L2_S2 = 3327018617U;
+        static const AkUniqueID L2_S5 = 3327018622U;
+        static const AkUniqueID L2_S5BIS = 3122177568U;
+        static const AkUniqueID L3_S = 4173453232U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
         static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
         static const AkUniqueID SS_AIR_FURY = 1029930033U;
@@ -74,6 +96,9 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MASTER_SECONDARY_BUS = 805203703U;
+        static const AkUniqueID SOUVENIRS = 2036899401U;
+        static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID VOICES_TUTO = 2899886277U;
     } // namespace BUSSES
 
 }// namespace AK
