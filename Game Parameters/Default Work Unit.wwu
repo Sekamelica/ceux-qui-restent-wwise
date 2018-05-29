@@ -18,6 +18,19 @@
 				<GameParameter Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
 				<GameParameter Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
 				<GameParameter Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
+				<GameParameter Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}"/>
+				<GameParameter Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}"/>
+				<GameParameter Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}"/>
+				<GameParameter Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}"/>
+				<GameParameter Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}"/>
+				<GameParameter Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}"/>
+				<GameParameter Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
+				<GameParameter Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}"/>
+				<GameParameter Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}"/>
+				<GameParameter Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}"/>
+				<GameParameter Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
+				<GameParameter Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
+				<GameParameter Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

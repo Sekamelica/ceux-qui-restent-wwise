@@ -15,6 +15,9 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Voices" ID="{8B9DD266-5A28-4A43-91EC-60E508F9DAC8}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
 						</Reference>
+						<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Voices_Tuto" ID="{377867D5-BCE1-4EE5-8172-B51E92D1278C}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
 						</Reference>
@@ -692,6 +695,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="Layer_1" ID="{FF0A7CAA-DC05-4024-85BB-067E3530D765}" ShortID="744971403">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -702,13 +708,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="L1_S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" ShortID="1066159411">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -810,12 +809,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>1.58363</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>0</YPos>
+																		<YPos>1.44005</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -853,13 +852,6 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="L1_S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" ShortID="204403278">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -981,12 +973,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>2.02916</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>0</YPos>
+																		<YPos>1.87809</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1024,13 +1016,6 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="L1_S3_Kimberley" ID="{2E47B395-DE31-46F1-99DD-46A1323F5F95}" ShortID="205332571">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -1043,11 +1028,6 @@
 										<Sound Name="Kimberley01" ID="{E9F6A77F-1929-4FFC-9FEB-CEDFF6BE5C35}" ShortID="1004063304">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1070,11 +1050,6 @@
 										<Sound Name="Kimberley02" ID="{765991EE-E6CF-41F0-90B9-BFEFAFB78FB1}" ShortID="36761975">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1114,12 +1089,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>2.99525</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>0</YPos>
+																		<YPos>2.82658</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1169,11 +1144,6 @@
 										<Sound Name="Jessica01" ID="{68A68E18-10AA-4665-9E9D-CAD3D3D9BEAC}" ShortID="595514325">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1196,11 +1166,6 @@
 										<Sound Name="Jessica02" ID="{AD85773C-C4C9-4673-977C-58063CFDF477}" ShortID="905625186">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1240,7 +1205,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -1273,6 +1238,470 @@
 													<ItemRef Name="Jessica02" ID="{AD85773C-C4C9-4673-977C-58063CFDF477}"/>
 													<CrossfadingInfo>
 														<LeftEdgePos>43.6476664133739</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L1_S5_Rikulf" ID="{2E6769AB-0B6A-4B8B-A71C-651C8A6BE031}" ShortID="603619741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RikulfL1_1" ID="{68016B41-2A62-4247-8292-ABDDD5F8E4F1}" ShortID="325886705">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL1_1" ID="{D7EA2C0A-B7EE-4BAE-BD20-FE8ADC395EF4}" ShortID="271889747">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL1_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL1_1" ID="{D7EA2C0A-B7EE-4BAE-BD20-FE8ADC395EF4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RikulfL1_2" ID="{491B4BB2-73F3-4BBE-9BA3-0F6B48DCEFA2}" ShortID="902161529">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL1_2" ID="{D2266D94-789B-4171-98D7-603CFB43C3EA}" ShortID="118895324">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL1_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL1_2" ID="{D2266D94-789B-4171-98D7-603CFB43C3EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{0F0761CE-3B09-45D5-8811-5923DA71C4B6}" ShortID="701900253">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{C670670F-4249-4CC9-B436-E655771551C2}" ShortID="51372739">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A42DBE2E-D226-48B1-BB0D-2443401D8C32}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL1_1" ID="{68016B41-2A62-4247-8292-ABDDD5F8E4F1}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>54.8634718844985</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL1_2" ID="{491B4BB2-73F3-4BBE-9BA3-0F6B48DCEFA2}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>40.00025</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L1_S5bis_Dagaric" ID="{033D20DD-BB79-406C-B900-AE5A6F180D37}" ShortID="564371112">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DagaricL1_1" ID="{4CC075F4-69E1-4142-A6FE-C57EB8AF252C}" ShortID="613872871">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DagaricL1_1" ID="{89F563D4-6727-4E6E-8CCB-890E0288F4F8}" ShortID="44505265">
+													<Language>SFX</Language>
+													<AudioFile>DagaricL1_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DagaricL1_1" ID="{89F563D4-6727-4E6E-8CCB-890E0288F4F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DagaricL1_2" ID="{87D317D5-4BB4-413A-AF08-9CFEE89D9565}" ShortID="356881742">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DagaricL1_2" ID="{B9F1FAA0-71E3-4C13-BDD2-C1977586C30C}" ShortID="512084989">
+													<Language>SFX</Language>
+													<AudioFile>DagaricL1_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DagaricL1_2" ID="{B9F1FAA0-71E3-4C13-BDD2-C1977586C30C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{91352956-ED10-4125-B18E-116A5B774168}" ShortID="360645370">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F29AE267-448E-4030-A8F8-7EF343CCDB0F}" ShortID="135932305">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{411EC052-7089-403E-876C-635B1711D5E6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="DagaricL1_1" ID="{4CC075F4-69E1-4142-A6FE-C57EB8AF252C}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>62.4622560790274</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="DagaricL1_2" ID="{87D317D5-4BB4-413A-AF08-9CFEE89D9565}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>42.4318609422492</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L1_S4_Ingonde" ID="{B5881F03-A3AE-43FA-ACC3-D2CF6DBD561D}" ShortID="1237067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="IngondeL1_1" ID="{2E4A8B0F-CDD7-4BC7-A673-42B30CEC6E55}" ShortID="14849969">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IngondeL1_1" ID="{79D182F7-FE50-4254-B9AC-5F8E31136340}" ShortID="792133773">
+													<Language>SFX</Language>
+													<AudioFile>IngondeL1_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IngondeL1_1" ID="{79D182F7-FE50-4254-B9AC-5F8E31136340}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="IngondeL1_2" ID="{242CF61A-2224-4FC5-97F0-5BC7EDD5C431}" ShortID="595634017">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IngondeL1_2" ID="{16F037F3-0EEE-420E-9AA9-971D779F4AE5}" ShortID="170816897">
+													<Language>SFX</Language>
+													<AudioFile>IngondeL1_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IngondeL1_2" ID="{16F037F3-0EEE-420E-9AA9-971D779F4AE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{77A8446F-BA5C-4FC3-82E2-C0CCD4DC4D33}" ShortID="325407280">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A62B17ED-08C1-4A6C-B580-DCCF27586DF3}" ShortID="579393667">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{7C922F22-5E13-4F3C-9021-D766D9B57CB4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="IngondeL1_1" ID="{2E4A8B0F-CDD7-4BC7-A673-42B30CEC6E55}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>59.1187910334347</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="IngondeL1_2" ID="{242CF61A-2224-4FC5-97F0-5BC7EDD5C431}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>42.1279095744681</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L1_S4bis_Placidine" ID="{A29E5FF8-0219-4E89-8850-0CF126D928E4}" ShortID="147692876">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlacidineL1_1" ID="{86B80A63-5AE9-4A23-91C1-781AFE85B5E2}" ShortID="47715033">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlacidineL1_1" ID="{EB5BAA23-7FF8-48B7-BDFE-73FFBF9AB432}" ShortID="595098184">
+													<Language>SFX</Language>
+													<AudioFile>PlacidineL1_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlacidineL1_1" ID="{EB5BAA23-7FF8-48B7-BDFE-73FFBF9AB432}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlacidineL1_2" ID="{B095A1F5-C5C0-49B4-86E1-FAF9BEE8E8E2}" ShortID="868891113">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlacidineL1_2" ID="{8C8447A6-8018-4A42-B0ED-6E0CF2BECD2D}" ShortID="461067514">
+													<Language>SFX</Language>
+													<AudioFile>PlacidineL1_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlacidineL1_2" ID="{8C8447A6-8018-4A42-B0ED-6E0CF2BECD2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{FBC653A6-0DD8-410D-A747-6358FCA5DD64}" ShortID="824464903">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{1D0FCF7B-C069-46EA-BF23-C98A6D688772}" ShortID="37488020">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2E9A8921-687B-4236-9F7B-FFC8D113E6EC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="PlacidineL1_1" ID="{86B80A63-5AE9-4A23-91C1-781AFE85B5E2}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>62.4622560790274</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="PlacidineL1_2" ID="{B095A1F5-C5C0-49B4-86E1-FAF9BEE8E8E2}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>46.9911314589666</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>100</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -1381,7 +1810,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0.12148</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -1513,7 +1942,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0.12148</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -1568,11 +1997,6 @@
 										<Sound Name="Bulied1" ID="{995B66FE-1734-4501-B4C2-0C4C5EAE9538}" ShortID="788332447">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1639,7 +2063,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0.12148</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -1765,7 +2189,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-0.12148</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -1893,7 +2317,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -2019,7 +2443,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0.12148</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -2061,6 +2485,354 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
+								<BlendContainer Name="L2_S4_Ingonde" ID="{88BE7D6C-F8DB-4FD5-81C9-2525339DBE25}" ShortID="73512543">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="IngondeL2_1" ID="{8C14675B-9A19-43B9-9A91-18D1F80B19C1}" ShortID="906420936">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IngondeL2_1" ID="{D07EAF76-9EF8-4763-9C25-6584BF3F0110}" ShortID="83601083">
+													<Language>SFX</Language>
+													<AudioFile>IngondeL2_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IngondeL2_1" ID="{D07EAF76-9EF8-4763-9C25-6584BF3F0110}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="IngondeL2_2" ID="{446FB3E5-3639-4459-8D12-D36774F23E8D}" ShortID="465760765">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IngondeL2_2" ID="{652437C1-C7D2-4469-B779-E58F84E45080}" ShortID="854727800">
+													<Language>SFX</Language>
+													<AudioFile>IngondeL2_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IngondeL2_2" ID="{652437C1-C7D2-4469-B779-E58F84E45080}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{4B69894E-B6AA-4E73-8255-53D692F8FA85}" ShortID="793947414">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{E70E5E5B-FEDA-41F4-A2A0-8B268C269037}" ShortID="908513337">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{50AD51E0-64FB-43E5-AE9B-36248C64736D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="IngondeL2_1" ID="{8C14675B-9A19-43B9-9A91-18D1F80B19C1}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>64.5899156534955</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="IngondeL2_2" ID="{446FB3E5-3639-4459-8D12-D36774F23E8D}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>47.2950828267477</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L2_S7_Dagaric" ID="{2BB8E11A-2F33-4FCA-A25D-09E741CD42B8}" ShortID="92135396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DagaricL2_1" ID="{6067D769-AADF-499F-B7DC-2D03FF5C328B}" ShortID="737813564">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DagaricL2_1" ID="{898FF9DB-488E-4A5E-9E7D-28ACE152D3CE}" ShortID="875165450">
+													<Language>SFX</Language>
+													<AudioFile>DagaricL2_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DagaricL2_1" ID="{898FF9DB-488E-4A5E-9E7D-28ACE152D3CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DagaricL2_2" ID="{3A4502EA-E4CA-46DB-A80E-A060C3F17387}" ShortID="964328236">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DagaricL2_2" ID="{4A52102F-779E-443A-AC6B-F3942143B40B}" ShortID="906465373">
+													<Language>SFX</Language>
+													<AudioFile>DagaricL2_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DagaricL2_2" ID="{4A52102F-779E-443A-AC6B-F3942143B40B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{F48DAE07-BB50-498F-B3F1-13BF6516AB6F}" ShortID="995726225">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{DEC168D2-2DB2-4A8A-98A0-31CDEBDD5E2F}" ShortID="770749232">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0DEDD3DC-A2B0-4417-9F6F-FBD7E03B0E71}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="DagaricL2_1" ID="{6067D769-AADF-499F-B7DC-2D03FF5C328B}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>60.6385478723404</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="DagaricL2_2" ID="{3A4502EA-E4CA-46DB-A80E-A060C3F17387}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>43.3437150455927</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L2_S6_Rikulf" ID="{D4891460-49ED-40C2-B5E1-4F1734CFD135}" ShortID="825727782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RikulfL2_1" ID="{6135A464-DC5C-4E28-8371-BFE6CD525770}" ShortID="84370249">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL2_1" ID="{68B3F43C-57AD-4430-AC97-E219FAC9F700}" ShortID="754418543">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL2_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL2_1" ID="{68B3F43C-57AD-4430-AC97-E219FAC9F700}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RikulfL2_2" ID="{D8E723F3-847E-496E-BBB4-23CC03025484}" ShortID="138032028">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL2_2" ID="{65E9A2E9-BB67-4519-836E-ADEF7332AE72}" ShortID="595686230">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL2_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL2_2" ID="{65E9A2E9-BB67-4519-836E-ADEF7332AE72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{E50EBAA5-FD0A-4BC9-BB2E-7C654138DC67}" ShortID="365884628">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{474A4119-34BA-4A06-AB4F-FC373AAB460F}" ShortID="473536750">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{11F010E9-03DA-431B-8BC5-68207B358426}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL2_1" ID="{6135A464-DC5C-4E28-8371-BFE6CD525770}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>64.8938670212766</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL2_2" ID="{D8E723F3-847E-496E-BBB4-23CC03025484}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>42.1279095744681</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Layer_3" ID="{1E65722B-BAB1-4FF8-A1FA-0DDBD444388E}" ShortID="100359888">
@@ -2073,7 +2845,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="L3_S_Kimberley" ID="{855DEB1D-B678-494F-A69B-7F5DEBE0DEFC}" ShortID="248579726">
+								<BlendContainer Name="L3_S7_Kimberley" ID="{855DEB1D-B678-494F-A69B-7F5DEBE0DEFC}" ShortID="248579726">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -2157,7 +2929,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -2190,6 +2962,714 @@
 													<ItemRef Name="Kimberley1_2" ID="{95EC50D3-2443-4C11-A8B0-C46FAEE26AC8}"/>
 													<CrossfadingInfo>
 														<LeftEdgePos>40.00025</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S1_Faileube" ID="{8AFDD03C-32B3-4CFF-A3C8-2C9B03D5E360}" ShortID="340029312">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FaileubeL3_1" ID="{40F524D0-6955-4352-B79A-5F52B4F835EA}" ShortID="380053358">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FaileubeL3_1" ID="{6D0F369B-9FA6-487B-B159-12A7C37B8427}" ShortID="988059913">
+													<Language>SFX</Language>
+													<AudioFile>FaileubeL3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FaileubeL3_1" ID="{6D0F369B-9FA6-487B-B159-12A7C37B8427}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FaileubeL3_2" ID="{9A2CF8B6-41C7-4D2D-8421-E66A9746FA88}" ShortID="803276215">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FaileubeL3_2" ID="{6D01E30C-1BE5-47B4-997F-C9CF2021C070}" ShortID="113374181">
+													<Language>SFX</Language>
+													<AudioFile>FaileubeL3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FaileubeL3_2" ID="{6D01E30C-1BE5-47B4-997F-C9CF2021C070}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{85DA7419-4ED8-4584-9055-F3241E97FABA}" ShortID="1012626339">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F74372FD-4806-4D6E-A221-1735523A5A2B}" ShortID="541208103">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4F86AFE2-206B-4244-BA19-1AFC79973F88}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="FaileubeL3_1" ID="{40F524D0-6955-4352-B79A-5F52B4F835EA}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>59.726693768997</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="FaileubeL3_2" ID="{9A2CF8B6-41C7-4D2D-8421-E66A9746FA88}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>45.7753259878419</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S1bis_Ingonde" ID="{2304AA15-D955-4D20-B488-65EABF9E8B00}" ShortID="986613631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ingonde_L3_1" ID="{ECDE7150-E27F-4FAA-93B8-AEBCFD3BD011}" ShortID="117290793">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ingonde_L3_1" ID="{39BF27CD-F953-425E-9AF8-31CFA9F71976}" ShortID="126865573">
+													<Language>SFX</Language>
+													<AudioFile>Ingonde_L3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ingonde_L3_1" ID="{39BF27CD-F953-425E-9AF8-31CFA9F71976}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ingonde_L3_2" ID="{5BB82A70-0893-42DE-AA07-58DB0B7F9C0E}" ShortID="488320196">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ingonde_L3_2" ID="{7EE852BF-01CF-439E-A463-C8F4FBE0304F}" ShortID="361259691">
+													<Language>SFX</Language>
+													<AudioFile>Ingonde_L3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ingonde_L3_2" ID="{7EE852BF-01CF-439E-A463-C8F4FBE0304F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{D81CEF7F-90C0-4023-8B99-36B82AC700C3}" ShortID="964063987">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{CEFA2C2D-82DA-4797-B180-41E1174FA5CD}" ShortID="484687096">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{42850A84-5A85-4439-869A-6CE82B957D57}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Ingonde_L3_1" ID="{ECDE7150-E27F-4FAA-93B8-AEBCFD3BD011}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>60.6385478723404</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Ingonde_L3_2" ID="{5BB82A70-0893-42DE-AA07-58DB0B7F9C0E}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>43.951617781155</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S6_Jessica" ID="{DACD7DE5-6F65-48F9-97B7-9B24AD8526A2}" ShortID="830191858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Jessica_L3_1" ID="{6454F29D-49EA-4F80-8565-448848588CD1}" ShortID="591429727">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jessica_L3_1" ID="{8A98063F-26BB-4C64-9FF5-25C26F767495}" ShortID="675144550">
+													<Language>SFX</Language>
+													<AudioFile>Jessica_L3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jessica_L3_1" ID="{8A98063F-26BB-4C64-9FF5-25C26F767495}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jessica_L3_2" ID="{07CC373D-EBA9-4ADA-9555-11328B1E88D1}" ShortID="652359866">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jessica_L3_2" ID="{F8DD5044-028A-4B65-B858-67F6269EB039}" ShortID="273490049">
+													<Language>SFX</Language>
+													<AudioFile>Jessica_L3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jessica_L3_2" ID="{F8DD5044-028A-4B65-B858-67F6269EB039}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{7578D11D-B38A-41E0-A7D0-CAA0A8A41D0C}" ShortID="43739647">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{0327B3AE-A8BA-428B-871A-563E44EB5CDB}" ShortID="380612271">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{01CE74E8-884B-4A37-9EB1-0EB8656A7665}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Jessica_L3_1" ID="{6454F29D-49EA-4F80-8565-448848588CD1}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>59.1187910334347</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Jessica_L3_2" ID="{07CC373D-EBA9-4ADA-9555-11328B1E88D1}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>43.3437150455927</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S6bis_Mondofede" ID="{BC886661-B538-440E-B895-9BAB050118EC}" ShortID="467484230">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Mondofède_L3_1_6bis" ID="{2E546DB2-A1B4-413A-8DBF-30623D5CADAD}" ShortID="135534041">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondofède_L3_1_6bis" ID="{D8548846-C1EB-43B8-936A-98DFE9584D33}" ShortID="829016130">
+													<Language>SFX</Language>
+													<AudioFile>Mondofède_L3_1_6bis.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mondofède_L3_1_6bis" ID="{D8548846-C1EB-43B8-936A-98DFE9584D33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Mondofède_L3_2_6bis" ID="{03127E04-DA2A-4ABA-8E89-937A63CA1E6B}" ShortID="404973079">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mondofède_L3_2_6bis" ID="{BB9522F4-8D0C-4A54-BA4F-3E08145DC306}" ShortID="994560023">
+													<Language>SFX</Language>
+													<AudioFile>Mondofède_L3_2_6bis.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Mondofède_L3_2_6bis" ID="{BB9522F4-8D0C-4A54-BA4F-3E08145DC306}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{311D710D-4C17-4908-B2A9-E1E03424C9BF}" ShortID="118153934">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{0C910307-DE31-4258-8565-17B34E9FB93F}" ShortID="1026783133">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{F0B1163E-7C4C-479E-8933-3B7954DAB7A9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Mondofède_L3_1_6bis" ID="{2E546DB2-A1B4-413A-8DBF-30623D5CADAD}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>59.1187910334347</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Mondofède_L3_2_6bis" ID="{03127E04-DA2A-4ABA-8E89-937A63CA1E6B}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>40.00025</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S8_Rikulf" ID="{D1248B7B-5BA0-42B2-84E5-FFF6B4727428}" ShortID="656778251">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RikulfL3_1" ID="{561A523F-DF1E-4BF9-B8FD-0A5E8CA01B6E}" ShortID="552739573">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL3_1" ID="{D05B94AD-3D40-498F-9374-7914B9F383E3}" ShortID="499131503">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL3_1" ID="{D05B94AD-3D40-498F-9374-7914B9F383E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RikulfL3_2" ID="{0DF2B096-A25D-4240-A8AA-D07471BD59AB}" ShortID="725598615">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RikulfL3_2" ID="{9906EA65-FE10-430B-8B95-51A81E668D47}" ShortID="69971783">
+													<Language>SFX</Language>
+													<AudioFile>RikulfL3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RikulfL3_2" ID="{9906EA65-FE10-430B-8B95-51A81E668D47}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{B2619DF2-6BA4-46DD-8A4A-8923C8374D01}" ShortID="353931050">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6BA6BEF1-3408-4925-8A91-814E54589497}" ShortID="323923505">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{00374431-D671-4A58-A330-D64AC5C26329}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL3_1" ID="{561A523F-DF1E-4BF9-B8FD-0A5E8CA01B6E}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>64.5899156534955</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="RikulfL3_2" ID="{0DF2B096-A25D-4240-A8AA-D07471BD59AB}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>41.8239582066869</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Layer_4" ID="{B0E0EE4E-8F1F-45B5-B685-9764D30708B9}" ShortID="752741097">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="L4_S1_Bulied" ID="{21EAB5FA-98BA-47ED-AF16-0416D1DCBAF2}" ShortID="424179315">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BuliedL4_1" ID="{144BC886-108A-42F4-84F6-45E5DE0AEAB0}" ShortID="327373765">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BuliedL4_1" ID="{1E39801E-D76C-4282-BB0C-DA4E8891338E}" ShortID="677767047">
+													<Language>SFX</Language>
+													<AudioFile>BuliedL4_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BuliedL4_1" ID="{1E39801E-D76C-4282-BB0C-DA4E8891338E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BuliedL4_2" ID="{9FC130C2-7369-4DE0-89D2-3C7708FD8CB8}" ShortID="775584217">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BuliedL4_2" ID="{D10BBBC2-426D-469B-8970-42D777B10991}" ShortID="725096072">
+													<Language>SFX</Language>
+													<AudioFile>BuliedL4_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BuliedL4_2" ID="{D10BBBC2-426D-469B-8970-42D777B10991}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{37C8B063-69AE-478C-9EF0-DE98FC4F6AE1}" ShortID="920497947">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{8DD92864-C424-48DF-B179-140D725096F2}" ShortID="796750595">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C430341E-5116-45C5-9CF7-10285449DDD3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="BuliedL4_1" ID="{144BC886-108A-42F4-84F6-45E5DE0AEAB0}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>57.2950828267477</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="BuliedL4_2" ID="{9FC130C2-7369-4DE0-89D2-3C7708FD8CB8}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>39.3923472644377</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>100</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>

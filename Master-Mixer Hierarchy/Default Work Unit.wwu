@@ -15,8 +15,8 @@
 								<DuckItem>
 									<BusRef Name="Souvenirs" ID="{462463F4-9739-4F5E-BC7D-104618519D2E}"/>
 									<DuckingParam>
-										<Volume>-28</Volume>
-										<FadeInTime>1.5</FadeInTime>
+										<Volume>-14</Volume>
+										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeExp2</FadeCurve>
 										<TargetProp>BusVolume</TargetProp>
@@ -25,9 +25,9 @@
 								<DuckItem>
 									<BusRef Name="UI" ID="{1C1394EE-1BE0-4D86-BD1A-FB1575B60D92}"/>
 									<DuckingParam>
-										<Volume>-23</Volume>
-										<FadeInTime>1</FadeInTime>
-										<FadeOutTime>1</FadeOutTime>
+										<Volume>-9</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 										<TargetProp>BusVolume</TargetProp>
 									</DuckingParam>
@@ -41,7 +41,7 @@
 									<BusRef Name="Souvenirs" ID="{462463F4-9739-4F5E-BC7D-104618519D2E}"/>
 									<DuckingParam>
 										<Volume>-17</Volume>
-										<FadeInTime>1.5</FadeInTime>
+										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeExp1</FadeCurve>
 										<TargetProp>BusVolume</TargetProp>
