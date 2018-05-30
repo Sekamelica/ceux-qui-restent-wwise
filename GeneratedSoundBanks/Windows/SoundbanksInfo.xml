@@ -26,34 +26,34 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
-				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="100.000000"/>
-				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude" MaxAttenuation="100.000000"/>
-				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley"/>
-				<Event Id="1703812330" Name="L1_S3bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica"/>
-				<Event Id="429551069" Name="L1_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde"/>
-				<Event Id="1922056350" Name="L1_S4bis_Placidine" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4bis_Placidine"/>
-				<Event Id="2038306843" Name="L1_S5_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5_Rikulf"/>
-				<Event Id="4024803263" Name="L1_S5bis_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5bis_Dagaric"/>
-				<Event Id="3580943744" Name="L2_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied"/>
-				<Event Id="2118163114" Name="L2_S1bis_Prof" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof"/>
-				<Event Id="2978427643" Name="L2_S2_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude"/>
-				<Event Id="53289072" Name="L2_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4_Ingonde"/>
-				<Event Id="2275206775" Name="L2_S4bis_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube"/>
-				<Event Id="1296166473" Name="L2_S5_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley"/>
-				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica"/>
-				<Event Id="2258850677" Name="L2_S6_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf"/>
-				<Event Id="3035756664" Name="L2_S7_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric"/>
-				<Event Id="488213145" Name="L3_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube"/>
-				<Event Id="2920130850" Name="L3_S1bis_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde"/>
-				<Event Id="2503228023" Name="L3_S2_Leocadie" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie"/>
-				<Event Id="4037441882" Name="L3_S2bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2bis_Mondofede"/>
-				<Event Id="699418120" Name="L3_S4_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude"/>
-				<Event Id="2063429532" Name="L3_S4bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4bis_Mondofede"/>
-				<Event Id="2712313517" Name="L3_S6_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica"/>
-				<Event Id="1468715670" Name="L3_S6bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede"/>
-				<Event Id="4291332234" Name="L3_S8_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf"/>
-				<Event Id="161012643" Name="L3_S_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley"/>
-				<Event Id="1297441866" Name="L4_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_4\L4_S1_Bulied"/>
+				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="160.000000"/>
+				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude" MaxAttenuation="200.000000"/>
+				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley" MaxAttenuation="100.000000"/>
+				<Event Id="1703812330" Name="L1_S3bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica" MaxAttenuation="100.000000"/>
+				<Event Id="429551069" Name="L1_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde" MaxAttenuation="100.000000"/>
+				<Event Id="1922056350" Name="L1_S4bis_Placidine" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4bis_Placidine" MaxAttenuation="100.000000"/>
+				<Event Id="2038306843" Name="L1_S5_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5_Rikulf" MaxAttenuation="100.000000"/>
+				<Event Id="4024803263" Name="L1_S5bis_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5bis_Dagaric" MaxAttenuation="100.000000"/>
+				<Event Id="3580943744" Name="L2_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied" MaxAttenuation="100.000000"/>
+				<Event Id="2118163114" Name="L2_S1bis_Prof" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof" MaxAttenuation="100.000000"/>
+				<Event Id="2978427643" Name="L2_S2_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude" MaxAttenuation="100.000000"/>
+				<Event Id="53289072" Name="L2_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4_Ingonde" MaxAttenuation="100.000000"/>
+				<Event Id="2275206775" Name="L2_S4bis_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube" MaxAttenuation="100.000000"/>
+				<Event Id="1296166473" Name="L2_S5_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley" MaxAttenuation="100.000000"/>
+				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica" MaxAttenuation="100.000000"/>
+				<Event Id="2258850677" Name="L2_S6_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf" MaxAttenuation="100.000000"/>
+				<Event Id="3035756664" Name="L2_S7_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric" MaxAttenuation="100.000000"/>
+				<Event Id="488213145" Name="L3_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube" MaxAttenuation="100.000000"/>
+				<Event Id="2920130850" Name="L3_S1bis_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde" MaxAttenuation="100.000000"/>
+				<Event Id="2503228023" Name="L3_S2_Leocadie" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie" MaxAttenuation="100.000000"/>
+				<Event Id="4037441882" Name="L3_S2bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2bis_Mondofede" MaxAttenuation="100.000000"/>
+				<Event Id="699418120" Name="L3_S4_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude" MaxAttenuation="100.000000"/>
+				<Event Id="2063429532" Name="L3_S4bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4bis_Mondofede" MaxAttenuation="100.000000"/>
+				<Event Id="2712313517" Name="L3_S6_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica" MaxAttenuation="100.000000"/>
+				<Event Id="1468715670" Name="L3_S6bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede" MaxAttenuation="100.000000"/>
+				<Event Id="4291332234" Name="L3_S8_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf" MaxAttenuation="100.000000"/>
+				<Event Id="161012643" Name="L3_S_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley" MaxAttenuation="100.000000"/>
+				<Event Id="1297441866" Name="L4_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_4\L4_S1_Bulied" MaxAttenuation="100.000000"/>
 				<Event Id="2267869345" Name="MT_AllLinkToUnlock" ObjectPath="\Events\Default Work Unit\Voices_off\MT_AllLinkToUnlock"/>
 				<Event Id="2559020516" Name="MT_MemorialEventCompleted" ObjectPath="\Events\Default Work Unit\Voices_off\MT_MemorialEventCompleted"/>
 				<Event Id="841373355" Name="MT_NextTemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\MT_NextTemporalSegment"/>
