@@ -18,14 +18,26 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="MemorialFlow" ID="{A6B9DF43-86E3-48B1-B5EF-50B9045A2440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="L1_S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_CompletedMemory" ID="{6558D133-3208-4FDF-9506-C208E3B6F4DE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
 							<Value>72.9483282674772</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}"/>
+							<Value>87.2340425531915</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
@@ -37,19 +49,19 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}"/>
-							<Value>0</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
-							<Value>18.8449848024316</Value>
+							<Value>74.1641337386018</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>34.0425531914894</Value>
+							<Value>62.3100303951368</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
-							<Value>14.984802431611</Value>
+							<Value>36.4741641337386</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
@@ -60,8 +72,12 @@
 							<Value>70.887537993921</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}"/>
+							<Value>66.2613981762918</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
-							<Value>69.3009118541033</Value>
+							<Value>71.7325227963526</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
@@ -100,6 +116,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>
+							<Value>58.3586626139818</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
 							<Value>19.936170212766</Value>
 						</RTPCValue>
@@ -130,6 +150,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
 							<Value>14.2857142857143</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}"/>
+							<Value>30.3951367781155</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>

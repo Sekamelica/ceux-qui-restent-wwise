@@ -31,6 +31,10 @@
 				<GameParameter Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
 				<GameParameter Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
 				<GameParameter Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}"/>
+				<GameParameter Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>
+				<GameParameter Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}"/>
+				<GameParameter Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}"/>
+				<GameParameter Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -26,17 +26,34 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
-				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube"/>
-				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude"/>
+				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="100.000000"/>
+				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude" MaxAttenuation="100.000000"/>
 				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley"/>
 				<Event Id="1703812330" Name="L1_S3bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica"/>
+				<Event Id="429551069" Name="L1_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde"/>
+				<Event Id="1922056350" Name="L1_S4bis_Placidine" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S4bis_Placidine"/>
+				<Event Id="2038306843" Name="L1_S5_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5_Rikulf"/>
+				<Event Id="4024803263" Name="L1_S5bis_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S5bis_Dagaric"/>
 				<Event Id="3580943744" Name="L2_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied"/>
 				<Event Id="2118163114" Name="L2_S1bis_Prof" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof"/>
 				<Event Id="2978427643" Name="L2_S2_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude"/>
+				<Event Id="53289072" Name="L2_S4_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4_Ingonde"/>
 				<Event Id="2275206775" Name="L2_S4bis_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube"/>
 				<Event Id="1296166473" Name="L2_S5_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley"/>
 				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica"/>
+				<Event Id="2258850677" Name="L2_S6_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf"/>
+				<Event Id="3035756664" Name="L2_S7_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric"/>
+				<Event Id="488213145" Name="L3_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube"/>
+				<Event Id="2920130850" Name="L3_S1bis_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde"/>
+				<Event Id="2503228023" Name="L3_S2_Leocadie" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie"/>
+				<Event Id="4037441882" Name="L3_S2bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2bis_Mondofede"/>
+				<Event Id="699418120" Name="L3_S4_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude"/>
+				<Event Id="2063429532" Name="L3_S4bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S4bis_Mondofede"/>
+				<Event Id="2712313517" Name="L3_S6_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica"/>
+				<Event Id="1468715670" Name="L3_S6bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede"/>
+				<Event Id="4291332234" Name="L3_S8_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf"/>
 				<Event Id="161012643" Name="L3_S_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley"/>
+				<Event Id="1297441866" Name="L4_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_4\L4_S1_Bulied"/>
 				<Event Id="2267869345" Name="MT_AllLinkToUnlock" ObjectPath="\Events\Default Work Unit\Voices_off\MT_AllLinkToUnlock"/>
 				<Event Id="2559020516" Name="MT_MemorialEventCompleted" ObjectPath="\Events\Default Work Unit\Voices_off\MT_MemorialEventCompleted"/>
 				<Event Id="841373355" Name="MT_NextTemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\MT_NextTemporalSegment"/>
@@ -77,21 +94,45 @@
 					<ShortName>8.wav</ShortName>
 					<Path>SFX\8_67E2B650.wem</Path>
 				</File>
+				<File Id="44505265" Language="SFX">
+					<ShortName>DagaricL1_1.wav</ShortName>
+					<Path>SFX\DagaricL1_1_E5C86A8A.wem</Path>
+				</File>
 				<File Id="45780680" Language="SFX">
 					<ShortName>Kimberley02.wav</ShortName>
 					<Path>SFX\Kimberley02_E5C86A8A.wem</Path>
+				</File>
+				<File Id="69971783" Language="SFX">
+					<ShortName>RikulfL3_2.wav</ShortName>
+					<Path>SFX\RikulfL3_2_E5C86A8A.wem</Path>
 				</File>
 				<File Id="75082783" Language="SFX">
 					<ShortName>4.wav</ShortName>
 					<Path>SFX\4_89E6557F.wem</Path>
 				</File>
+				<File Id="83601083" Language="SFX">
+					<ShortName>IngondeL2_1.wav</ShortName>
+					<Path>SFX\IngondeL2_1_E5C86A8A.wem</Path>
+				</File>
 				<File Id="93432607" Language="SFX">
 					<ShortName>Kimberley1_1.wav</ShortName>
 					<Path>SFX\Kimberley1_1_E5C86A8A.wem</Path>
 				</File>
+				<File Id="113374181" Language="SFX">
+					<ShortName>FaileubeL3_2.wav</ShortName>
+					<Path>SFX\FaileubeL3_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="118895324" Language="SFX">
+					<ShortName>RikulfL1_2.wav</ShortName>
+					<Path>SFX\RikulfL1_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="122534204" Language="SFX">
 					<ShortName>UI_LinkHold.wav</ShortName>
 					<Path>SFX\UI_LinkHold_F7D0E330.wem</Path>
+				</File>
+				<File Id="126865573" Language="SFX">
+					<ShortName>Ingonde_L3_1.wav</ShortName>
+					<Path>SFX\Ingonde_L3_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="137442131" Language="SFX">
 					<ShortName>UI_Clic.wav</ShortName>
@@ -105,6 +146,10 @@
 					<ShortName>UI_LaunchedGame.wav</ShortName>
 					<Path>SFX\UI_LaunchedGame_F7D0E330.wem</Path>
 				</File>
+				<File Id="170816897" Language="SFX">
+					<ShortName>IngondeL1_2.wav</ShortName>
+					<Path>SFX\IngondeL1_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="205144782" Language="SFX">
 					<ShortName>13.wav</ShortName>
 					<Path>SFX\13_D0C59264.wem</Path>
@@ -116,6 +161,14 @@
 				<File Id="242932921" Language="SFX">
 					<ShortName>16.wav</ShortName>
 					<Path>SFX\16_DA6B3CBE.wem</Path>
+				</File>
+				<File Id="271889747" Language="SFX">
+					<ShortName>RikulfL1_1.wav</ShortName>
+					<Path>SFX\RikulfL1_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="273490049" Language="SFX">
+					<ShortName>Jessica_L3_2.wav</ShortName>
+					<Path>SFX\Jessica_L3_2_E5C86A8A.wem</Path>
 				</File>
 				<File Id="289776262" Language="SFX">
 					<ShortName>15.wav</ShortName>
@@ -133,6 +186,10 @@
 					<ShortName>Jessica02.wav</ShortName>
 					<Path>SFX\Jessica02_E5C86A8A.wem</Path>
 				</File>
+				<File Id="338833990" Language="SFX">
+					<ShortName>HiltrudeL3_1.wav</ShortName>
+					<Path>SFX\HiltrudeL3_1_E5C86A8A.wem</Path>
+				</File>
 				<File Id="344658013" Language="SFX">
 					<ShortName>12.wav</ShortName>
 					<Path>SFX\12_67E2B650.wem</Path>
@@ -144,6 +201,10 @@
 				<File Id="360463851" Language="SFX">
 					<ShortName>Faileube2.wav</ShortName>
 					<Path>SFX\Faileube2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="361259691" Language="SFX">
+					<ShortName>Ingonde_L3_2.wav</ShortName>
+					<Path>SFX\Ingonde_L3_2_E5C86A8A.wem</Path>
 				</File>
 				<File Id="365653220" Language="SFX">
 					<ShortName>MT_NextTemporalSegment.wav</ShortName>
@@ -169,9 +230,21 @@
 					<ShortName>T_ScanToMove.wav</ShortName>
 					<Path>SFX\T_ScanToMove_67E2B650.wem</Path>
 				</File>
+				<File Id="461067514" Language="SFX">
+					<ShortName>PlacidineL1_2.wav</ShortName>
+					<Path>SFX\PlacidineL1_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="466409275" Language="SFX">
+					<ShortName>MondofedeL3_S4bis_2.wav</ShortName>
+					<Path>SFX\MondofedeL3_S4bis_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="477326027" Language="SFX">
 					<ShortName>10.wav</ShortName>
 					<Path>SFX\10_87531767.wem</Path>
+				</File>
+				<File Id="499131503" Language="SFX">
+					<ShortName>RikulfL3_1.wav</ShortName>
+					<Path>SFX\RikulfL3_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="499495790" Language="SFX">
 					<ShortName>14.wav</ShortName>
@@ -180,6 +253,10 @@
 				<File Id="502551599" Language="SFX">
 					<ShortName>UI_CrossedLink.wav</ShortName>
 					<Path>SFX\UI_CrossedLink_F7D0E330.wem</Path>
+				</File>
+				<File Id="512084989" Language="SFX">
+					<ShortName>DagaricL1_2.wav</ShortName>
+					<Path>SFX\DagaricL1_2_E5C86A8A.wem</Path>
 				</File>
 				<File Id="525826744" Language="SFX">
 					<ShortName>Hiltrude02.wav</ShortName>
@@ -201,6 +278,18 @@
 					<ShortName>Bulied1.wav</ShortName>
 					<Path>SFX\Bulied1_E5C86A8A.wem</Path>
 				</File>
+				<File Id="595098184" Language="SFX">
+					<ShortName>PlacidineL1_1.wav</ShortName>
+					<Path>SFX\PlacidineL1_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="595686230" Language="SFX">
+					<ShortName>RikulfL2_2.wav</ShortName>
+					<Path>SFX\RikulfL2_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="598834529" Language="SFX">
+					<ShortName>MondofedeL3_S2bis_1.wav</ShortName>
+					<Path>SFX\MondofedeL3_S2bis_1_E5C86A8A.wem</Path>
+				</File>
 				<File Id="641076956" Language="SFX">
 					<ShortName>Kimberley2.wav</ShortName>
 					<Path>SFX\Kimberley2_E5C86A8A.wem</Path>
@@ -208,6 +297,14 @@
 				<File Id="671099887" Language="SFX">
 					<ShortName>Faileube02.wav</ShortName>
 					<Path>SFX\Faileube02_E5C86A8A.wem</Path>
+				</File>
+				<File Id="675144550" Language="SFX">
+					<ShortName>Jessica_L3_1.wav</ShortName>
+					<Path>SFX\Jessica_L3_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="677767047" Language="SFX">
+					<ShortName>BuliedL4_1.wav</ShortName>
+					<Path>SFX\BuliedL4_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="692815848" Language="SFX">
 					<ShortName>2.wav</ShortName>
@@ -221,9 +318,25 @@
 					<ShortName>Prof1.wav</ShortName>
 					<Path>SFX\Prof1_E5C86A8A.wem</Path>
 				</File>
+				<File Id="725096072" Language="SFX">
+					<ShortName>BuliedL4_2.wav</ShortName>
+					<Path>SFX\BuliedL4_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="744136607" Language="SFX">
 					<ShortName>9.wav</ShortName>
 					<Path>SFX\9_99F97994.wem</Path>
+				</File>
+				<File Id="754418543" Language="SFX">
+					<ShortName>RikulfL2_1.wav</ShortName>
+					<Path>SFX\RikulfL2_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="775309153" Language="SFX">
+					<ShortName>HiltrudeL3_2.wav</ShortName>
+					<Path>SFX\HiltrudeL3_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="792133773" Language="SFX">
+					<ShortName>IngondeL1_1.wav</ShortName>
+					<Path>SFX\IngondeL1_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="796042685" Language="SFX">
 					<ShortName>3.wav</ShortName>
@@ -237,9 +350,33 @@
 					<ShortName>6.wav</ShortName>
 					<Path>SFX\6_5EFE8F5C.wem</Path>
 				</File>
+				<File Id="829016130" Language="SFX">
+					<ShortName>Mondofède_L3_1_6bis.wav</ShortName>
+					<Path>SFX\Mondofède_L3_1_6bis_E5C86A8A.wem</Path>
+				</File>
+				<File Id="854727800" Language="SFX">
+					<ShortName>IngondeL2_2.wav</ShortName>
+					<Path>SFX\IngondeL2_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="862153232" Language="SFX">
 					<ShortName>UI_NewMemoryAppear.wav</ShortName>
 					<Path>SFX\UI_NewMemoryAppear_F7D0E330.wem</Path>
+				</File>
+				<File Id="875165450" Language="SFX">
+					<ShortName>DagaricL2_1.wav</ShortName>
+					<Path>SFX\DagaricL2_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="906465373" Language="SFX">
+					<ShortName>DagaricL2_2.wav</ShortName>
+					<Path>SFX\DagaricL2_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="938210369" Language="SFX">
+					<ShortName>MondofedeL3_S4bis_1.wav</ShortName>
+					<Path>SFX\MondofedeL3_S4bis_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="938480141" Language="SFX">
+					<ShortName>Léocadie_L3_1.wav</ShortName>
+					<Path>SFX\Léocadie_L3_1_E5C86A8A.wem</Path>
 				</File>
 				<File Id="951015451" Language="SFX">
 					<ShortName>Jessica1.wav</ShortName>
@@ -257,9 +394,17 @@
 					<ShortName>MT_PortalTimeTravelwav.wav</ShortName>
 					<Path>SFX\MT_PortalTimeTravelwav_67E2B650.wem</Path>
 				</File>
+				<File Id="988059913" Language="SFX">
+					<ShortName>FaileubeL3_1.wav</ShortName>
+					<Path>SFX\FaileubeL3_1_E5C86A8A.wem</Path>
+				</File>
 				<File Id="989906786" Language="SFX">
 					<ShortName>Hiltrude2.wav</ShortName>
 					<Path>SFX\Hiltrude2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="994560023" Language="SFX">
+					<ShortName>Mondofède_L3_2_6bis.wav</ShortName>
+					<Path>SFX\Mondofède_L3_2_6bis_E5C86A8A.wem</Path>
 				</File>
 				<File Id="1003056049" Language="SFX">
 					<ShortName>Prof2.wav</ShortName>
@@ -273,9 +418,17 @@
 					<ShortName>UI_EnergyGaugeIncrease2.wav</ShortName>
 					<Path>SFX\UI_EnergyGaugeIncrease2_F7D0E330.wem</Path>
 				</File>
+				<File Id="1037535108" Language="SFX">
+					<ShortName>Léocadie_L3_2.wav</ShortName>
+					<Path>SFX\Léocadie_L3_2_E5C86A8A.wem</Path>
+				</File>
 				<File Id="1042471997" Language="SFX">
 					<ShortName>7.wav</ShortName>
 					<Path>SFX\7_AFF0868C.wem</Path>
+				</File>
+				<File Id="1058431077" Language="SFX">
+					<ShortName>MondofedeL3_S2bis_2.wav</ShortName>
+					<Path>SFX\MondofedeL3_S2bis_2_E5C86A8A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

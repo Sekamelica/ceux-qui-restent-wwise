@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -462,6 +462,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{FEDC7687-D69E-4271-972C-0D7AD771B21F}" ShortID="1068732852">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="UI" ID="{03A14411-0EE0-445A-AE74-10CCE451C37C}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -708,7 +715,58 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="L1_S1bis_Hiltrude" ID="{88ACA15C-B7D5-4EA1-B18F-A0D7609166FB}" ShortID="1066159411">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{A818D553-A9F7-4015-8781-79E481DFD2AD}" ShortID="117644337">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{92F0DEE8-79AB-4A08-8A15-30596B779C6B}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
 										</Reference>
@@ -852,7 +910,58 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="L1_S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" ShortID="204403278">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{ED6E1EE8-440E-4D0D-B087-260BA9BCC9EC}" ShortID="1005001432">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{245A2FE1-F797-4ABF-957A-3F4D53B65690}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
 										</Reference>
@@ -911,6 +1020,22 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{66AFC034-A633-4EFB-8013-843901C7C1C6}">
+											<ChildrenList>
+												<Path2D Name="L1_S1_Faileube_Path" ID="{43CAE18F-110C-4BA1-B9E6-8413E772A391}">
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-0.63939</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
 									<BlendTrackList>
 										<BlendTrack Name="New Blend Track" ID="{31550E09-F3A0-4488-8D7E-8265166DA82A}" ShortID="1009161289">
 											<PropertyList>
@@ -1074,6 +1199,44 @@
 										<BlendTrack Name="s3" ID="{4F663BFC-A323-43AC-BF90-B453D67BB3A8}" ShortID="69328819">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{88816A61-69AA-4719-A9F1-283DFB69628E}" ShortID="832666201">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9A542E2E-FE6F-434C-823C-CB4C74CA4FB1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>63</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>16.71733</XPos>
+																		<YPos>52</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>39.81763</XPos>
+																		<YPos>13</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{A7E1FC4F-9311-4A72-830A-68A128B6D494}" ShortID="692761936">
@@ -1190,6 +1353,44 @@
 										<BlendTrack Name="New Blend Track" ID="{CB06322C-3594-4A95-BC16-88839F9C5DF1}" ShortID="1014493014">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{FE014FA5-8863-4228-B4E9-AB214AC99439}" ShortID="926956617">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{97482B64-C0E9-4EE9-A6E5-B7515F31AA61}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>80</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.18845</XPos>
+																		<YPos>45</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>44.3768996960486</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{D54E7659-ED76-40E7-ABE5-D5D7D8957407}" ShortID="381808465">
@@ -1306,6 +1507,44 @@
 										<BlendTrack Name="New Blend Track" ID="{0F0761CE-3B09-45D5-8811-5923DA71C4B6}" ShortID="701900253">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{54F0E1B8-2F4E-4F82-B22A-CE61C965ACB3}" ShortID="610566286">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{39B8F748-881C-4C3A-97EC-CFA72E55F64D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>17.93313</XPos>
+																		<YPos>56</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>45.5927051671732</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{C670670F-4249-4CC9-B436-E655771551C2}" ShortID="51372739">
@@ -1422,6 +1661,39 @@
 										<BlendTrack Name="New Blend Track" ID="{91352956-ED10-4125-B18E-116A5B774168}" ShortID="360645370">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{A85AFD43-740F-4C09-A615-0B194E7FF14D}" ShortID="416526616">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A5255099-6FBF-4471-9696-38B1473CA10E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>75</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>43.46505</XPos>
+																		<YPos>6</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{F29AE267-448E-4030-A8F8-7EF343CCDB0F}" ShortID="135932305">
@@ -1538,6 +1810,44 @@
 										<BlendTrack Name="New Blend Track" ID="{77A8446F-BA5C-4FC3-82E2-C0CCD4DC4D33}" ShortID="325407280">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{A7EAAA4D-FF40-4BF6-ACA1-FEADF7E4007C}" ShortID="81485316">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B497E62E-78D7-4B51-9951-8E4AB8121849}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>74</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>18.54103</XPos>
+																		<YPos>43</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>43.4650455927052</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{A62B17ED-08C1-4A6C-B580-DCCF27586DF3}" ShortID="579393667">
@@ -1654,6 +1964,44 @@
 										<BlendTrack Name="New Blend Track" ID="{FBC653A6-0DD8-410D-A747-6358FCA5DD64}" ShortID="824464903">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{44C188E4-9133-48AF-AC9E-74C7DBC14F52}" ShortID="95673227">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0C088B58-6BA5-42BA-BA4F-AB85873B1676}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>74</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.18845</XPos>
+																		<YPos>55</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>46.2006079027356</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{1D0FCF7B-C069-46EA-BF23-C98A6D688772}" ShortID="37488020">
@@ -1795,6 +2143,44 @@
 										<BlendTrack Name="New Blend Track" ID="{F6CDC712-0FB7-4BDC-BCCE-5AEAABAED738}" ShortID="275727158">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{469BD0FB-9EC7-4728-A385-4CD98B60F870}" ShortID="858783490">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{6FF1BB83-9384-4D37-80FA-D1CB068BD958}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.14894</XPos>
+																		<YPos>42</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>43.161094224924</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{84B36483-63C4-4BDE-A55B-DF1D6E394F8E}" ShortID="800654591">
@@ -1927,6 +2313,44 @@
 										<BlendTrack Name="New Blend Track" ID="{642FEB89-2697-411C-8AF3-99DC3BCEE6CC}" ShortID="60912954">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{9E12D6D5-2625-4B56-A9AF-20BF942C9B22}" ShortID="430753666">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C8EE1288-78D7-4F9A-84C0-F5218DFEC580}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.18845</XPos>
+																		<YPos>44</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>44.6808510638298</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{0CFF70F2-9A33-4162-B71B-6C8557D86CA8}" ShortID="304305087">
@@ -2048,6 +2472,39 @@
 										<BlendTrack Name="New Blend Track" ID="{3ED15535-05F6-4A9E-AA50-52E3F40B5622}" ShortID="692610884">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{05E778DA-F7FE-43FB-B710-FB74499A1FDD}" ShortID="343511140">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8D856FD8-C217-48DE-901A-D0B4F1AF0373}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>78</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>44.3768996960486</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{79A9ECA1-8B21-449A-8EFF-4CF10080F500}" ShortID="482030681">
@@ -2174,6 +2631,39 @@
 										<BlendTrack Name="New Blend Track" ID="{C0767912-41BD-464B-B8DB-3986CB9C797C}" ShortID="147952953">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{98124757-D456-4CE9-BFDD-3C9F3729758E}" ShortID="953423952">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8A1ECF4C-A67E-4B13-AFC5-BA99E3D30D51}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>80</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.2401215805471</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{445A2723-5751-498D-9D68-A39633439AF4}" ShortID="581500159">
@@ -2302,6 +2792,44 @@
 										<BlendTrack Name="New Blend Track" ID="{8EC14F26-9890-433B-A777-53A19F6A6C8D}" ShortID="330875297">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{5294F205-4F87-4159-8C9B-11A0217B586E}" ShortID="677626023">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{98B6CE68-0B4B-4776-9B4B-210CB701AE68}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>84</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>18.84498</XPos>
+																		<YPos>52</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>48.3282674772036</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{2704A753-B5D1-425D-AAEE-0FAD5D912A7D}" ShortID="1009228605">
@@ -2428,6 +2956,44 @@
 										<BlendTrack Name="New Blend Track" ID="{74E02443-2A74-4F40-B3A9-C2C0C328D909}" ShortID="825309773">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{EC70776C-521B-4020-BF1D-D8EDF74C6FB1}" ShortID="601776340">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{38326E72-A9D4-4D1D-8CE7-E062E99706D8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>82</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>25.83587</XPos>
+																		<YPos>35</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>47.112462006079</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{579A1195-5D8B-4AB7-A8A1-E46884429801}" ShortID="297209651">
@@ -2544,6 +3110,44 @@
 										<BlendTrack Name="New Blend Track" ID="{4B69894E-B6AA-4E73-8255-53D692F8FA85}" ShortID="793947414">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{E44C004B-F538-4E3F-8B87-D5438F309701}" ShortID="167098727">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B215C5DA-EFE0-4033-8600-C05DF64C5885}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>82</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.2766</XPos>
+																		<YPos>49</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>46.8085106382979</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{E70E5E5B-FEDA-41F4-A2A0-8B268C269037}" ShortID="908513337">
@@ -2660,6 +3264,44 @@
 										<BlendTrack Name="New Blend Track" ID="{F48DAE07-BB50-498F-B3F1-13BF6516AB6F}" ShortID="995726225">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{423EE5F1-C402-49F8-863C-D1636A4BDCDC}" ShortID="339190258">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5212C759-DD2D-4B2F-8E81-DCABDBD67513}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>77</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>23.40426</XPos>
+																		<YPos>35</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.5440729483283</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{DEC168D2-2DB2-4A8A-98A0-31CDEBDD5E2F}" ShortID="770749232">
@@ -2776,6 +3418,39 @@
 										<BlendTrack Name="New Blend Track" ID="{E50EBAA5-FD0A-4BC9-BB2E-7C654138DC67}" ShortID="365884628">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{17A05FCC-DCB0-4656-8ABE-93AC19D0E123}" ShortID="136073029">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8920FDB5-DDD6-4DBC-931A-42609989E155}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>87</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.8480243161094</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{474A4119-34BA-4A06-AB4F-FC373AAB460F}" ShortID="473536750">
@@ -2914,6 +3589,44 @@
 										<BlendTrack Name="New Blend Track" ID="{BDAAAAB0-0956-44B2-B639-E4D47B459B45}" ShortID="811918490">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{9BD870CA-FB81-4851-A167-3B20BF39F5D9}" ShortID="929250125">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0F51FE48-FE8D-48D5-9A25-33E54F572A79}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>84</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.58055</XPos>
+																		<YPos>44</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>51.9756838905775</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{035D2DE0-11D1-4B9F-B271-257B8E91928A}" ShortID="648046292">
@@ -3030,6 +3743,44 @@
 										<BlendTrack Name="New Blend Track" ID="{85DA7419-4ED8-4584-9055-F3241E97FABA}" ShortID="1012626339">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{919B4438-FE5E-4B9B-A21B-2EEBFEED31A0}" ShortID="835249393">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{1115658C-45E2-4E44-BEA3-B14B1EFFE4DB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>24.01216</XPos>
+																		<YPos>34</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50.1519756838906</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{F74372FD-4806-4D6E-A221-1735523A5A2B}" ShortID="541208103">
@@ -3146,6 +3897,44 @@
 										<BlendTrack Name="New Blend Track" ID="{D81CEF7F-90C0-4023-8B99-36B82AC700C3}" ShortID="964063987">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{2914062D-663B-4C23-8BFB-9AFF1987C645}" ShortID="970800864">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{28189DC6-DD8B-485A-892D-2D4783ED55AA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>74</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.4924</XPos>
+																		<YPos>34</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>51.063829787234</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{CEFA2C2D-82DA-4797-B180-41E1174FA5CD}" ShortID="484687096">
@@ -3262,6 +4051,44 @@
 										<BlendTrack Name="New Blend Track" ID="{7578D11D-B38A-41E0-A7D0-CAA0A8A41D0C}" ShortID="43739647">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{C9FE64B3-B189-4710-A12A-B8EE3AFFC834}" ShortID="242517148">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4A41849A-9CF8-425E-9246-B8854385B95B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>78</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.2766</XPos>
+																		<YPos>23</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50.1519756838906</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{0327B3AE-A8BA-428B-871A-563E44EB5CDB}" ShortID="380612271">
@@ -3378,6 +4205,44 @@
 										<BlendTrack Name="New Blend Track" ID="{311D710D-4C17-4908-B2A9-E1E03424C9BF}" ShortID="118153934">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{60840864-34A3-4818-A62F-5F49F2B61595}" ShortID="179433488">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A60A3F5F-5BAD-4F4D-BB22-3A7B4A28730C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>20.66869</XPos>
+																		<YPos>35</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.8480243161094</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{0C910307-DE31-4258-8565-17B34E9FB93F}" ShortID="1026783133">
@@ -3494,6 +4359,44 @@
 										<BlendTrack Name="New Blend Track" ID="{B2619DF2-6BA4-46DD-8A4A-8923C8374D01}" ShortID="353931050">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{A3666C30-BF7C-4CEC-8473-2920DFE3C756}" ShortID="848768816">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EC93C780-DB02-4FE9-A20B-A2BF5A4BBE47}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>70</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.18845</XPos>
+																		<YPos>46</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>51.6717325227964</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{6BA6BEF1-3408-4925-8A91-814E54589497}" ShortID="323923505">
@@ -3542,6 +4445,622 @@
 													<ItemRef Name="RikulfL3_2" ID="{0DF2B096-A25D-4240-A8AA-D07471BD59AB}"/>
 													<CrossfadingInfo>
 														<LeftEdgePos>41.8239582066869</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S4_Hiltrude" ID="{C62B85A9-1126-4553-9D14-D46C82276D93}" ShortID="1000843559">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="HiltrudeL3_2" ID="{8480C5AB-A4EB-4ABD-959D-3E0E3B9342D7}" ShortID="244053018">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HiltrudeL3_2" ID="{CDD8426F-22CF-4337-8D18-DF42E362E6CE}" ShortID="775309153">
+													<Language>SFX</Language>
+													<AudioFile>HiltrudeL3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HiltrudeL3_2" ID="{CDD8426F-22CF-4337-8D18-DF42E362E6CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HiltrudeL3_1" ID="{B6540117-6859-4A6F-A568-FC74CBFDF5BC}" ShortID="507256132">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HiltrudeL3_1" ID="{0C17F038-FA3E-4290-831B-4CFE349947B2}" ShortID="338833990">
+													<Language>SFX</Language>
+													<AudioFile>HiltrudeL3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HiltrudeL3_1" ID="{0C17F038-FA3E-4290-831B-4CFE349947B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{DAD3BA8E-C444-497B-B22D-913652918558}" ShortID="325333676">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{0AA925A5-FA47-4612-A81D-D68B83D187F3}" ShortID="377935188">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5A818FB6-6C46-496F-8F42-B72FADAB73FF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>79</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>21.58055</XPos>
+																		<YPos>35</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>51.6717325227964</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{C71BFD60-9487-40FA-9DCE-ADE4A12203EC}" ShortID="523066598">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{23CF9524-487C-4DF7-AA3E-6D48AA122E12}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="HiltrudeL3_1" ID="{B6540117-6859-4A6F-A568-FC74CBFDF5BC}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>58.5108882978723</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="HiltrudeL3_2" ID="{8480C5AB-A4EB-4ABD-959D-3E0E3B9342D7}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>46.6871800911854</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S2bis_Mondofede" ID="{0F14541A-F8D0-4C33-BFC5-50A3607BCFF4}" ShortID="504076367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MondofedeL3_S2bis_1" ID="{274C8594-77D3-4304-B860-62CC230BFE13}" ShortID="735927760">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondofedeL3_S2bis_1" ID="{4080EB95-DE2F-48C8-B001-FE222B8F1C86}" ShortID="598834529">
+													<Language>SFX</Language>
+													<AudioFile>MondofedeL3_S2bis_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MondofedeL3_S2bis_1" ID="{4080EB95-DE2F-48C8-B001-FE222B8F1C86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MondofedeL3_S2bis_2" ID="{3097F07D-B951-4F01-A5B8-C1D06A092AFD}" ShortID="191033032">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondofedeL3_S2bis_2" ID="{89F53DBB-F2A3-48D8-AD2A-03A3F6F90842}" ShortID="1058431077">
+													<Language>SFX</Language>
+													<AudioFile>MondofedeL3_S2bis_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MondofedeL3_S2bis_2" ID="{89F53DBB-F2A3-48D8-AD2A-03A3F6F90842}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{F3BE8190-AED3-413F-8B31-15FC373E5DB4}" ShortID="289161910">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{6488CF97-C8E0-4EE3-9B86-F44D71BE4FA6}" ShortID="242714867">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D2515927-641D-464E-AAA1-7201B5B5E75F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.79635</XPos>
+																		<YPos>38</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.5440729483283</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F34FCC82-D200-43A7-BDE0-2D081618102D}" ShortID="428714792">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D7FB38DB-32C2-4E02-9330-A3922AC7FE12}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="MondofedeL3_S2bis_1" ID="{274C8594-77D3-4304-B860-62CC230BFE13}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>57.90298556231</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="MondofedeL3_S2bis_2" ID="{3097F07D-B951-4F01-A5B8-C1D06A092AFD}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>42.4318609422492</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S4bis_Mondofede" ID="{AFE62551-2507-4261-9D28-78E37EA32EED}" ShortID="265319040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MondofedeL3_S4bis_1" ID="{FE137943-90DC-4A78-94DF-33EDA9C8461D}" ShortID="529828296">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondofedeL3_S4bis_1" ID="{65F60325-E836-47EE-857F-2E7BBEDB4EA5}" ShortID="938210369">
+													<Language>SFX</Language>
+													<AudioFile>MondofedeL3_S4bis_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MondofedeL3_S4bis_1" ID="{65F60325-E836-47EE-857F-2E7BBEDB4EA5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MondofedeL3_S4bis_2" ID="{1CD74779-5009-4CEB-B2F2-41B303D19D9D}" ShortID="284366437">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MondofedeL3_S4bis_2" ID="{AA58AB7A-DFA7-4FD1-9BBE-F8FA29F1542A}" ShortID="466409275">
+													<Language>SFX</Language>
+													<AudioFile>MondofedeL3_S4bis_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MondofedeL3_S4bis_2" ID="{AA58AB7A-DFA7-4FD1-9BBE-F8FA29F1542A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{3AFCD275-2B77-4FA7-9474-0ADA2B7A61EA}" ShortID="438737365">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{697AEE53-1AE8-4E4E-9598-657380210995}" ShortID="328668260">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CE00A9A5-73CC-4B22-9C43-86EDA010EDB5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>82</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.45289</XPos>
+																		<YPos>38</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>51.063829787234</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{C77BE0AF-2BC1-45E5-916D-84F59A9117F1}" ShortID="688225887">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2A4FFEC3-A587-4CDD-8883-374B35727040}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.12148</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="MondofedeL3_S4bis_1" ID="{FE137943-90DC-4A78-94DF-33EDA9C8461D}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>60.0306451367781</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="MondofedeL3_S4bis_2" ID="{1CD74779-5009-4CEB-B2F2-41B303D19D9D}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>41.8239582066869</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="L3_S2_Leocadie" ID="{E9AC528E-2F72-4901-84D5-A5590FAD31CD}" ShortID="939684702">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Léocadie_L3_2" ID="{0469D99A-168A-44CD-ABE2-72F2507527AB}" ShortID="540576026">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Léocadie_L3_2" ID="{8004AA3A-FD5C-48F5-8246-0FBDD15A1195}" ShortID="1037535108">
+													<Language>SFX</Language>
+													<AudioFile>Léocadie_L3_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Léocadie_L3_2" ID="{8004AA3A-FD5C-48F5-8246-0FBDD15A1195}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Léocadie_L3_1" ID="{A4876F9E-9AD4-45C7-B380-BAE376E30DFD}" ShortID="1002444718">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Léocadie_L3_1" ID="{92CF2522-506C-4CD7-93FA-7CCB9E589F84}" ShortID="938480141">
+													<Language>SFX</Language>
+													<AudioFile>Léocadie_L3_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Léocadie_L3_1" ID="{92CF2522-506C-4CD7-93FA-7CCB9E589F84}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="New Blend Track" ID="{84A69277-064E-48B6-BEB8-B6A2D78E1F74}" ShortID="78517869">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{B3983276-64C2-4337-B322-E53B2D3EB9DF}" ShortID="272627928">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{71DA84FF-94B8-4535-9BA3-F477F3EBA829}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.75684</XPos>
+																		<YPos>29</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>42.5531914893617</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{DB3E24FD-B97A-494F-BA0A-0F7D24E18035}" ShortID="435034667">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{61080DD8-BB10-4134-9858-C979934DA963}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Léocadie_L3_1" ID="{A4876F9E-9AD4-45C7-B380-BAE376E30DFD}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>52.4009658054711</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Léocadie_L3_2" ID="{0469D99A-168A-44CD-ABE2-72F2507527AB}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>38.4495980243161</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>100</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -3622,6 +5141,44 @@
 										<BlendTrack Name="New Blend Track" ID="{37C8B063-69AE-478C-9EF0-DE98FC4F6AE1}" ShortID="920497947">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{5462B71D-E46A-44DD-9EE6-5B3047293211}" ShortID="790502636">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{7B960104-0FA0-4ECC-846A-8D68C9003DE3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>81</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.14894</XPos>
+																		<YPos>38</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>47.7203647416413</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{8DD92864-C424-48DF-B179-140D725096F2}" ShortID="796750595">
@@ -3680,6 +5237,74 @@
 									</BlendTrackList>
 								</BlendContainer>
 							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="test" ID="{1EEBF38C-CA78-4E81-94A3-CEB17E8551D4}" ShortID="522333722">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{FEAD481E-7E35-42DB-B93B-FCE88B74167C}" ShortID="846705099">
+											<PropertyList>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{AAAACA56-8B12-4835-A77C-1839E328C780}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
