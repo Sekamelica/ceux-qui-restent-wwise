@@ -26,7 +26,7 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
-				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="160.000000"/>
+				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="100.000000"/>
 				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude" MaxAttenuation="200.000000"/>
 				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley" MaxAttenuation="100.000000"/>
 				<Event Id="1703812330" Name="L1_S3bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica" MaxAttenuation="100.000000"/>
@@ -180,7 +180,7 @@
 				</File>
 				<File Id="316555328" Language="SFX">
 					<ShortName>MT_MemorialEventCompleted.wav</ShortName>
-					<Path>SFX\MT_MemorialEventCompleted_67E2B650.wem</Path>
+					<Path>SFX\MT_MemorialEventCompleted_9273E172.wem</Path>
 				</File>
 				<File Id="338302265" Language="SFX">
 					<ShortName>Jessica02.wav</ShortName>
@@ -208,7 +208,7 @@
 				</File>
 				<File Id="365653220" Language="SFX">
 					<ShortName>MT_NextTemporalSegment.wav</ShortName>
-					<Path>SFX\MT_NextTemporalSegment_67E2B650.wem</Path>
+					<Path>SFX\MT_NextTemporalSegment_8086AEA2.wem</Path>
 				</File>
 				<File Id="366269584" Language="SFX">
 					<ShortName>17.wav</ShortName>
@@ -392,7 +392,7 @@
 				</File>
 				<File Id="986374349" Language="SFX">
 					<ShortName>MT_PortalTimeTravelwav.wav</ShortName>
-					<Path>SFX\MT_PortalTimeTravelwav_67E2B650.wem</Path>
+					<Path>SFX\MT_PortalTimeTravelwav_950DDAE3.wem</Path>
 				</File>
 				<File Id="988059913" Language="SFX">
 					<ShortName>FaileubeL3_1.wav</ShortName>

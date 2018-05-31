@@ -120,14 +120,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	273490049	Jessica_L3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica_L3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica\Jessica_L3_2		103901
 	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_EAC7E251.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		109429
 	301323027	Kimberley01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley\Kimberley01		365979
-	316555328	MemorialEventCompleted	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_MemorialEventCompleted_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialEventCompleted		116713
+	316555328	MemorialEventCompleted	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_MemorialEventCompleted_9273E172.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialEventCompleted		41837
 	338302265	Jessica02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica\Jessica02		162823
 	338833990	HiltrudeL3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\HiltrudeL3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude\HiltrudeL3_1		252481
 	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		152890
 	355358120	UI_CanceledLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CanceledLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CanceledLink		66414
 	360463851	Faileube2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube\Faileube2		118003
 	361259691	Ingonde_L3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Ingonde_L3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde\Ingonde_L3_2		242056
-	365653220	NextTemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_NextTemporalSegment_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\NextTemporalSegment		145068
+	365653220	NextTemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_NextTemporalSegment_8086AEA2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\NextTemporalSegment		115727
 	366269584	TemporalSegment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\17_5E35B73B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\TemporalSegment		163867
 	392575075	Faileube1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Faileube1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube\Faileube1		270708
 	393332622	Kimberley1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley\Kimberley1		376003
@@ -173,7 +173,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	951015451	Jessica1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica\Jessica1		369083
 	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_B25D6D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		160787
 	970387243	Hiltrude1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude1		263625
-	986374349	PortalTimeTravelwav	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_PortalTimeTravelwav_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\PortalTimeTravelwav		123723
+	986374349	PortalTimeTravelwav	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_PortalTimeTravelwav_950DDAE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\PortalTimeTravelwav		101631
 	988059913	FaileubeL3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\FaileubeL3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube\FaileubeL3_1		402315
 	989906786	Hiltrude2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude2		125447
 	994560023	Mondofède_L3_2_6bis	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Mondofède_L3_2_6bis_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede\Mondofède_L3_2_6bis		111988

@@ -165,7 +165,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
-							<Value>0</Value>
+							<Value>71.4285714285714</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}"/>

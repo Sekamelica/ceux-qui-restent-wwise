@@ -365,6 +365,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MemorialEventCompleted" ID="{A849B647-EBDA-4C56-97B2-C02F07EF242E}" ShortID="971813453">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -375,6 +382,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="MT_MemorialEventCompleted" ID="{99D3FA80-ECB3-4F57-A33A-C2CF92C04FBA}" ShortID="316555328">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.441487553331709"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.21952715778689"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>MT_MemorialEventCompleted.wav</AudioFile>
 								</AudioFileSource>
@@ -394,6 +405,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="MT_NextTemporalSegment" ID="{C6A5EF34-BE81-4C9F-BFE7-E349BEA1640B}" ShortID="365653220">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.437590449954087"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.56927290218199"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>MT_NextTemporalSegment.wav</AudioFile>
 								</AudioFileSource>
@@ -413,6 +428,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="MT_PortalTimeTravelwav" ID="{DD187753-76AE-454E-A35F-DF0D03EA84B9}" ShortID="986374349">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.216182855143894"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.45522005459668"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>MT_PortalTimeTravelwav.wav</AudioFile>
 								</AudioFileSource>
@@ -6495,6 +6514,7 @@
 							<ChildrenList>
 								<BlendContainer Name="L4_S1_Bulied" ID="{21EAB5FA-98BA-47ED-AF16-0416D1DCBAF2}" ShortID="424179315">
 									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
