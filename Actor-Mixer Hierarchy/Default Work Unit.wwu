@@ -6795,6 +6795,58 @@
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Ambiance" ID="{7B2223FB-74E2-4DAC-9B91-4D513C85720D}" ShortID="219783060">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="L1_Autumn" ID="{DC880C02-16B8-4784-8B6A-5A014195CFD8}" ShortID="659689624">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="L2_Winter" ID="{F3B8A26E-4E1A-4AAC-83BB-092A4513DF20}" ShortID="326857102">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="L3_Spring" ID="{B8D3F861-D641-47C7-9AA0-487A51D79966}" ShortID="402573539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="L4_Summer" ID="{AA4008CE-F2F4-4FC3-BF1F-7E8F252ED0F1}" ShortID="268169744">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7DFC0186-65ED-4309-9D1E-E4040FCCB83B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -15,21 +15,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	811615621	UI_NotEnoughEnergy			\Default Work Unit\UI\UI_NotEnoughEnergy	
 	823617801	UI_MenuReturn			\Default Work Unit\UI\UI_MenuReturn	
 	841373355	MT_NextTemporalSegment			\Default Work Unit\Voices_off\MT_NextTemporalSegment	
+	873387014	Stop_L2_Winter			\Default Work Unit\Ambiances\Stop_L2_Winter	
 	1109362563	L1_S1_Faileube			\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube	
 	1147430746	L1_S3_Kimberley			\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley	
 	1158054437	T_CommonAspect			\Default Work Unit\Voices_off\T_CommonAspect	
+	1166279678	UI_ToSummer			\Default Work Unit\UI\UI_ToSummer	
 	1170520947	UI_CanceledLink			\Default Work Unit\UI\UI_CanceledLink	
 	1192864647	UI_EnergyGaugeIncrease			\Default Work Unit\UI\UI_EnergyGaugeIncrease	
 	1195339271	H_TwoLinkCrossed			\Default Work Unit\Voices_off\H_TwoLinkCrossed	
 	1296166473	L2_S5_Kimberley			\Default Work Unit\Souvenirs\Layer_2\L2_S5_Kimberley	
 	1297441866	L4_S1_Bulied			\Default Work Unit\Souvenirs\Layer_4\L4_S1_Bulied	
 	1326074304	T_LinkTwoFragment			\Default Work Unit\Voices_off\T_LinkTwoFragment	
+	1395626872	UI_ImpossibleClic			\Default Work Unit\UI\UI_ImpossibleClic	
 	1438124155	T_EnergyGauge			\Default Work Unit\Voices_off\T_EnergyGauge	
 	1450671466	H_ExploreRoom			\Default Work Unit\Voices_off\H_ExploreRoom	
 	1468715670	L3_S6bis_Mondofede			\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede	
 	1530286288	T_FirstFragment			\Default Work Unit\Voices_off\T_FirstFragment	
 	1703812330	L1_S3bis_Jessica			\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica	
+	1755498738	UI_ToWinter			\Default Work Unit\UI\UI_ToWinter	
+	1762228510	UI_ToSpring			\Default Work Unit\UI\UI_ToSpring	
 	1834850122	T_Welcome			\Default Work Unit\Voices_off\T_Welcome	
+	1839157874	L2_S_GlassTakeUp			\Default Work Unit\Souvenirs\L2_S_GlassTakeUp	
 	1853066436	UI_ValidatedLink			\Default Work Unit\UI\UI_ValidatedLink	
 	1922056350	L1_S4bis_Placidine			\Default Work Unit\Souvenirs\Layer_1\L1_S4bis_Placidine	
 	2016698951	T_ActivLink			\Default Work Unit\Voices_off\T_ActivLink	
@@ -40,22 +46,34 @@ Event	ID	Name			Wwise Object Path	Notes
 	2258850677	L2_S6_Rikulf			\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf	
 	2267869345	MT_AllLinkToUnlock			\Default Work Unit\Voices_off\MT_AllLinkToUnlock	
 	2275206775	L2_S4bis_Faileube			\Default Work Unit\Souvenirs\Layer_2\L2_S4bis_Faileube	
+	2439111249	L1_Autumn			\Default Work Unit\Ambiances\L1_Autumn	
 	2450596334	MT_PortalTimeTravelwav			\Default Work Unit\Voices_off\MT_PortalTimeTravelwav	
+	2453701744	UI_MenuMove			\Default Work Unit\UI\UI_MenuMove	
 	2503228023	L3_S2_Leocadie			\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie	
+	2519688030	L3_Spring			\Default Work Unit\Ambiances\L3_Spring	
 	2559020516	MT_MemorialEventCompleted			\Default Work Unit\Voices_off\MT_MemorialEventCompleted	
 	2567115677	UI_LinkHold			\Default Work Unit\UI\UI_LinkHold	
-	2697614442	UI_RoomScanning			\Default Work Unit\UI\UI_RoomScanning	
+	2658354230	UI_MemorialEventValidated			\Default Work Unit\UI\UI_MemorialEventValidated	
 	2712313517	L3_S6_Jessica			\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica	
+	2797265706	L4_S_Fire			\Default Work Unit\Souvenirs\L4_S_Fire	
 	2920130850	L3_S1bis_Ingonde			\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde	
 	2978427643	L2_S2_Hiltrude			\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude	
+	3030541039	UI_ToAutumn			\Default Work Unit\UI\UI_ToAutumn	
 	3035756664	L2_S7_Dagaric			\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric	
 	3038282616	T_MemorialFlow			\Default Work Unit\Voices_off\T_MemorialFlow	
 	3276648742	UI_LaunchedGame			\Default Work Unit\UI\UI_LaunchedGame	
 	3389379746	T_SecondFragment			\Default Work Unit\Voices_off\T_SecondFragment	
+	3415076046	Stop_L1_Autumn			\Default Work Unit\Ambiances\Stop_L1_Autumn	
+	3427727279	L4_Summer			\Default Work Unit\Ambiances\L4_Summer	
+	3475567887	L3_S_HandTap			\Default Work Unit\Souvenirs\L3_S_HandTap	
 	3534651088	H_DetectedFragment			\Default Work Unit\Voices_off\H_DetectedFragment	
 	3570630340	UI_CompletedMemory			\Default Work Unit\UI\UI_CompletedMemory	
 	3580943744	L2_S1_Bulied			\Default Work Unit\Souvenirs\Layer_2\L2_S1_Bulied	
+	3598646285	L2_S_BrokenGlass			\Default Work Unit\Souvenirs\L2_S_BrokenGlass	
+	3647729937	Stop_L3_Spring			\Default Work Unit\Ambiances\Stop_L3_Spring	
 	3672070969	L1_S1bis_Hiltrude			\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude	
+	3838851852	Stop_L4_Summer			\Default Work Unit\Ambiances\Stop_L4_Summer	
+	3859649877	L2_Winter			\Default Work Unit\Ambiances\L2_Winter	
 	4024803263	L1_S5bis_Dagaric			\Default Work Unit\Souvenirs\Layer_1\L1_S5bis_Dagaric	
 	4026608243	L2_S5bis_Jessica			\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica	
 	4037441882	L3_S2bis_Mondofede			\Default Work Unit\Souvenirs\Layer_3\L3_S2bis_Mondofede	
@@ -120,7 +138,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	273490049	Jessica_L3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica_L3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica\Jessica_L3_2		103901
 	289776262	OptimizeMove	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\15_EAC7E251.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\OptimizeMove		109429
 	301323027	Kimberley01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley\Kimberley01		365979
-	316555328	MemorialEventCompleted	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_MemorialEventCompleted_9273E172.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialEventCompleted		41837
+	316555328	MemorialEventCompleted	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_MemorialEventCompleted_F1D2B312.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\MemorialEventCompleted		41837
 	338302265	Jessica02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Jessica02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3bis_Jessica\Jessica02		162823
 	338833990	HiltrudeL3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\HiltrudeL3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude\HiltrudeL3_1		252481
 	344658013	FragmentLinked	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\12_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FragmentLinked		152890

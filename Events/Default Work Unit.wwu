@@ -418,7 +418,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_RoomScanning" ID="{4A6854D4-AD23-4360-9E0C-E20D449892D5}"/>
 						<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}">
 							<ChildrenList>
 								<Action Name="" ID="{64F955E7-AF21-47AD-A3E0-98F09BE5C8CB}" ShortID="900069725">
@@ -447,6 +446,13 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="UI_ImpossibleClic" ID="{EC2F0154-FFF9-46C3-BB18-CB8F42ECCB08}"/>
+						<Event Name="UI_MenuMove" ID="{1C146FD0-79B2-4692-864C-B0176A2C1F91}"/>
+						<Event Name="UI_ToWinter" ID="{BADE5CFF-2310-42AB-8736-37F04803A984}"/>
+						<Event Name="UI_ToSpring" ID="{E555C0B5-56BB-4DFB-96B4-042466254B16}"/>
+						<Event Name="UI_ToSummer" ID="{10446C57-DC08-4048-9F24-8240295704E5}"/>
+						<Event Name="UI_ToAutumn" ID="{169D3A2C-0E6A-47A4-A774-169E6FD61EB9}"/>
+						<Event Name="UI_MemorialEventValidated" ID="{67AAAD74-FD07-4471-99AA-B45B0F6503A8}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" ShortID="64487822">
@@ -859,6 +865,126 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="L2_S_BrokenGlass" ID="{E9A3F5C2-D9E0-4A59-BCBF-1BA23B166BA0}"/>
+						<Event Name="L2_S_GlassTakeUp" ID="{944BDAB1-91B7-46C7-B795-BA3917988DFA}"/>
+						<Event Name="L3_S_HandTap" ID="{F0291FD9-BE5C-466A-BEBC-DED423B8F6BA}"/>
+						<Event Name="L4_S_Fire" ID="{31301FF9-86F4-4D4E-8C39-85D55718750A}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiances" ID="{E1672635-FF5C-4541-9700-E9E3F1C1F61F}" ShortID="910096873">
+					<ChildrenList>
+						<Event Name="L2_Winter" ID="{F73416F1-DFDF-4201-86C9-A27EA40E29F6}">
+							<ChildrenList>
+								<Action Name="" ID="{0A3314AB-9474-4C4A-8E5F-B3257336C815}" ShortID="103500849">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L2_Winter" ID="{F3B8A26E-4E1A-4AAC-83BB-092A4513DF20}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L1_Autumn" ID="{8D65ADE2-BD37-44BE-8780-5901A93E8F37}">
+							<ChildrenList>
+								<Action Name="" ID="{77077794-FC8F-49EB-BF76-F290802FB10D}" ShortID="532722542">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L1_Autumn" ID="{DC880C02-16B8-4784-8B6A-5A014195CFD8}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L4_Summer" ID="{90B31785-7506-41D0-BCC4-85B947C590F4}">
+							<ChildrenList>
+								<Action Name="" ID="{C97F8334-42BE-4681-B8D0-76037A648EFD}" ShortID="139641537">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L4_Summer" ID="{AA4008CE-F2F4-4FC3-BF1F-7E8F252ED0F1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L3_Spring" ID="{C1D25F90-0DAF-4242-AD22-949DBEC90D48}">
+							<ChildrenList>
+								<Action Name="" ID="{4920DDA7-B4EC-42B4-A659-23E557C7D5B8}" ShortID="125308880">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L3_Spring" ID="{B8D3F861-D641-47C7-9AA0-487A51D79966}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_L1_Autumn" ID="{D17562A5-49F2-4FC8-A337-2BCAE81AB3AE}">
+							<ChildrenList>
+								<Action Name="" ID="{A3BF16A8-716C-46F2-8BEB-E458CBC9B748}" ShortID="576457231">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L1_Autumn" ID="{DC880C02-16B8-4784-8B6A-5A014195CFD8}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_L2_Winter" ID="{C07763D5-ED92-484F-A10A-07C1CD538A2D}">
+							<ChildrenList>
+								<Action Name="" ID="{6BC1F708-A5EB-4273-8515-CF4DE1F88B93}" ShortID="1051134962">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L2_Winter" ID="{F3B8A26E-4E1A-4AAC-83BB-092A4513DF20}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_L3_Spring" ID="{E1326E08-12C1-44AC-81BF-6EF6A997B1EF}">
+							<ChildrenList>
+								<Action Name="" ID="{DA7918ED-2100-4E35-A116-EC275BAAD697}" ShortID="204053693">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L3_Spring" ID="{B8D3F861-D641-47C7-9AA0-487A51D79966}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_L4_Summer" ID="{EA9B7DA4-9FC8-4D90-BE90-BE48AAAEC9A6}">
+							<ChildrenList>
+								<Action Name="" ID="{19A8FAEF-2833-4C9E-B129-0886823FC615}" ShortID="285848959">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L4_Summer" ID="{AA4008CE-F2F4-4FC3-BF1F-7E8F252ED0F1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

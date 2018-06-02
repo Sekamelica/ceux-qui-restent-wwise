@@ -26,6 +26,7 @@
 				<Event Id="783952308" Name="H_OptimizeMove" ObjectPath="\Events\Default Work Unit\Voices_off\H_OptimizeMove"/>
 				<Event Id="2138475376" Name="H_TargetAndClick" ObjectPath="\Events\Default Work Unit\Voices_off\H_TargetAndClick"/>
 				<Event Id="1195339271" Name="H_TwoLinkCrossed" ObjectPath="\Events\Default Work Unit\Voices_off\H_TwoLinkCrossed"/>
+				<Event Id="2439111249" Name="L1_Autumn" ObjectPath="\Events\Default Work Unit\Ambiances\L1_Autumn"/>
 				<Event Id="1109362563" Name="L1_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1_Faileube" MaxAttenuation="100.000000"/>
 				<Event Id="3672070969" Name="L1_S1bis_Hiltrude" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude" MaxAttenuation="200.000000"/>
 				<Event Id="1147430746" Name="L1_S3_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley" MaxAttenuation="100.000000"/>
@@ -43,6 +44,9 @@
 				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica" MaxAttenuation="100.000000"/>
 				<Event Id="2258850677" Name="L2_S6_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf" MaxAttenuation="100.000000"/>
 				<Event Id="3035756664" Name="L2_S7_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric" MaxAttenuation="100.000000"/>
+				<Event Id="3598646285" Name="L2_S_BrokenGlass" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_BrokenGlass" MaxAttenuation="0.000000"/>
+				<Event Id="1839157874" Name="L2_S_GlassTakeUp" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_GlassTakeUp" MaxAttenuation="0.000000"/>
+				<Event Id="3859649877" Name="L2_Winter" ObjectPath="\Events\Default Work Unit\Ambiances\L2_Winter"/>
 				<Event Id="488213145" Name="L3_S1_Faileube" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube" MaxAttenuation="100.000000"/>
 				<Event Id="2920130850" Name="L3_S1bis_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde" MaxAttenuation="100.000000"/>
 				<Event Id="2503228023" Name="L3_S2_Leocadie" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie" MaxAttenuation="100.000000"/>
@@ -52,12 +56,20 @@
 				<Event Id="2712313517" Name="L3_S6_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6_Jessica" MaxAttenuation="100.000000"/>
 				<Event Id="1468715670" Name="L3_S6bis_Mondofede" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede" MaxAttenuation="100.000000"/>
 				<Event Id="4291332234" Name="L3_S8_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf" MaxAttenuation="100.000000"/>
+				<Event Id="3475567887" Name="L3_S_HandTap" ObjectPath="\Events\Default Work Unit\Souvenirs\L3_S_HandTap" MaxAttenuation="0.000000"/>
 				<Event Id="161012643" Name="L3_S_Kimberley" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley" MaxAttenuation="100.000000"/>
+				<Event Id="2519688030" Name="L3_Spring" ObjectPath="\Events\Default Work Unit\Ambiances\L3_Spring"/>
 				<Event Id="1297441866" Name="L4_S1_Bulied" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_4\L4_S1_Bulied" MaxAttenuation="100.000000"/>
+				<Event Id="2797265706" Name="L4_S_Fire" ObjectPath="\Events\Default Work Unit\Souvenirs\L4_S_Fire" MaxAttenuation="0.000000"/>
+				<Event Id="3427727279" Name="L4_Summer" ObjectPath="\Events\Default Work Unit\Ambiances\L4_Summer"/>
 				<Event Id="2267869345" Name="MT_AllLinkToUnlock" ObjectPath="\Events\Default Work Unit\Voices_off\MT_AllLinkToUnlock"/>
 				<Event Id="2559020516" Name="MT_MemorialEventCompleted" ObjectPath="\Events\Default Work Unit\Voices_off\MT_MemorialEventCompleted"/>
 				<Event Id="841373355" Name="MT_NextTemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\MT_NextTemporalSegment"/>
 				<Event Id="2450596334" Name="MT_PortalTimeTravelwav" ObjectPath="\Events\Default Work Unit\Voices_off\MT_PortalTimeTravelwav"/>
+				<Event Id="3415076046" Name="Stop_L1_Autumn" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L1_Autumn" MaxAttenuation="0.000000"/>
+				<Event Id="873387014" Name="Stop_L2_Winter" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L2_Winter" MaxAttenuation="0.000000"/>
+				<Event Id="3647729937" Name="Stop_L3_Spring" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L3_Spring" MaxAttenuation="0.000000"/>
+				<Event Id="3838851852" Name="Stop_L4_Summer" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L4_Summer" MaxAttenuation="0.000000"/>
 				<Event Id="8245926" Name="Stop_UI_LinkHold" ObjectPath="\Events\Default Work Unit\UI\Stop_UI_LinkHold" MaxAttenuation="0.000000"/>
 				<Event Id="2016698951" Name="T_ActivLink" ObjectPath="\Events\Default Work Unit\Voices_off\T_ActivLink"/>
 				<Event Id="1158054437" Name="T_CommonAspect" ObjectPath="\Events\Default Work Unit\Voices_off\T_CommonAspect"/>
@@ -76,13 +88,19 @@
 				<Event Id="3570630340" Name="UI_CompletedMemory" ObjectPath="\Events\Default Work Unit\UI\UI_CompletedMemory"/>
 				<Event Id="107704913" Name="UI_CrossedLink" ObjectPath="\Events\Default Work Unit\UI\UI_CrossedLink"/>
 				<Event Id="1192864647" Name="UI_EnergyGaugeIncrease" ObjectPath="\Events\Default Work Unit\UI\UI_EnergyGaugeIncrease"/>
+				<Event Id="1395626872" Name="UI_ImpossibleClic" ObjectPath="\Events\Default Work Unit\UI\UI_ImpossibleClic" MaxAttenuation="0.000000"/>
 				<Event Id="3276648742" Name="UI_LaunchedGame" ObjectPath="\Events\Default Work Unit\UI\UI_LaunchedGame"/>
 				<Event Id="2567115677" Name="UI_LinkHold" ObjectPath="\Events\Default Work Unit\UI\UI_LinkHold"/>
+				<Event Id="2658354230" Name="UI_MemorialEventValidated" ObjectPath="\Events\Default Work Unit\UI\UI_MemorialEventValidated" MaxAttenuation="0.000000"/>
+				<Event Id="2453701744" Name="UI_MenuMove" ObjectPath="\Events\Default Work Unit\UI\UI_MenuMove" MaxAttenuation="0.000000"/>
 				<Event Id="823617801" Name="UI_MenuReturn" ObjectPath="\Events\Default Work Unit\UI\UI_MenuReturn" MaxAttenuation="0.000000"/>
 				<Event Id="20648997" Name="UI_MenuValidate" ObjectPath="\Events\Default Work Unit\UI\UI_MenuValidate" MaxAttenuation="0.000000"/>
 				<Event Id="4278458338" Name="UI_NewMemoryAppear" ObjectPath="\Events\Default Work Unit\UI\UI_NewMemoryAppear"/>
 				<Event Id="811615621" Name="UI_NotEnoughEnergy" ObjectPath="\Events\Default Work Unit\UI\UI_NotEnoughEnergy" MaxAttenuation="0.000000"/>
-				<Event Id="2697614442" Name="UI_RoomScanning" ObjectPath="\Events\Default Work Unit\UI\UI_RoomScanning" MaxAttenuation="0.000000"/>
+				<Event Id="3030541039" Name="UI_ToAutumn" ObjectPath="\Events\Default Work Unit\UI\UI_ToAutumn" MaxAttenuation="0.000000"/>
+				<Event Id="1762228510" Name="UI_ToSpring" ObjectPath="\Events\Default Work Unit\UI\UI_ToSpring" MaxAttenuation="0.000000"/>
+				<Event Id="1166279678" Name="UI_ToSummer" ObjectPath="\Events\Default Work Unit\UI\UI_ToSummer" MaxAttenuation="0.000000"/>
+				<Event Id="1755498738" Name="UI_ToWinter" ObjectPath="\Events\Default Work Unit\UI\UI_ToWinter" MaxAttenuation="0.000000"/>
 				<Event Id="1853066436" Name="UI_ValidatedLink" ObjectPath="\Events\Default Work Unit\UI\UI_ValidatedLink"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -180,7 +198,7 @@
 				</File>
 				<File Id="316555328" Language="SFX">
 					<ShortName>MT_MemorialEventCompleted.wav</ShortName>
-					<Path>SFX\MT_MemorialEventCompleted_9273E172.wem</Path>
+					<Path>SFX\MT_MemorialEventCompleted_F1D2B312.wem</Path>
 				</File>
 				<File Id="338302265" Language="SFX">
 					<ShortName>Jessica02.wav</ShortName>

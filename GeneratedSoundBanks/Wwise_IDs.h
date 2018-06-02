@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID H_OPTIMIZEMOVE = 783952308U;
         static const AkUniqueID H_TARGETANDCLICK = 2138475376U;
         static const AkUniqueID H_TWOLINKCROSSED = 1195339271U;
+        static const AkUniqueID L1_AUTUMN = 2439111249U;
         static const AkUniqueID L1_S1_FAILEUBE = 1109362563U;
         static const AkUniqueID L1_S1BIS_HILTRUDE = 3672070969U;
         static const AkUniqueID L1_S3_KIMBERLEY = 1147430746U;
@@ -26,6 +27,8 @@ namespace AK
         static const AkUniqueID L1_S4BIS_PLACIDINE = 1922056350U;
         static const AkUniqueID L1_S5_RIKULF = 2038306843U;
         static const AkUniqueID L1_S5BIS_DAGARIC = 4024803263U;
+        static const AkUniqueID L2_S_BROKENGLASS = 3598646285U;
+        static const AkUniqueID L2_S_GLASSTAKEUP = 1839157874U;
         static const AkUniqueID L2_S1_BULIED = 3580943744U;
         static const AkUniqueID L2_S1BIS_PROF = 2118163114U;
         static const AkUniqueID L2_S2_HILTRUDE = 2978427643U;
@@ -35,6 +38,8 @@ namespace AK
         static const AkUniqueID L2_S5BIS_JESSICA = 4026608243U;
         static const AkUniqueID L2_S6_RIKULF = 2258850677U;
         static const AkUniqueID L2_S7_DAGARIC = 3035756664U;
+        static const AkUniqueID L2_WINTER = 3859649877U;
+        static const AkUniqueID L3_S_HANDTAP = 3475567887U;
         static const AkUniqueID L3_S_KIMBERLEY = 161012643U;
         static const AkUniqueID L3_S1_FAILEUBE = 488213145U;
         static const AkUniqueID L3_S1BIS_INGONDE = 2920130850U;
@@ -45,11 +50,18 @@ namespace AK
         static const AkUniqueID L3_S6_JESSICA = 2712313517U;
         static const AkUniqueID L3_S6BIS_MONDOFEDE = 1468715670U;
         static const AkUniqueID L3_S8_RIKULF = 4291332234U;
+        static const AkUniqueID L3_SPRING = 2519688030U;
+        static const AkUniqueID L4_S_FIRE = 2797265706U;
         static const AkUniqueID L4_S1_BULIED = 1297441866U;
+        static const AkUniqueID L4_SUMMER = 3427727279U;
         static const AkUniqueID MT_ALLLINKTOUNLOCK = 2267869345U;
         static const AkUniqueID MT_MEMORIALEVENTCOMPLETED = 2559020516U;
         static const AkUniqueID MT_NEXTTEMPORALSEGMENT = 841373355U;
         static const AkUniqueID MT_PORTALTIMETRAVELWAV = 2450596334U;
+        static const AkUniqueID STOP_L1_AUTUMN = 3415076046U;
+        static const AkUniqueID STOP_L2_WINTER = 873387014U;
+        static const AkUniqueID STOP_L3_SPRING = 3647729937U;
+        static const AkUniqueID STOP_L4_SUMMER = 3838851852U;
         static const AkUniqueID STOP_UI_LINKHOLD = 8245926U;
         static const AkUniqueID T_ACTIVLINK = 2016698951U;
         static const AkUniqueID T_COMMONASPECT = 1158054437U;
@@ -68,13 +80,19 @@ namespace AK
         static const AkUniqueID UI_COMPLETEDMEMORY = 3570630340U;
         static const AkUniqueID UI_CROSSEDLINK = 107704913U;
         static const AkUniqueID UI_ENERGYGAUGEINCREASE = 1192864647U;
+        static const AkUniqueID UI_IMPOSSIBLECLIC = 1395626872U;
         static const AkUniqueID UI_LAUNCHEDGAME = 3276648742U;
         static const AkUniqueID UI_LINKHOLD = 2567115677U;
+        static const AkUniqueID UI_MEMORIALEVENTVALIDATED = 2658354230U;
+        static const AkUniqueID UI_MENUMOVE = 2453701744U;
         static const AkUniqueID UI_MENURETURN = 823617801U;
         static const AkUniqueID UI_MENUVALIDATE = 20648997U;
         static const AkUniqueID UI_NEWMEMORYAPPEAR = 4278458338U;
         static const AkUniqueID UI_NOTENOUGHENERGY = 811615621U;
-        static const AkUniqueID UI_ROOMSCANNING = 2697614442U;
+        static const AkUniqueID UI_TOAUTUMN = 3030541039U;
+        static const AkUniqueID UI_TOSPRING = 1762228510U;
+        static const AkUniqueID UI_TOSUMMER = 1166279678U;
+        static const AkUniqueID UI_TOWINTER = 1755498738U;
         static const AkUniqueID UI_VALIDATEDLINK = 1853066436U;
     } // namespace EVENTS
 
