@@ -719,20 +719,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="L3_S1_Faileube" ID="{D0A049F8-F9E2-42B4-854D-C964C8A61F54}">
-									<ChildrenList>
-										<Action Name="" ID="{24893CD8-EFF8-421F-A760-F3B7C75F5ACE}" ShortID="333572798">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="L3_S1_Faileube" ID="{8AFDD03C-32B3-4CFF-A3C8-2C9B03D5E360}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="L3_S1bis_Ingonde" ID="{B26CA279-A2A2-405F-BBE1-936BF692978A}">
 									<ChildrenList>
 										<Action Name="" ID="{84F1D608-7474-4AF6-A7A5-31D1FBD9F3CE}" ShortID="124121632">
@@ -865,10 +851,62 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="L2_S_BrokenGlass" ID="{E9A3F5C2-D9E0-4A59-BCBF-1BA23B166BA0}"/>
-						<Event Name="L2_S_GlassTakeUp" ID="{944BDAB1-91B7-46C7-B795-BA3917988DFA}"/>
-						<Event Name="L3_S_HandTap" ID="{F0291FD9-BE5C-466A-BEBC-DED423B8F6BA}"/>
-						<Event Name="L4_S_Fire" ID="{31301FF9-86F4-4D4E-8C39-85D55718750A}"/>
+						<Event Name="L2_S_BrokenGlass" ID="{E9A3F5C2-D9E0-4A59-BCBF-1BA23B166BA0}">
+							<ChildrenList>
+								<Action Name="" ID="{4CEFFBDB-4DFF-4F8A-AB98-1986022A880F}" ShortID="993944524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L2_S_BrokenGlass_2" ID="{BEDCD8F0-E47B-4C78-B9F7-9A92CC5DCE52}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L2_S_GlassTakeUp" ID="{944BDAB1-91B7-46C7-B795-BA3917988DFA}">
+							<ChildrenList>
+								<Action Name="" ID="{B4C5398C-16A8-4E24-98FC-B50005AE5120}" ShortID="361163587">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L2_S_GlassTakeUp" ID="{F8C176DC-A949-467D-AD19-B4E3EA0FF138}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L3_S_HandTap" ID="{F0291FD9-BE5C-466A-BEBC-DED423B8F6BA}">
+							<ChildrenList>
+								<Action Name="" ID="{FAEF0DBE-BE88-4E5A-BBFE-968367861B00}" ShortID="363918962">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L3_S_HandTap" ID="{D7F9F542-9F7C-4C9C-AC5D-E61B714AB174}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="L4_S_Fire" ID="{31301FF9-86F4-4D4E-8C39-85D55718750A}">
+							<ChildrenList>
+								<Action Name="" ID="{BF461114-1886-4FAD-832F-4454F9426024}" ShortID="290098915">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L4_S_Fire" ID="{DF4E430F-BCBF-43BC-A189-51DC8E37FCDE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiances" ID="{E1672635-FF5C-4541-9700-E9E3F1C1F61F}" ShortID="910096873">
@@ -909,7 +947,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="L4_Summer" ID="{AA4008CE-F2F4-4FC3-BF1F-7E8F252ED0F1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="L4_Summer" ID="{237A8A43-DC8F-485D-B6D9-6FC4B32C8638}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -923,7 +961,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="L3_Spring" ID="{B8D3F861-D641-47C7-9AA0-487A51D79966}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="L3_Spring" ID="{19CB7D8F-F45A-4E20-94DC-AB5D8AA29431}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -965,7 +1003,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="L3_Spring" ID="{B8D3F861-D641-47C7-9AA0-487A51D79966}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="L3_Spring" ID="{19CB7D8F-F45A-4E20-94DC-AB5D8AA29431}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -979,7 +1017,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="L4_Summer" ID="{AA4008CE-F2F4-4FC3-BF1F-7E8F252ED0F1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="L4_Summer" ID="{237A8A43-DC8F-485D-B6D9-6FC4B32C8638}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

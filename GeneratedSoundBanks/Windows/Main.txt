@@ -7,7 +7,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	161012643	L3_S_Kimberley			\Default Work Unit\Souvenirs\Layer_3\L3_S_Kimberley	
 	296874062	T_FragmentLinkedContinue			\Default Work Unit\Voices_off\T_FragmentLinkedContinue	
 	429551069	L1_S4_Ingonde			\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde	
-	488213145	L3_S1_Faileube			\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube	
 	525151809	T_FragmentLinked			\Default Work Unit\Voices_off\T_FragmentLinked	
 	699418120	L3_S4_Hiltrude			\Default Work Unit\Souvenirs\Layer_3\L3_S4_Hiltrude	
 	781812845	T_ScanToMove			\Default Work Unit\Voices_off\T_ScanToMove	
@@ -86,7 +85,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	263949284	L2_S1bis			\Default Work Unit\L2_S1bis	
 	445491562	L3_S4bis			\Default Work Unit\L3_S4bis	
 	1163169324	L3_S2bis			\Default Work Unit\L3_S2bis	
-	1227262497	L3_S1			\Default Work Unit\L3_S1	
 	1227262498	L3_S2			\Default Work Unit\L3_S2	
 	1227262500	L3_S4			\Default Work Unit\L3_S4	
 	1227262502	L3_S6			\Default Work Unit\L3_S6	
@@ -112,6 +110,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4179286984	L1_S4bis			\Default Work Unit\L1_S4bis	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1588715066	Echoes_Linear	Wwise Delay			
 	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -121,13 +120,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	45780680	Kimberley02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S3_Kimberley\Kimberley02		186484
 	69971783	RikulfL3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\RikulfL3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf\RikulfL3_2		237155
 	75082783	DetectedFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\4_89E6557F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\DetectedFragment		112673
+	81094842	L1_Autumn	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Autumn_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\L1_Autumn		1578976
 	83601083	IngondeL2_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\IngondeL2_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S4_Ingonde\IngondeL2_1		257195
 	93432607	Kimberley1_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Kimberley1_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S7_Kimberley\Kimberley1_1		389404
-	113374181	FaileubeL3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\FaileubeL3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube\FaileubeL3_2		229397
 	118895324	RikulfL1_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\RikulfL1_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S5_Rikulf\RikulfL1_2		158814
 	122534204	UI_LinkHold	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LinkHold_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LinkHold		390217
 	126865573	Ingonde_L3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Ingonde_L3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde\Ingonde_L3_1		398108
+	135572406	L4_Summer	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Spring_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\L4_Summer		1792339
 	137442131	UI_Clic	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_Clic_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Clic		29770
+	141522871	L3_S_HandTap	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\L3_S_HandTap_2890D44F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\L3_S_HandTap		51488
 	145172251	UI_CompletedMemory	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CompletedMemory_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CompletedMemory		53029
 	167899328	UI_LaunchedGame	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_LaunchedGame_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_LaunchedGame		116385
 	170816897	IngondeL1_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\IngondeL1_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde\IngondeL1_2		220749
@@ -154,9 +155,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	461067514	PlacidineL1_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\PlacidineL1_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S4bis_Placidine\PlacidineL1_2		222067
 	466409275	MondofedeL3_S4bis_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MondofedeL3_S4bis_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S4bis_Mondofede\MondofedeL3_S4bis_2		108295
 	477326027	ExploreRoom	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\10_87531767.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ExploreRoom		72125
+	481980895	L2_S_GlassTakeUp	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\L2_S_GlassTakeUp_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\L2_S_GlassTakeUp		135755
 	499131503	RikulfL3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\RikulfL3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S8_Rikulf\RikulfL3_1		457977
 	499495790	EnergyGauge	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\14_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\EnergyGauge		323284
 	502551599	UI_CrossedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_CrossedLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_CrossedLink		20944
+	505605694	L2_S_BrokenGlass_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\L2_S_BrokenGlass_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\L2_S_BrokenGlass_2		109475
 	512084989	DagaricL1_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\DagaricL1_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S5bis_Dagaric\DagaricL1_2		193267
 	525826744	Hiltrude02	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude02_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude\Hiltrude02		120733
 	546718534	UI_ValidatedLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_ValidatedLink_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_ValidatedLink		80903
@@ -180,7 +183,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	792133773	IngondeL1_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\IngondeL1_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S4_Ingonde\IngondeL1_1		392365
 	796042685	FirstFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\3_67E2B650.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\FirstFragment		123147
 	813673417	Hiltrude01	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude01_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S2_Hiltrude\Hiltrude01		256486
+	814092278	L3_Spring	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Summer_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\L3_Spring		1711050
 	826465953	SecondFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\6_5EFE8F5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\SecondFragment		125461
+	826934418	L4_S_Fire	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\L4_S_Fire_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\L4_S_Fire		382176
 	829016130	Mondofède_L3_1_6bis	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Mondofède_L3_1_6bis_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede\Mondofède_L3_1_6bis		265824
 	854727800	IngondeL2_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\IngondeL2_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S4_Ingonde\IngondeL2_2		106057
 	862153232	UI_NewMemoryAppear	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_NewMemoryAppear_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_NewMemoryAppear		135568
@@ -192,7 +197,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	953926837	ActivLink	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\5_B25D6D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\ActivLink		160787
 	970387243	Hiltrude1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude1		263625
 	986374349	PortalTimeTravelwav	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MT_PortalTimeTravelwav_950DDAE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\PortalTimeTravelwav		101631
-	988059913	FaileubeL3_1	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\FaileubeL3_1_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S1_Faileube\FaileubeL3_1		402315
 	989906786	Hiltrude2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Hiltrude2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_1\L1_S1bis_Hiltrude\Hiltrude2		125447
 	994560023	Mondofède_L3_2_6bis	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Mondofède_L3_2_6bis_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S6bis_Mondofede\Mondofède_L3_2_6bis		111988
 	1003056049	Prof2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Prof2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_2\L2_S1bis_Prof\Prof2		244666
@@ -200,5 +204,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1034502380	UI_EnergyGaugeIncrease2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\UI_EnergyGaugeIncrease2_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnergyGaugeIncrease2		76119
 	1037535108	Léocadie_L3_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Léocadie_L3_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie\Léocadie_L3_2		103130
 	1042471997	LinkTwoFragment	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\7_AFF0868C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\LinkTwoFragment		89569
+	1045338793	L2_Winter	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\Winter_AD29F36A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\L2_Winter		1608062
 	1058431077	MondofedeL3_S2bis_2	D:\CeuxQuiRestent-Wwsise\.cache\Windows\SFX\MondofedeL3_S2bis_2_E5C86A8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Souvenirs\Layer_3\L3_S2bis_Mondofede\MondofedeL3_S2bis_2		105413
 

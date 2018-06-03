@@ -29,6 +29,10 @@
 							<ObjectRef Name="UI_CompletedMemory" ID="{6558D133-3208-4FDF-9506-C208E3B6F4DE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="L4_S_Fire" ID="{DF4E430F-BCBF-43BC-A189-51DC8E37FCDE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -57,7 +61,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>0</Value>
+							<Value>86</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
@@ -113,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
-							<Value>17.0212765957447</Value>
+							<Value>63.2006079027356</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>

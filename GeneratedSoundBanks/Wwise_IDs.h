@@ -41,7 +41,6 @@ namespace AK
         static const AkUniqueID L2_WINTER = 3859649877U;
         static const AkUniqueID L3_S_HANDTAP = 3475567887U;
         static const AkUniqueID L3_S_KIMBERLEY = 161012643U;
-        static const AkUniqueID L3_S1_FAILEUBE = 488213145U;
         static const AkUniqueID L3_S1BIS_INGONDE = 2920130850U;
         static const AkUniqueID L3_S2_LEOCADIE = 2503228023U;
         static const AkUniqueID L3_S2BIS_MONDOFEDE = 4037441882U;
@@ -146,6 +145,7 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIANCE = 2981377429U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MASTER_SECONDARY_BUS = 805203703U;
         static const AkUniqueID SOUVENIRS = 2036899401U;
