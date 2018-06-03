@@ -30,8 +30,40 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L1_Autumn" ID="{DC880C02-16B8-4784-8B6A-5A014195CFD8}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_ImpossibleClic" ID="{FDFE613A-7E80-414E-90D8-730B5C7C3A0E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="L4_S_Fire" ID="{DF4E430F-BCBF-43BC-A189-51DC8E37FCDE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_LinkHold3" ID="{A4DCD624-B749-4345-B97F-AF036AAA8B72}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_MenuMove" ID="{3F38A5FE-78B9-4AE7-B9F3-A1B9144AE440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_LaunchedGame" ID="{88B16DAB-72AE-47D5-A847-41328C8F8E99}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_MenuValidate" ID="{233DF4C4-6C5C-4F3C-B859-C14AB99B2E21}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_MenuReturn" ID="{5B1A3008-0942-49D8-9977-FCDBA9626A8D}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -61,7 +93,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>86</Value>
+							<Value>38</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>

@@ -325,7 +325,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="UI_LinkHold3" ID="{A4DCD624-B749-4345-B97F-AF036AAA8B72}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -388,8 +388,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}"/>
-						<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}"/>
+						<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}">
+							<ChildrenList>
+								<Action Name="" ID="{793085B6-93FC-473E-B47E-4EE07F904135}" ShortID="859411817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MenuValidate" ID="{233DF4C4-6C5C-4F3C-B859-C14AB99B2E21}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}">
+							<ChildrenList>
+								<Action Name="" ID="{7538615E-8EF5-4661-A8AF-BA334CC5B1F8}" ShortID="1006869997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MenuReturn" ID="{5B1A3008-0942-49D8-9977-FCDBA9626A8D}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="UI_CompletedMemory" ID="{11D9D706-8405-4FCA-AED0-57739B92119E}">
 							<ChildrenList>
 								<Action Name="" ID="{7BCF4AAC-5F61-4225-83D6-20E44D18316F}" ShortID="546084792">
@@ -440,19 +466,110 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UI_LinkHold" ID="{7DCDE686-4B7B-4F1B-9627-1A475C548C1A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+											<ObjectRef Name="UI_LinkHold3" ID="{A4DCD624-B749-4345-B97F-AF036AAA8B72}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_ImpossibleClic" ID="{EC2F0154-FFF9-46C3-BB18-CB8F42ECCB08}"/>
-						<Event Name="UI_MenuMove" ID="{1C146FD0-79B2-4692-864C-B0176A2C1F91}"/>
-						<Event Name="UI_ToWinter" ID="{BADE5CFF-2310-42AB-8736-37F04803A984}"/>
-						<Event Name="UI_ToSpring" ID="{E555C0B5-56BB-4DFB-96B4-042466254B16}"/>
-						<Event Name="UI_ToSummer" ID="{10446C57-DC08-4048-9F24-8240295704E5}"/>
-						<Event Name="UI_ToAutumn" ID="{169D3A2C-0E6A-47A4-A774-169E6FD61EB9}"/>
-						<Event Name="UI_MemorialEventValidated" ID="{67AAAD74-FD07-4471-99AA-B45B0F6503A8}"/>
+						<Event Name="UI_ImpossibleClic" ID="{EC2F0154-FFF9-46C3-BB18-CB8F42ECCB08}">
+							<ChildrenList>
+								<Action Name="" ID="{C022F17F-35FB-4276-94C8-BF82149B44E9}" ShortID="955030457">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ImpossibleClic" ID="{FDFE613A-7E80-414E-90D8-730B5C7C3A0E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MenuMove" ID="{1C146FD0-79B2-4692-864C-B0176A2C1F91}">
+							<ChildrenList>
+								<Action Name="" ID="{B8491334-4AFD-4E25-BE82-E728A4975FCE}" ShortID="29532290">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MenuMove" ID="{3F38A5FE-78B9-4AE7-B9F3-A1B9144AE440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ToWinter" ID="{BADE5CFF-2310-42AB-8736-37F04803A984}">
+							<ChildrenList>
+								<Action Name="" ID="{ADEBD3C4-50D6-4417-B19C-AC0783806128}" ShortID="185650672">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ToWinter" ID="{C9795CDF-515D-42D9-A31E-C115954AEDAA}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ToSpring" ID="{E555C0B5-56BB-4DFB-96B4-042466254B16}">
+							<ChildrenList>
+								<Action Name="" ID="{2F185976-BEFB-43EE-8638-B30181830F80}" ShortID="523802772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ToSpring" ID="{EA257FB3-BEF4-484D-92C9-05614984E7A6}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ToSummer" ID="{10446C57-DC08-4048-9F24-8240295704E5}">
+							<ChildrenList>
+								<Action Name="" ID="{D276E53D-F0B0-4C38-9088-97865F0B33E6}" ShortID="146383019">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ToSummer" ID="{D802437B-6FDE-4759-B676-0082B4116F35}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ToAutumn" ID="{169D3A2C-0E6A-47A4-A774-169E6FD61EB9}">
+							<ChildrenList>
+								<Action Name="" ID="{01E0C233-F6F0-4426-B556-51B64606F37F}" ShortID="728827064">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ToAutumn" ID="{F6643C02-0B04-4B89-A827-FE37021A2056}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_MemorialEventValidated" ID="{67AAAD74-FD07-4471-99AA-B45B0F6503A8}">
+							<ChildrenList>
+								<Action Name="" ID="{9DBD593D-45DF-42E0-847E-8B88248E3D6C}" ShortID="996961867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_MemorialEventValidated" ID="{FF7E71A4-C716-4A8C-936C-972530A7838C}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" ShortID="64487822">
