@@ -1024,6 +1024,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_L2_S_BrokenGlass" ID="{3BB64366-1394-4CFA-8269-1D5107154704}">
+							<ChildrenList>
+								<Action Name="" ID="{2BED9F11-63BB-4067-BEC3-C5A2A46E6DE9}" ShortID="867478759">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="L2_S_BrokenGlass_2" ID="{BEDCD8F0-E47B-4C78-B9F7-9A92CC5DCE52}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiances" ID="{E1672635-FF5C-4541-9700-E9E3F1C1F61F}" ShortID="910096873">
