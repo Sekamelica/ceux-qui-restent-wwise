@@ -487,6 +487,298 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Layer_2" ID="{FE164BB0-389E-4F92-9158-4D2D00E54E05}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="L2_Winter" ID="{F3B8A26E-4E1A-4AAC-83BB-092A4513DF20}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S4_Ingonde" ID="{88BE7D6C-F8DB-4FD5-81C9-2525339DBE25}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S5_Kimberley" ID="{3BFA903A-791A-49CC-B2F7-0D4FA1635E31}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S_BrokenGlass_2" ID="{BEDCD8F0-E47B-4C78-B9F7-9A92CC5DCE52}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DetectedFragment" ID="{B719F66F-6A4B-4B93-BAB2-E60CD72832E1}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ExploreRoom" ID="{F9F21628-7447-41D0-AAC9-6FD6DD86DD2A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MemorialEventCompleted" ID="{A849B647-EBDA-4C56-97B2-C02F07EF242E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ScanToMove" ID="{A4549972-76B2-4597-A451-5F5F24EF3A18}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Welcome" ID="{77570E23-55D3-42FC-8505-89A2C9B77DF5}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S1_Bulied" ID="{BBCFE4DA-88D0-4E8E-B5AE-9A614F541478}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S5bis_Jessica" ID="{CC1FC9D4-9489-4A5C-BF58-3A7AFDEF390E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S_GlassTakeUp" ID="{F8C176DC-A949-467D-AD19-B4E3EA0FF138}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ActivLink" ID="{348B6A7B-FCE5-4828-8904-316B1C4DBDF5}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FirstFragment" ID="{19C1251C-9D39-432B-8F6C-518BC9CB57BF}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MemorialFlow" ID="{A6B9DF43-86E3-48B1-B5EF-50B9045A2440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SecondFragment" ID="{DAD63D4A-7D4A-4CFD-865B-0C278CD95536}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S1bis_Prof" ID="{DC84BC8F-5D89-470C-B1C2-7C93BE40ED67}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S6_Rikulf" ID="{D4891460-49ED-40C2-B5E1-4F1734CFD135}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AllLinkToUnlock" ID="{28917FEB-BD0A-44B7-BA44-285DBD8EEF44}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FragmentLinked" ID="{9DFEFFA9-1E4D-4D55-8545-A20D320C1CB2}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="NextTemporalSegment" ID="{8D504BAB-C8AA-4A5F-8836-B93AC5D6E61A}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TargetAndClick" ID="{9326D3F8-CCCD-40EE-A7BA-0E6D41D409CC}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S2_Hiltrude" ID="{FA016089-682C-498A-9F1F-E86D68C3AC51}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S7_Dagaric" ID="{2BB8E11A-2F33-4FCA-A25D-09E741CD42B8}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CommonAspect" ID="{7E0F5B1E-5B8A-47FC-BE2A-B1B62E61F3A6}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FragmentLinkedContinue" ID="{2D0727DD-1CB9-4763-AE21-6F43842CCF72}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OptimizeMove" ID="{E10865D0-5EE5-4493-865D-A446C0C0900F}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TemporalSegment" ID="{A98671CB-2F4E-49A0-9000-6210B5D0E964}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L2_S4bis_Faileube" ID="{2FDB00FB-751D-413C-A6CA-7D3877BC6A34}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EnergyGauge" ID="{2682FEDB-1C52-4C83-A149-6AA871276FFD}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LinkTwoFragment" ID="{54CF6697-1B66-4E94-A6E4-C73E87003911}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PortalTimeTravelwav" ID="{3B3B41B0-296F-4F0C-8808-1CDA1C99DD44}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TwoLinkCrossed" ID="{9D9358E1-EE87-4E8D-BC2E-53DBD3696BBF}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="7"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
+							<Value>69</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}"/>
+							<Value>16</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}"/>
+							<Value>20</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}"/>
+							<Value>21</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
+							<Value>64.745</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
+							<Value>35.717</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}"/>
+							<Value>65</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}"/>
+							<Value>13</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+							<Value>28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
+							<Value>13</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>
+							<Value>20</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
+							<Value>66</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}"/>
+							<Value>15</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}"/>
+							<Value>11</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
+							<Value>79</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}"/>
+							<Value>44</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}"/>
+							<Value>16</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
+							<Value>71</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}"/>
+							<Value>42</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}"/>
+							<Value>72</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

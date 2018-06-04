@@ -10,11 +10,6 @@
 								<Value>35</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1024,6 +1019,8 @@
 											<Modifier Name="" ID="{FEA1FB99-3AD4-4132-ACC7-2E87644BE251}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="51"/>
+													<Property Name="Min" Type="Real64" Value="-51"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -1031,7 +1028,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2888,6 +2885,11 @@
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3111,6 +3113,11 @@
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3337,6 +3344,11 @@
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -3547,6 +3559,11 @@
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4313,7 +4330,7 @@
 														<RTPC Name="" ID="{E44C004B-F538-4E3F-8B87-D5438F309701}" ShortID="167098727">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
+																	<ObjectRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}" WorkUnitID="{A5BD9065-B06D-4896-902A-C50A29D3AD5B}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{B215C5DA-EFE0-4033-8600-C05DF64C5885}">
@@ -7324,7 +7341,7 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7611,7 +7628,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
