@@ -8,6 +8,11 @@
 						<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
 							<ObjectRef Name="New_Wwise_Recorder" ID="{8D6CFACB-C4FF-42E9-9619-89A5F0330D08}" WorkUnitID="{9B284372-1133-46E3-B8BE-DB0BA553C06E}"/>
 						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Peak Limiter (Custom)" ID="{5D86C278-5BE2-4FA2-936E-6B1C52506538}" ShortID="146972857" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Voices_Tuto" ID="{377867D5-BCE1-4EE5-8172-B51E92D1278C}">
@@ -15,7 +20,7 @@
 								<DuckItem>
 									<BusRef Name="Souvenirs" ID="{462463F4-9739-4F5E-BC7D-104618519D2E}"/>
 									<DuckingParam>
-										<Volume>-14</Volume>
+										<Volume>-7</Volume>
 										<FadeInTime>1</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeExp2</FadeCurve>
@@ -25,11 +30,20 @@
 								<DuckItem>
 									<BusRef Name="UI" ID="{1C1394EE-1BE0-4D86-BD1A-FB1575B60D92}"/>
 									<DuckingParam>
-										<Volume>-9</Volume>
+										<Volume>-5</Volume>
 										<FadeInTime>0.5</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
 										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Ambiance" ID="{652E70A0-713D-4BD0-80BD-DB5D48917163}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
 									</DuckingParam>
 								</DuckItem>
 							</DuckingList>

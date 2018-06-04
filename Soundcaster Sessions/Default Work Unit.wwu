@@ -22,6 +22,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="L2_Winter" ID="{F3B8A26E-4E1A-4AAC-83BB-092A4513DF20}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="L1_S1_Faileube" ID="{4A4B62BF-CA5E-431F-AE98-A1CE1CD95A7B}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -93,7 +97,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>38</Value>
+							<Value>23</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
@@ -113,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
-							<Value>29.7872340425532</Value>
+							<Value>33</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
