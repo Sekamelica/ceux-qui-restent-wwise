@@ -388,34 +388,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}">
-							<ChildrenList>
-								<Action Name="" ID="{793085B6-93FC-473E-B47E-4EE07F904135}" ShortID="859411817">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_MenuValidate" ID="{233DF4C4-6C5C-4F3C-B859-C14AB99B2E21}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}">
-							<ChildrenList>
-								<Action Name="" ID="{7538615E-8EF5-4661-A8AF-BA334CC5B1F8}" ShortID="1006869997">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_MenuReturn" ID="{5B1A3008-0942-49D8-9977-FCDBA9626A8D}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="UI_CompletedMemory" ID="{11D9D706-8405-4FCA-AED0-57739B92119E}">
 							<ChildrenList>
 								<Action Name="" ID="{7BCF4AAC-5F61-4225-83D6-20E44D18316F}" ShortID="546084792">
@@ -444,20 +416,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}">
-							<ChildrenList>
-								<Action Name="" ID="{64F955E7-AF21-47AD-A3E0-98F09BE5C8CB}" ShortID="900069725">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_LaunchedGame" ID="{88B16DAB-72AE-47D5-A847-41328C8F8E99}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Stop_UI_LinkHold" ID="{3F39C133-4864-487D-AB4B-A39FED78F6F4}">
 							<ChildrenList>
 								<Action Name="" ID="{9479B409-5805-424D-B2B6-BE764EEF6B35}" ShortID="198751906">
@@ -481,20 +439,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_ImpossibleClic" ID="{FDFE613A-7E80-414E-90D8-730B5C7C3A0E}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="UI_MenuMove" ID="{1C146FD0-79B2-4692-864C-B0176A2C1F91}">
-							<ChildrenList>
-								<Action Name="" ID="{B8491334-4AFD-4E25-BE82-E728A4975FCE}" ShortID="29532290">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="UI_MenuMove" ID="{3F38A5FE-78B9-4AE7-B9F3-A1B9144AE440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -570,6 +514,66 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Menu" ID="{82253FC6-90F6-4737-A838-5E23342C4192}" ShortID="481194863">
+							<ChildrenList>
+								<Event Name="UI_MenuMove" ID="{1C146FD0-79B2-4692-864C-B0176A2C1F91}">
+									<ChildrenList>
+										<Action Name="" ID="{B8491334-4AFD-4E25-BE82-E728A4975FCE}" ShortID="29532290">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI_MenuMove" ID="{3F38A5FE-78B9-4AE7-B9F3-A1B9144AE440}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_MenuReturn" ID="{5E036C0D-2AB9-4A03-95E1-5C879D9BE7F8}">
+									<ChildrenList>
+										<Action Name="" ID="{7538615E-8EF5-4661-A8AF-BA334CC5B1F8}" ShortID="1006869997">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI_MenuReturn" ID="{5B1A3008-0942-49D8-9977-FCDBA9626A8D}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_MenuValidate" ID="{713EBB18-60C0-4839-8967-02504AFB1D91}">
+									<ChildrenList>
+										<Action Name="" ID="{793085B6-93FC-473E-B47E-4EE07F904135}" ShortID="859411817">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI_MenuValidate" ID="{233DF4C4-6C5C-4F3C-B859-C14AB99B2E21}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_LaunchedGame" ID="{04A91374-5ECF-4C35-813F-AA465246C956}">
+									<ChildrenList>
+										<Action Name="" ID="{64F955E7-AF21-47AD-A3E0-98F09BE5C8CB}" ShortID="900069725">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="UI_LaunchedGame" ID="{88B16DAB-72AE-47D5-A847-41328C8F8E99}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Souvenirs" ID="{5584C019-345F-447A-8ECF-DB4310E0F746}" ShortID="64487822">
