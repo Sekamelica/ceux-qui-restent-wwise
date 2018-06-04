@@ -23,5 +23,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	146972857	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	419691232	New_Wwise_Recorder	Wwise Recorder			
 

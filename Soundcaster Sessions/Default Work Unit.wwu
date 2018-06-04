@@ -779,6 +779,386 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Layer_3" ID="{42F0EB56-7ABF-40CA-BDE4-9D76DACC2F92}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="L3_Spring" ID="{19CB7D8F-F45A-4E20-94DC-AB5D8AA29431}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S2bis_Mondofede" ID="{0F14541A-F8D0-4C33-BFC5-50A3607BCFF4}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S6_Jessica" ID="{DACD7DE5-6F65-48F9-97B7-9B24AD8526A2}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S_HandTap" ID="{D7F9F542-9F7C-4C9C-AC5D-E61B714AB174}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S1_Faileube" ID="{8AFDD03C-32B3-4CFF-A3C8-2C9B03D5E360}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S6bis_Mondofede" ID="{BC886661-B538-440E-B895-9BAB050118EC}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S1bis_Ingonde" ID="{2304AA15-D955-4D20-B488-65EABF9E8B00}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S7_Kimberley" ID="{855DEB1D-B678-494F-A69B-7F5DEBE0DEFC}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S2_Leocadie" ID="{E9AC528E-2F72-4901-84D5-A5590FAD31CD}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S8_Rikulf" ID="{D1248B7B-5BA0-42B2-84E5-FFF6B4727428}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S4_Hiltrude" ID="{C62B85A9-1126-4553-9D14-D46C82276D93}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L3_S4bis_Mondofede" ID="{AFE62551-2507-4261-9D28-78E37EA32EED}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
+							<Value>69</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}"/>
+							<Value>81</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
+							<Value>64.745</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
+							<Value>35.717</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}"/>
+							<Value>65</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+							<Value>28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
+							<Value>77</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
+							<Value>66</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}"/>
+							<Value>67</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}"/>
+							<Value>65</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
+							<Value>79</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}"/>
+							<Value>44</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}"/>
+							<Value>68</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
+							<Value>71</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}"/>
+							<Value>42</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}"/>
+							<Value>72</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Layer_4" ID="{159E5BAE-C050-4839-ACF3-6D0C7A15C6D5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="L4_Summer" ID="{237A8A43-DC8F-485D-B6D9-6FC4B32C8638}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L4_S1_Bulied" ID="{21EAB5FA-98BA-47ED-AF16-0416D1DCBAF2}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="L4_S_Fire" ID="{DF4E430F-BCBF-43BC-A189-51DC8E37FCDE}" WorkUnitID="{9DCC045B-0816-4887-9F80-1CA1E989F7B1}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="L2_S2" ID="{5934EC2F-A4D3-4014-A3F1-0C54C7969E0E}"/>
+							<Value>69</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2bis" ID="{31C86FE6-D75B-404F-A9D1-58C29C1FEDDF}"/>
+							<Value>81</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S8" ID="{D853F6E0-54F8-4165-A0AC-AA179CD43F7C}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1bis" ID="{91DC570A-8005-4210-8E51-F5A3952C3119}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3" ID="{48EB99CD-F9F1-423D-B100-41CC0A4E1F30}"/>
+							<Value>64.745</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
+							<Value>35.717</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1bis" ID="{2449B980-E6A3-4300-BD3C-56F28E1C7B70}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5bis" ID="{67DECC60-CF78-433D-9FA7-189BE6750289}"/>
+							<Value>65</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4bis" ID="{FF8CCA2F-CC96-43A8-A323-BD6912CAA75D}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S2" ID="{C63F252E-122C-43EF-A139-2F5F041FA3AA}"/>
+							<Value>28</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S1" ID="{B82B67FE-F102-446F-967D-3078AC603BF5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4" ID="{3590AC1A-FC9C-471F-814B-A5EABF74EB8D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S1" ID="{8139A87B-77EA-473E-A579-A25B652114E0}"/>
+							<Value>63</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S" ID="{E727B155-B259-477A-BFDA-FFFA335410CF}"/>
+							<Value>77</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S4" ID="{80F0B8FD-9CF1-47A9-B61D-EB2658655582}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S5" ID="{32970106-4CFA-47DD-9E1D-C0E9A2AA97BD}"/>
+							<Value>66</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6bis" ID="{DCD9D0AA-AB44-47F8-AA34-E59994F7B343}"/>
+							<Value>67</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S6" ID="{FD9512E9-7B19-48B5-97B2-A33C22E2D0C4}"/>
+							<Value>65</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S4" ID="{76BE73FB-E401-48CD-AD97-98DAF6B43275}"/>
+							<Value>72</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_4bis" ID="{C3B2C417-3DCA-48F1-9007-B09AC5C3D206}"/>
+							<Value>79</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5bis" ID="{EE48E840-6E3E-49D7-AC6C-889D18B1401B}"/>
+							<Value>44</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S6" ID="{2916A463-5AFA-4A0A-9EE5-53B694B5B5EC}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L3_S2" ID="{90A0B6F3-6546-4ACF-9E6E-1C6B3A7C2533}"/>
+							<Value>68</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S4bis" ID="{109BE199-2F98-4CC5-987D-66EBA9140425}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L4_S1" ID="{8EE4A089-1677-4CDB-A8C0-CE96319071F2}"/>
+							<Value>14</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L1_S5" ID="{07972CDE-2690-4D70-80AE-07F07A59E6C4}"/>
+							<Value>42</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="L2_S7" ID="{10DB11B3-1A76-4E46-A83E-3C8D2E543177}"/>
+							<Value>72</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

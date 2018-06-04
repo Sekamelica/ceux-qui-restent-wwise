@@ -44,8 +44,8 @@
 				<Event Id="4026608243" Name="L2_S5bis_Jessica" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S5bis_Jessica" MaxAttenuation="100.000000"/>
 				<Event Id="2258850677" Name="L2_S6_Rikulf" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S6_Rikulf" MaxAttenuation="100.000000"/>
 				<Event Id="3035756664" Name="L2_S7_Dagaric" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_2\L2_S7_Dagaric" MaxAttenuation="100.000000"/>
-				<Event Id="3598646285" Name="L2_S_BrokenGlass" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_BrokenGlass" MaxAttenuation="25.000000"/>
-				<Event Id="1839157874" Name="L2_S_GlassTakeUp" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_GlassTakeUp" MaxAttenuation="30.000000"/>
+				<Event Id="3598646285" Name="L2_S_BrokenGlass" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_BrokenGlass" MaxAttenuation="15.000000"/>
+				<Event Id="1839157874" Name="L2_S_GlassTakeUp" ObjectPath="\Events\Default Work Unit\Souvenirs\L2_S_GlassTakeUp" MaxAttenuation="15.000000"/>
 				<Event Id="3859649877" Name="L2_Winter" ObjectPath="\Events\Default Work Unit\Ambiances\L2_Winter"/>
 				<Event Id="2920130850" Name="L3_S1bis_Ingonde" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S1bis_Ingonde" MaxAttenuation="100.000000"/>
 				<Event Id="2503228023" Name="L3_S2_Leocadie" ObjectPath="\Events\Default Work Unit\Souvenirs\Layer_3\L3_S2_Leocadie" MaxAttenuation="100.000000"/>
@@ -66,6 +66,7 @@
 				<Event Id="841373355" Name="MT_NextTemporalSegment" ObjectPath="\Events\Default Work Unit\Voices_off\MT_NextTemporalSegment"/>
 				<Event Id="2450596334" Name="MT_PortalTimeTravelwav" ObjectPath="\Events\Default Work Unit\Voices_off\MT_PortalTimeTravelwav"/>
 				<Event Id="3415076046" Name="Stop_L1_Autumn" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L1_Autumn" MaxAttenuation="0.000000"/>
+				<Event Id="3190937592" Name="Stop_L2_S_BrokenGlass" ObjectPath="\Events\Default Work Unit\Souvenirs\Stop_L2_S_BrokenGlass" MaxAttenuation="0.000000"/>
 				<Event Id="873387014" Name="Stop_L2_Winter" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L2_Winter" MaxAttenuation="0.000000"/>
 				<Event Id="3647729937" Name="Stop_L3_Spring" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L3_Spring" MaxAttenuation="0.000000"/>
 				<Event Id="3838851852" Name="Stop_L4_Summer" ObjectPath="\Events\Default Work Unit\Ambiances\Stop_L4_Summer" MaxAttenuation="0.000000"/>
@@ -87,22 +88,26 @@
 				<Event Id="3570630340" Name="UI_CompletedMemory" ObjectPath="\Events\Default Work Unit\UI\UI_CompletedMemory"/>
 				<Event Id="107704913" Name="UI_CrossedLink" ObjectPath="\Events\Default Work Unit\UI\UI_CrossedLink"/>
 				<Event Id="1192864647" Name="UI_EnergyGaugeIncrease" ObjectPath="\Events\Default Work Unit\UI\UI_EnergyGaugeIncrease"/>
-				<Event Id="1395626872" Name="UI_ImpossibleClic" ObjectPath="\Events\Default Work Unit\UI\UI_ImpossibleClic" MaxAttenuation="0.000000"/>
-				<Event Id="3276648742" Name="UI_LaunchedGame" ObjectPath="\Events\Default Work Unit\UI\UI_LaunchedGame"/>
+				<Event Id="1395626872" Name="UI_ImpossibleClic" ObjectPath="\Events\Default Work Unit\UI\UI_ImpossibleClic"/>
+				<Event Id="3276648742" Name="UI_LaunchedGame" ObjectPath="\Events\Default Work Unit\UI\Menu\UI_LaunchedGame"/>
 				<Event Id="2567115677" Name="UI_LinkHold" ObjectPath="\Events\Default Work Unit\UI\UI_LinkHold"/>
-				<Event Id="2658354230" Name="UI_MemorialEventValidated" ObjectPath="\Events\Default Work Unit\UI\UI_MemorialEventValidated" MaxAttenuation="0.000000"/>
-				<Event Id="2453701744" Name="UI_MenuMove" ObjectPath="\Events\Default Work Unit\UI\UI_MenuMove" MaxAttenuation="0.000000"/>
-				<Event Id="823617801" Name="UI_MenuReturn" ObjectPath="\Events\Default Work Unit\UI\UI_MenuReturn" MaxAttenuation="0.000000"/>
-				<Event Id="20648997" Name="UI_MenuValidate" ObjectPath="\Events\Default Work Unit\UI\UI_MenuValidate" MaxAttenuation="0.000000"/>
+				<Event Id="2658354230" Name="UI_MemorialEventValidated" ObjectPath="\Events\Default Work Unit\UI\UI_MemorialEventValidated"/>
+				<Event Id="2453701744" Name="UI_MenuMove" ObjectPath="\Events\Default Work Unit\UI\Menu\UI_MenuMove"/>
+				<Event Id="823617801" Name="UI_MenuReturn" ObjectPath="\Events\Default Work Unit\UI\Menu\UI_MenuReturn"/>
+				<Event Id="20648997" Name="UI_MenuValidate" ObjectPath="\Events\Default Work Unit\UI\Menu\UI_MenuValidate"/>
 				<Event Id="4278458338" Name="UI_NewMemoryAppear" ObjectPath="\Events\Default Work Unit\UI\UI_NewMemoryAppear"/>
 				<Event Id="811615621" Name="UI_NotEnoughEnergy" ObjectPath="\Events\Default Work Unit\UI\UI_NotEnoughEnergy" MaxAttenuation="0.000000"/>
-				<Event Id="3030541039" Name="UI_ToAutumn" ObjectPath="\Events\Default Work Unit\UI\UI_ToAutumn" MaxAttenuation="0.000000"/>
-				<Event Id="1762228510" Name="UI_ToSpring" ObjectPath="\Events\Default Work Unit\UI\UI_ToSpring" MaxAttenuation="0.000000"/>
-				<Event Id="1166279678" Name="UI_ToSummer" ObjectPath="\Events\Default Work Unit\UI\UI_ToSummer" MaxAttenuation="0.000000"/>
-				<Event Id="1755498738" Name="UI_ToWinter" ObjectPath="\Events\Default Work Unit\UI\UI_ToWinter" MaxAttenuation="0.000000"/>
+				<Event Id="3030541039" Name="UI_ToAutumn" ObjectPath="\Events\Default Work Unit\UI\UI_ToAutumn"/>
+				<Event Id="1762228510" Name="UI_ToSpring" ObjectPath="\Events\Default Work Unit\UI\UI_ToSpring"/>
+				<Event Id="1166279678" Name="UI_ToSummer" ObjectPath="\Events\Default Work Unit\UI\UI_ToSummer"/>
+				<Event Id="1755498738" Name="UI_ToWinter" ObjectPath="\Events\Default Work Unit\UI\UI_ToWinter"/>
 				<Event Id="1853066436" Name="UI_ValidatedLink" ObjectPath="\Events\Default Work Unit\UI\UI_ValidatedLink"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="3272244" Language="SFX">
+					<ShortName>UI_LinkHold3.wav</ShortName>
+					<Path>SFX\UI_LinkHold3_AD29F36A.wem</Path>
+				</File>
 				<File Id="11012546" Language="SFX">
 					<ShortName>Kimberley1_2.wav</ShortName>
 					<Path>SFX\Kimberley1_2_E5C86A8A.wem</Path>
@@ -118,6 +123,14 @@
 				<File Id="45780680" Language="SFX">
 					<ShortName>Kimberley02.wav</ShortName>
 					<Path>SFX\Kimberley02_E5C86A8A.wem</Path>
+				</File>
+				<File Id="47183015" Language="SFX">
+					<ShortName>UI_ToAutumn.wav</ShortName>
+					<Path>SFX\UI_ToAutumn_F7D0E330.wem</Path>
+				</File>
+				<File Id="57963319" Language="SFX">
+					<ShortName>UI_MenuMove.wav</ShortName>
+					<Path>SFX\UI_MenuMove_33ADACD4.wem</Path>
 				</File>
 				<File Id="69971783" Language="SFX">
 					<ShortName>RikulfL3_2.wav</ShortName>
@@ -143,10 +156,6 @@
 					<ShortName>RikulfL1_2.wav</ShortName>
 					<Path>SFX\RikulfL1_2_E5C86A8A.wem</Path>
 				</File>
-				<File Id="122534204" Language="SFX">
-					<ShortName>UI_LinkHold.wav</ShortName>
-					<Path>SFX\UI_LinkHold_F7D0E330.wem</Path>
-				</File>
 				<File Id="126865573" Language="SFX">
 					<ShortName>Ingonde_L3_1.wav</ShortName>
 					<Path>SFX\Ingonde_L3_1_E5C86A8A.wem</Path>
@@ -161,7 +170,7 @@
 				</File>
 				<File Id="141522871" Language="SFX">
 					<ShortName>L3_S_HandTap.wav</ShortName>
-					<Path>SFX\L3_S_HandTap_2890D44F.wem</Path>
+					<Path>SFX\L3_S_HandTap_9B222A5C.wem</Path>
 				</File>
 				<File Id="145172251" Language="SFX">
 					<ShortName>UI_CompletedMemory.wav</ShortName>
@@ -174,6 +183,10 @@
 				<File Id="170816897" Language="SFX">
 					<ShortName>IngondeL1_2.wav</ShortName>
 					<Path>SFX\IngondeL1_2_E5C86A8A.wem</Path>
+				</File>
+				<File Id="175482859" Language="SFX">
+					<ShortName>UI_MenuReturn.wav</ShortName>
+					<Path>SFX\UI_MenuReturn_43A93CC6.wem</Path>
 				</File>
 				<File Id="205144782" Language="SFX">
 					<ShortName>13.wav</ShortName>
@@ -195,6 +208,10 @@
 					<ShortName>Jessica_L3_2.wav</ShortName>
 					<Path>SFX\Jessica_L3_2_E5C86A8A.wem</Path>
 				</File>
+				<File Id="279543847" Language="SFX">
+					<ShortName>UI_ImpossibleClic.wav</ShortName>
+					<Path>SFX\UI_ImpossibleClic_A659EAE1.wem</Path>
+				</File>
 				<File Id="289776262" Language="SFX">
 					<ShortName>15.wav</ShortName>
 					<Path>SFX\15_EAC7E251.wem</Path>
@@ -206,6 +223,10 @@
 				<File Id="316555328" Language="SFX">
 					<ShortName>MT_MemorialEventCompleted.wav</ShortName>
 					<Path>SFX\MT_MemorialEventCompleted_F1D2B312.wem</Path>
+				</File>
+				<File Id="336957192" Language="SFX">
+					<ShortName>UI_ToWinter.wav</ShortName>
+					<Path>SFX\UI_ToWinter_F7D0E330.wem</Path>
 				</File>
 				<File Id="338302265" Language="SFX">
 					<ShortName>Jessica02.wav</ShortName>
@@ -221,7 +242,7 @@
 				</File>
 				<File Id="355358120" Language="SFX">
 					<ShortName>UI_CanceledLink.wav</ShortName>
-					<Path>SFX\UI_CanceledLink_F7D0E330.wem</Path>
+					<Path>SFX\UI_CanceledLink_0EFBF979.wem</Path>
 				</File>
 				<File Id="360463851" Language="SFX">
 					<ShortName>Faileube2.wav</ShortName>
@@ -251,9 +272,17 @@
 					<ShortName>Jessica01.wav</ShortName>
 					<Path>SFX\Jessica01_E5C86A8A.wem</Path>
 				</File>
+				<File Id="422738400" Language="SFX">
+					<ShortName>UI_ToSpring.wav</ShortName>
+					<Path>SFX\UI_ToSpring_F7D0E330.wem</Path>
+				</File>
 				<File Id="438983640" Language="SFX">
 					<ShortName>T_ScanToMove.wav</ShortName>
 					<Path>SFX\T_ScanToMove_67E2B650.wem</Path>
+				</File>
+				<File Id="439805997" Language="SFX">
+					<ShortName>UI_ToSummer.wav</ShortName>
+					<Path>SFX\UI_ToSummer_F7D0E330.wem</Path>
 				</File>
 				<File Id="461067514" Language="SFX">
 					<ShortName>PlacidineL1_2.wav</ShortName>
@@ -362,6 +391,10 @@
 				<File Id="754418543" Language="SFX">
 					<ShortName>RikulfL2_1.wav</ShortName>
 					<Path>SFX\RikulfL2_1_E5C86A8A.wem</Path>
+				</File>
+				<File Id="775095125" Language="SFX">
+					<ShortName>UI_MenuValidate.wav</ShortName>
+					<Path>SFX\UI_MenuValidate_9321231F.wem</Path>
 				</File>
 				<File Id="775309153" Language="SFX">
 					<ShortName>HiltrudeL3_2.wav</ShortName>

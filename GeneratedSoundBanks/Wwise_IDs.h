@@ -58,6 +58,7 @@ namespace AK
         static const AkUniqueID MT_NEXTTEMPORALSEGMENT = 841373355U;
         static const AkUniqueID MT_PORTALTIMETRAVELWAV = 2450596334U;
         static const AkUniqueID STOP_L1_AUTUMN = 3415076046U;
+        static const AkUniqueID STOP_L2_S_BROKENGLASS = 3190937592U;
         static const AkUniqueID STOP_L2_WINTER = 873387014U;
         static const AkUniqueID STOP_L3_SPRING = 3647729937U;
         static const AkUniqueID STOP_L4_SUMMER = 3838851852U;
