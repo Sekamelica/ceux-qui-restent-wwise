@@ -7607,6 +7607,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambiance" ID="{7B2223FB-74E2-4DAC-9B91-4D513C85720D}" ShortID="219783060">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Ambiance" ID="{B2C74D67-FD86-415D-BC44-20D8AD3EBCFA}" WorkUnitID="{6F475CEE-AFFE-4CEE-8765-AC4AD1675C31}"/>
@@ -7621,12 +7628,12 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>33</Value>
+										<Value>42</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

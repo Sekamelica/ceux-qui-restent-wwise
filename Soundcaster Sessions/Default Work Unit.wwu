@@ -357,7 +357,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>63</Value>
+							<Value>13</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
@@ -1029,7 +1029,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S1" ID="{58594CFC-30CF-42A8-9101-62FFD6378B46}"/>
-							<Value>63</Value>
+							<Value>61.3981762917933</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="L1_S3bis" ID="{9614FB0D-3336-42F5-8F28-EF9D292B071A}"/>
